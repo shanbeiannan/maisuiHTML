@@ -1,0 +1,71 @@
+<!--pages/my/mycoupan.wxml-->
+<view class="container">
+	<view class="ms-mycoupan-head">
+
+		<text class="d-fc-blacker fz-34">您有1张可用优惠券</text>
+
+		<view class="ms-icon-text">
+			<image src="/images/icon/quan.png" class="icon-img"></image>
+			<text class="fz-30">使用说明</text>
+		</view>
+	</view>
+
+	<view class="ms-mycoupan-list">
+		<view class="ms-mycoupan">
+			<view class="ms-mycoupan-up">
+				<image class="ms-logo" src="/images/default/zx_phone.png"></image>
+				<view class="ms-mycoupan-up-mark">
+					<text  class="fz-40 fz-w-600">麦穗旅游优惠券</text>
+					<text class="fz-30 d-fc-sgray">有效期:2020.12.12~2022.12.12</text>
+				</view>
+				<view class="ms-mycoupan-money">
+					<text class="fz-36 d-fc-zon">￥</text>
+					<text class="fz-48 d-fc-zon fz-w-700">100</text>
+				</view>
+			</view>
+			<view class="ms-mycoupan-down">
+				<text class="fz-24 d-fc-gray" style="flex:0.7">这里放一些使用优惠券的简单说明文字。这里放一些使用优惠券的简单说明文字。</text>
+
+				<view class="ms-index-btn" style="flex:0.25">
+					<view class="yellow fz-30">
+						去使用
+					</view>
+				</view>
+
+			</view>
+      
+      <view class="ms-point"></view>
+
+		</view>
+
+    <view class="ms-mycoupan ms-used">
+      <image src="/images/icon/quan-r.png" class="ms-mark-img"></image>
+			<view class="ms-mycoupan-up">
+				<image class="ms-logo" src="/images/default/zx_phone.png"></image>
+				<view class="ms-mycoupan-up-mark">
+					<text  class="fz-40 fz-w-600">麦穗旅游优惠券</text>
+					<text class="fz-30 d-fc-sgray">有效期:2020.12.12~2022.12.12</text>
+				</view>
+				<view class="ms-mycoupan-money">
+					<text class="fz-36 d-fc-zon">￥</text>
+					<text class="fz-48 d-fc-zon fz-w-700">100</text>
+				</view>
+			</view>
+			<view class="ms-mycoupan-down">
+				<text class="fz-24 d-fc-gray" style="flex:0.7">这里放一些使用优惠券的简单说明文字。这里放一些使用优惠券的简单说明文字。</text>
+
+				<view class="ms-index-btn" style="flex:0.25">
+					<view class="yellow fz-30">
+						去使用
+					</view>
+				</view>
+
+			</view>
+      
+      <view class="ms-point"></view>
+
+		</view>
+
+	</view>
+
+</view>

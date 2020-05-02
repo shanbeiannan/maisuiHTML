@@ -1,0 +1,72 @@
+<!--pages/index/buyCard.wxml-->
+<view class="container margin-b-20">
+	<view class="ms-buycard-top">
+		<image class="ms-buycard-img" src="/images/icon/ka.jpg"></image>
+		<view class="ms-buycard-mark">
+			<image class="icon-img-min" src="/images/icon/zhuyi.png"></image>
+			<text class="fz-24 d-fc-white">使用说明</text>
+		</view>
+	</view>
+
+
+	<view class="ms-info-box" style="margin-top: -100rpx;">
+		<view class="ms-info-box-title ">
+			<text class="fz-32 fz-w-600">旅游卡金额</text>
+			<text class="fz-32 fz-w-600">￥1580</text>
+		</view>
+		<view class="ms-info-box-body">
+			<checkbox-group bindchange="checkboxChange">
+
+				<label class="info-weui-cell weui-check__label" wx:for="{{checkboxItems}}" wx:key="value">
+					<view class="info-box">
+						<view class="ms-info-list">
+							<image src="{{item.img}}" class="icon-img"></image>
+							<view class="info-list-content fz-t">{{item.name}}</view>
+						</view>
+						<view class="ms-info-list">
+							<text class="d-fc-zon fz-30 fz-w-600">-￥{{item.money}}</text>
+							<view>
+								<checkbox class="weui-check" value="{{item.value}}" checked="{{item.checked}}" />
+								<view class="weui-cell__ft weui-cell__ft_in-radio">
+									<icon class="weui-icon-checkbox_success" type="success" size="23" wx:if="{{item.checked}}"></icon>
+									<icon class="weui-icon-checkbox_circle" type="circle" size="23" wx:else></icon>
+								</view>
+							</view>
+						</view>
+					</view>
+				</label>
+			</checkbox-group>
+
+		</view>
+		<view class="ms-info-box-foot">
+			<text class="fz-30 ">实付金额</text>
+			<view>
+				<text class="fz-30 d-fc-sgray">共节省</text>
+				<text class="fz-30 d-fc-zon">￥</text>
+				<text class="fz-30 d-fc-zon margin-r-20">{{saveMoney}}</text>
+				<text class="fz-30 fz-w-600">￥{{payMoney}}</text>
+			</view>
+		</view>
+	</view>
+
+
+	<view class="ms-info-box">
+		<view class="ms-info-box-title ">
+			<text class="fz-32">支付方式</text>
+		</view>
+		<view class="ms-info-box-foot ">
+    <view class="ms-info-list none-padding">
+    	<image class="icon-img" src="/images/icon/wechat.png"></image>
+      <text class="fz-30">微信支付</text>
+      </view>
+		
+		</view>
+	</view>
+
+  <view class="ms-pay-btn">
+    <view class="ms-pay-btn-left fz-36 fz-w-600">￥{{payMoney}}</view>
+    <view class="ms-pay-btn-right d-bg-org d-fc-zon">确认支付</view>
+  </view>
+
+
+</view>

@@ -1,0 +1,194 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="ms-index-title">
+		<image src="/images/default/default.jpg"> </image>
+	</view>
+	<view class="ms-index-body">
+		<!-- <view class="ms-index-top">
+			<view class="ms-index-top-content">
+				<view class="ms-index-top-left">
+					<view class="ms-index-top-title">
+						<view>
+							<image src="/images/icon/hongbao-y.png"></image>
+						</view>
+						<text class="fz-30 d-fc-white">马上转发即可得红包哦~</text>
+					</view>
+
+					<view class="ms-index-top-body">
+						<view>
+							<text class="fz-60 d-fc-white fz-weight">87.7</text>
+							<text class="fz-30 d-fc-white">元</text>
+						</view>
+						<view class="fz-30 d-fc-white">
+							已累计转发4天
+						</view>
+					</view>
+
+					<view class="ms-index-btn">
+						<view class="yellow fz-30">
+							抢红包
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="ms-index-top-content">
+				<view class="ms-index-top-right">
+					<view class="ms-index-top-title">
+						<view>
+							<image src="/images/icon/yongjin-y.png"></image>
+						</view>
+						<text class="fz-30 dc-fc-blacker">转发更多人获得佣金吧！</text>
+					</view>
+
+					<view class="ms-index-top-body">
+						<view>
+							<text class="fz-60 d-fc-zon fz-weight">100.5</text>
+							<text class="fz-30 d-fc-zon">元</text>
+						</view>
+						<view class="fz-30 d-fc-zon">
+							会员3人
+						</view>
+					</view>
+
+					<view class="ms-index-btn">
+						<view class="yellow fz-30">
+							邀约分享
+						</view>
+					</view>
+				</view>
+			</view>
+		</view> -->
+		<view class="ms-index-top">
+			<view class="ms-index-top-content">
+				<view class="ms-index-top-left">
+					<view class="ms-index-top-body-new">
+						<view class="ms-index-top-title none-padding">
+							<text class="fz-30 d-fc-white">今日已领红包</text>
+						</view>
+						<view class="fz-30 d-fc-white margin-t-10">
+							已累计分享4天
+						</view>
+					</view>
+					<view class="ms-index-top-body-new">
+						<view class="ms-index-top-title none-padding">
+							<text class="fz-30 d-fc-white">今日红包</text>
+							<image class="icon-img-min" src="/images/icon/hongbao-y.png"></image>
+						</view>
+
+						<view>
+							<text class="fz-60 d-fc-white fz-w-600">87.7</text>
+							<text class="fz-30 d-fc-white">元</text>
+						</view>
+						<view class="fz-30 d-fc-white">
+							累计红包870.5元
+						</view>
+					</view>
+
+
+				</view>
+			</view>
+			<view class="ms-index-top-content">
+				<view class="ms-index-top-right">
+					<view class="ms-index-top-body-new">
+						<view class="ms-index-top-title none-padding">
+							<text class="fz-30 dc-fc-blacker">已经邀请到<text class="fz-36 margin-l-10 margin-r-10">12</text>人</text>
+						</view>
+						<view class="ms-index-top-title none-padding">
+							<text class="fz-30 dc-fc-blacker">关联你的名下</text>
+
+						</view>
+
+					
+						<view class="ms-index-top-title none-padding  margin-t-20">
+							<text class="fz-30 dc-fc-blacker">关联出售<text class="fz-36 margin-l-10 margin-r-10">13</text>张</text>
+						</view>
+						<view class="ms-index-top-title none-padding">
+							<text class="fz-30 dc-fc-blacker">麦穗旅游卡</text>
+						</view>
+
+				
+						<view class="ms-index-top-title none-padding margin-t-20">
+							<text class="fz-30 dc-fc-blacker">已得佣金</text>
+							<image class="icon-img-min" src="/images/icon/yongjin-y.png"></image>
+						</view>
+						<view>
+							<text class="fz-60 d-fc-zon fz-w-600">100.5</text>
+							<text class="fz-30 d-fc-zon">元</text>
+						</view>
+
+					</view>
+
+
+				</view>
+			</view>
+		</view>
+
+		<view class="ms-index-top">
+			<view class="ms-index-top-content">
+				<view class="ms-index-top-right">
+					<view class="ms-index-top-title margin-t-25">					
+						<text class="fz-34 d-fc-blacker">试手气，抽红包</text>
+					</view>				
+
+					<view class="ms-index-top-title margin-t-20">					
+						<text class="fz-30 d-fc-gray">每日可抽三次红包（最高88元），可连续抽7天，快去试试你的手气吧</text>
+					</view>				
+
+					<view class="ms-index-btn">
+						<view class="yellow fz-30">
+							领红包
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="ms-index-top-content">
+				<view class="ms-index-top-right">
+					<view class="ms-index-top-title margin-t-25">					
+						<text class="fz-34 d-fc-blacker">朋友畅玩您赚钱</text>
+					</view>				
+
+					<view class="ms-index-top-title margin-t-20">					
+						<text class="fz-30 d-fc-gray">邀请朋友购卡，每张100元佣金，上不封顶。邀请越多，赚钱机会越大.</text>
+					</view>				
+
+					<view class="ms-index-btn">
+						<view class="yellow fz-30">
+							领红包
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+
+
+
+
+		<view class="list_h margin-t-40">
+			<view class="list_h_tip"></view>
+			<view class="list_h_title">在线买卡</view>
+		</view>
+
+
+		<view class="ms-index-bottom">
+			<swiper class="banner" indicator-dots="true" indicator-active-color="#ffffff">
+				<swiper-item>
+					<navigator url="/pages/index/buyCard" class="banner-contair ">
+						<image src="/images/default/default.jpg"></image>
+					</navigator>
+				</swiper-item>
+				<swiper-item>
+					<view class="banner-contair ">
+						<image src="/images/default/default.jpg"></image>
+					</view>
+				</swiper-item>
+				<swiper-item>
+					<view class="banner-contair ">
+						<image src="/images/default/default.jpg"></image>
+					</view>
+				</swiper-item>
+			</swiper>
+		</view>
+	</view>
+
+</view>

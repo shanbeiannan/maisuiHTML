@@ -1,0 +1,104 @@
+/* pages/my/mycoupan.wxss */
+.container{
+  padding:0 30rpx;
+}
+.ms-index-btn{
+  margin:0 !important;
+}
+
+
+
+.ms-mycoupan-head{
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:25rpx;
+}
+
+.ms-icon-text{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.ms-mycoupan{
+  position: relative;
+  background-color: #fff;
+  box-shadow: -10px 10px 10px 2px 
+		rgba(0, 0, 0, 0.05);
+  border-radius: 10rpx;
+  border-left:solid;
+  border-left-color:#ec6941;
+  border-left-width: 10rpx;
+  padding:25rpx;
+  margin-bottom: 40rpx;
+  overflow: hidden;
+}
+
+.ms-mark-img{
+  position: absolute;
+  width:120rpx;
+  height:120rpx;
+  top:15rpx;
+  right:100rpx;
+  display:none;
+  z-index: 10;
+}
+
+
+.ms-mycoupan-up,.ms-mycoupan-down{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center ;
+  padding:40rpx 0;
+}
+
+.ms-mycoupan-down{
+  border-top:dotted;
+  border-top-color:#999;
+  border-top-width: 1px;
+  padding:25rpx 0 !important;
+}
+
+
+.ms-logo{
+  width:80rpx;
+  height:80rpx;
+}
+
+.ms-mycoupan-up-mark{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ms-mycoupan-money{
+  align-self: flex-end;
+}
+
+.ms-point{
+  background-color:#f3f5f7;
+  width:40rpx;
+  height:40rpx;
+  border-radius: 50%;
+  position: absolute;
+  top:50%;
+  margin-top:-20rpx;
+  right:-18rpx;
+}
+
+.ms-used{
+  border-left-color:#999 !important;
+}
+
+.ms-used .ms-mark-img{
+  display: block;
+}
+.ms-used .ms-mycoupan-up,.ms-used .ms-mycoupan-down{
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
