@@ -41,6 +41,10 @@
 		<view class="ms-index-top-content">
 			<view class="ms-index-top-left">
 				<view class="ms-cover"></view>
+				<view class="ms-my-index-mark">
+					<text class="d-fc-white fz-30">点击解锁</text>
+					<image class="icon-img-min" src="/images/icon/suo.png"></image>
+				</view>
 				<image class="bg" src="/images/icon/yongjin-w.png"></image>
 				<view class="ms-index-top-body">
 					<view>
@@ -100,7 +104,7 @@
 		<view class="list_h_tip"></view>
 		<view class="list_h_title">想要更多</view>
 	</view>
-	
+
 
 	<view class="my-info-list margin-t-20">
 
