@@ -4,15 +4,17 @@
 	<view class="ms-box margin-t-40">
 		<view class="ms-box-content none-border bg-red">
 			<view class="ms-bank-info">
-        <image class="icon-img-60 margin-r-20" src="/images/bankicon/cmbc.png"></image>
-        <view class="ms-bank-type" style="flex:1">
-          <text class="fz-38 d-fc-white fz-w-600">招商银行</text>
-          <text class="fz-30 d-fc-white">储蓄卡</text>
-        </view>
-        <image class="icon-img" style="justify-content:flex-end" src="/images/icon/gengduo.png"></image>
-      </view>
-      <text class="fz-60 d-fc-white fz-w-600">**** *** **** **** 2845</text>
-      <image class="bg-img" src="/images/bankicon/cmbc.png"></image>
+				<image class="icon-img-60 margin-r-20" src="/images/bankicon/cmbc.png"></image>
+				<view class="ms-bank-type" style="flex:1">
+					<text class="fz-38 d-fc-white fz-w-600 margin-b-10">招商银行</text>
+					<text class="fz-30 d-fc-white">储蓄卡</text>
+				</view>
+				<image class="icon-img" style="justify-content:flex-end" src="/images/icon/gengduo.png"></image>
+			</view>
+			<view class="margin-b-20">
+				<text class="fz-60 d-fc-white fz-w-600">**** *** **** **** 2845</text>
+			</view>
+			<image class="bg-img" src="/images/bankicon/cmbc.png"></image>
 		</view>
 	</view>
 

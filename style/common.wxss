@@ -271,6 +271,13 @@
   margin-right: 20rpx !important;
 }
 
+.margin-b-10 {
+  margin-bottom: 10rpx !important;
+}
+
+.margin-b-15 {
+  margin-bottom: 15rpx !important;
+}
 .margin-b-20 {
   margin-bottom: 20rpx !important;
 }
