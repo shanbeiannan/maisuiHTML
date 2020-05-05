@@ -69,6 +69,33 @@
 					"pathName": "pages/index/buyCard",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "申请提现",
+					"pathName": "pages/my/withDrawals",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "提现说明",
+					"pathName": "pages/my/withDrawalsMark",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "添加银行卡",
+					"pathName": "pages/my/addBankCard",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的银行卡",
+					"pathName": "pages/my/myBankCard",
+					"scene": null
 				}
 			]
 		}

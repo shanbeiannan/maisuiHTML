@@ -1,0 +1,36 @@
+<view class="container">
+	<view class="ms-box margin-t-40">
+		<view class="ms-box-title">
+			<text class="fz-30 d-fc-gray">标题</text>
+		</view>
+		<view class="ms-box-content none-border">
+			<view class="fz-30 d-fc-gray">
+				这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容
+
+				这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容
+			</view>
+
+		</view>
+	</view>
+
+	<view class="ms-box margin-t-40">
+		<view class="ms-box-title">
+			<text class="fz-30 d-fc-gray">标题</text>
+			<!-- <image class="icon-img-min" src="/images/icon/jia.png"></image> -->
+		</view>
+		<view class="ms-box-content none-border">
+			<view class="fz-30 d-fc-gray">
+				这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容
+
+				这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容，这里是规则的文字内容
+			</view>
+
+		</view>
+	</view>
+
+	<view class="ms-btn-bottom">
+		<view class="btn-big org">确认提现</view>
+	</view>
+
+
+</view>

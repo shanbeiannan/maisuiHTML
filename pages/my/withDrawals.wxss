@@ -1,0 +1,18 @@
+/* pages/my/withDrawals.wxss */
+
+
+.ms-drawalsmoney{
+  display:flex;
+  flex-direction: column;
+}
+.ms-input-money{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ms-bank-info,.ms-bank-mark{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}

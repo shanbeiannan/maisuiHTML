@@ -1,0 +1,29 @@
+/* pages/my/myBankCard.wxss */
+.bg-red{
+  position: relative;
+  background-color:#ec3120;
+  border-radius: 30rpx;
+  padding:60rpx auto;
+}
+
+.bg-img{
+  position: absolute;
+  opacity: 0.1;
+  bottom:0;
+  right:0;
+  width:120rpx;
+  height:120rpx;
+}
+
+.ms-bank-info{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin:30rpx 0 60rpx ;
+}
+
+.ms-bank-type{ 
+  display: flex;
+  flex-direction: column;
+}
