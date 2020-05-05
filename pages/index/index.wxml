@@ -178,7 +178,7 @@
 					</navigator>
 				</swiper-item>
 				<swiper-item>
-					<view class="banner-contair ">
+					<view class="banner-contair " bindtap="onTabBar">
 						<image src="/images/default/default.jpg"></image>
 					</view>
 				</swiper-item>

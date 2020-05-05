@@ -63,4 +63,16 @@ Page({
   onShareAppMessage: function () {
 
   }
+,
+onTabBar:function(){
+
+  wx.reLaunch({
+    url: '/pages/my/index',
+    complete: (res) => {},
+    fail: (res) => {},
+    success: (res) => {},
+  })
+
+}
+  
 })

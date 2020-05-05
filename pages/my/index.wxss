@@ -99,6 +99,7 @@ image.bg{
   align-items: center;
   top:25rpx;
   right:25rpx;
+  z-index:11;
 }
 
 
