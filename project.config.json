@@ -95,6 +95,13 @@
 					"id": -1,
 					"name": "我的银行卡",
 					"pathName": "pages/my/myBankCard",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "红包",
+					"pathName": "pages/index/redbag",
 					"scene": null
 				}
 			]

@@ -8,7 +8,8 @@
     "pages/my/withDrawals",
     "pages/my/withDrawalsMark",
     "pages/my/addBankCard",
-    "pages/my/myBankCard"
+    "pages/my/myBankCard",
+    "pages/index/redbag"
   ],
   "tabBar": {
     "list": [

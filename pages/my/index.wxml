@@ -31,11 +31,11 @@
 					</view>
 				</view>
 
-				<view class="ms-index-btn">
+				<navigator url="/pages/my/withDrawals" class="ms-index-btn">
 					<view class="yellow fz-30">
 						申请提现
 					</view>
-				</view>
+				</navigator>
 			</view>
 		</view>
 		<view class="ms-index-top-content">
@@ -56,11 +56,11 @@
 					</view>
 				</view>
 
-				<view class="ms-index-btn">
+				<navigator url="/pages/my/withDrawals" hover-class="none" class="ms-index-btn">
 					<view class="yellow fz-30">
 						申请提现
 					</view>
-				</view>
+				</navigator>
 			</view>
 		</view>
 	</view>
@@ -120,7 +120,7 @@
 		</view>
 	</view>
 
-	<view class="my-info-list margin-t-30">
+	<navigator url="/pages/my/myBankCard"  hover-class="none" class="my-info-list margin-t-30">
 
 		<view class="d-flex d-justify-content-between d-align-items-center">
 			<view class="ms-my-list-left">
@@ -132,7 +132,7 @@
 				<image src="/images/icon/jinru.png" class="enter-img"></image>
 			</view>
 		</view>
-	</view>
+	</navigator>
 
 	<view class="my-info-list margin-t-30">
 

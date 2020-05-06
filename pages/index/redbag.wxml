@@ -1,0 +1,13 @@
+<!--pages/index/redbag.wxml-->
+<view class="container">
+  <view class="ms-redbag">
+    <!-- <image class="ms-redbag-bg" style="height:{{winHeight-5}}px;width:{{winWidth}}px" src="/images/icon/hongbg.jpg"></image> -->
+
+    <view class="ms-redbag-list">
+        <view class="">
+        
+        </view>
+    </view>
+
+  </view>
+</view>

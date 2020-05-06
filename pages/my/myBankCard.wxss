@@ -13,6 +13,7 @@
   right:0;
   width:120rpx;
   height:120rpx;
+  z-index:2
 }
 
 .ms-bank-info{
@@ -20,7 +21,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  margin:30rpx 0 60rpx ;
+  margin:30rpx 0 ;
 }
 
 .ms-bank-type{ 

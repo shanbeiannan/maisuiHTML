@@ -1,0 +1,14 @@
+/* pages/index/redbag.wxss */
+page{
+  background-color:#ec3120;
+}
+.ms-redbag{
+  position: relative;
+}
+.ms-redbag-bg{  
+  overflow: hidden;
+}
+
+.ms-img-list{
+  position: absolute;
+}
