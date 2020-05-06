@@ -551,7 +551,7 @@
   margin-top:20rpx;
   border:1px solid #bfbfbf;
   border-radius: 15rpx;
-  padding:5rpx 20rpx;
+  padding:10rpx 25rpx;
   font-size:30rpx;
 
 }
