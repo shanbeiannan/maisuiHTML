@@ -1,0 +1,29 @@
+<!--pages/my/mySet.wxml-->
+
+<view class="container">
+	<view class="ms-box margin-t-40">
+		<view class="ms-box-title-sort ">
+			<text class="fz-30 fz-w-600">关于麦穗旅游1.0</text>
+			<image class="icon-img" src="/images/icon/jinru.png"></image>
+		</view>
+		<view class="line"></view>
+		<view class="ms-box-title-sort ">
+			<text class="fz-30 fz-w-600">关于麦穗旅游1.0</text>
+			<image class="icon-img" src="/images/icon/jinru.png"></image>
+		</view>
+		<view class="line"></view>
+		<view class="ms-box-title-sort ">
+			<text class="fz-30 fz-w-600">关于麦穗旅游1.0</text>
+			<image class="icon-img" src="/images/icon/jinru.png"></image>
+		</view>
+	</view>
+	<view class="ms-box margin-t-20">
+		<view class="ms-box-title-sort ">
+			<text class="fz-30 fz-w-600">关于麦穗旅游1.0</text>
+			<image class="icon-img" src="/images/icon/jinru.png"></image>
+		</view>
+	</view>
+
+<view class="ms-set-btn">退出登录</view>
+
+</view>

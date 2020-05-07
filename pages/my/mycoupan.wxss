@@ -34,7 +34,7 @@
   border-left:solid;
   border-left-color:#ec6941;
   border-left-width: 10rpx;
-  padding:25rpx;
+  padding:10rpx 25rpx;
   margin-bottom: 40rpx;
   overflow: hidden;
 }
@@ -55,7 +55,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items:center ;
-  padding:40rpx 0;
+  padding:30rpx 0;
 }
 
 .ms-mycoupan-down{

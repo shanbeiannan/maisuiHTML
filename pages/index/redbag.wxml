@@ -1,13 +1,51 @@
 <!--pages/index/redbag.wxml-->
 <view class="container">
-  <view class="ms-redbag">
-    <!-- <image class="ms-redbag-bg" style="height:{{winHeight-5}}px;width:{{winWidth}}px" src="/images/icon/hongbg.jpg"></image> -->
+	<view class="ms-redbag-head">
+		<image class="ms-redbag-bg" style="height:{{winHeight-5}}px;width:{{winWidth}}px" src="/images/icon/hongbg.jpg"></image>
 
-    <view class="ms-redbag-list">
-        <view class="">
-        
-        </view>
-    </view>
+		<view class="ms-redbag-list">
+			<view class="ms-redBag">
+				<image class="img" src="/images/icon/kai.png"></image>
+			</view>
+			<view class="ms-redBag-content">
+				<view class="ms-redBag">
+					<view class="ms-redBag-img">
+						<image class="img" src="/images/icon/kai.png"></image>
+					</view>
+				</view>
+        <view class="ms-redBag">
+					<view class="ms-redBag-img">
+						<image class="img" src="/images/icon/kai2.png"></image>
+            <text class="ms-redBag-title">恭喜您</text>
+            <image class="icon-img ms-redBag-right" src="/images/icon/duigou.png"></image>
+            <text class="ms-redBag-money">12.7<text class="fz-24">元</text></text>
+					</view>
+				</view>
+        <view class="ms-redBag">
+					<view class="ms-redBag-img">
+						<image class="img" src="/images/icon/kai.png"></image>
+					</view>
+				</view>
+        <view class="ms-redBag">
+					<view class="ms-redBag-img">
+						<image class="img" src="/images/icon/kai.png"></image>
+					</view>
+				</view>
+        <view class="ms-redBag">
+					<view class="ms-redBag-img">
+						<image class="img" src="/images/icon/kai.png"></image>
+					</view>
+				</view>
+        <view class="ms-redBag">
+					<view class="ms-redBag-img">
+						<image class="img" src="/images/icon/kai.png"></image>
+					</view>
+				</view>
 
-  </view>
+
+
+			</view>
+		</view>
+
+	</view>
 </view>

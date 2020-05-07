@@ -1,8 +1,9 @@
 /* pages/index/redbag.wxss */
 page{
-  background-color:#ec3120;
+  background-color:#d1200b;
+
 }
-.ms-redbag{
+.ms-redbag-head{
   position: relative;
 }
 .ms-redbag-bg{  
@@ -11,4 +12,57 @@ page{
 
 .ms-img-list{
   position: absolute;
+ 
+}
+
+.ms-redBag-content{  
+  margin:0 auto;
+  width:80%;
+  display:flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  flex-wrap: wrap;  
+}
+.ms-redbag-list{
+  position: absolute;
+  top:180rpx;
+}
+.ms-redBag{
+  width:33.33%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img{
+  width:200rpx;
+  height:270rpx;
+}
+.ms-redBag-img{
+  position: relative;
+  width: 100%;
+}
+.ms-redBag-title,.ms-redBag-right,.ms-redBag-money{
+  position: absolute;
+  left:50%;  
+}
+
+.ms-redBag-title{
+  font-size:26rpx;
+  margin-top:45rpx;
+  margin-left: -36rpx;
+  color: #eccc99;
+}
+
+.ms-redBag-right{
+  margin-left:-20rpx;
+  margin-top:94rpx;
+}
+
+.ms-redBag-money{
+  width: 100%;
+  margin-left:-50%;
+  margin-top:150rpx;
+  text-align: center;
+  color: #cfa972;
+  font-size:36rpx;
 }

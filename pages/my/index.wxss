@@ -2,7 +2,6 @@
 
 .ms-my-head{
   width:100%;
-  padding: 0 25rpx;
   display:flex;
   flex-direction: row;
   align-items: center;

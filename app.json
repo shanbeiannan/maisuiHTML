@@ -9,7 +9,8 @@
     "pages/my/withDrawalsMark",
     "pages/my/addBankCard",
     "pages/my/myBankCard",
-    "pages/index/redbag"
+    "pages/index/redbag",
+    "pages/my/mySet"
   ],
   "tabBar": {
     "list": [
