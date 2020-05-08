@@ -1,0 +1,7 @@
+<!--pages/my/share.wxml-->
+<view class="container">
+	 <view class="ms-share">
+    <view></view>
+    <view></view>
+   </view>
+</view>

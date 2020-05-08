@@ -10,7 +10,12 @@
     "pages/my/addBankCard",
     "pages/my/myBankCard",
     "pages/index/redbag",
-    "pages/my/mySet"
+    "pages/my/mySet",
+    "pages/my/huiyuanka",
+    "pages/my/huiyuanka2",
+    "pages/my/share",
+    "pages/my/address",
+    "pages/index/productDetail"
   ],
   "tabBar": {
     "list": [

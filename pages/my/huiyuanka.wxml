@@ -1,0 +1,32 @@
+<!--pages/my/huiyuanka.wxml-->
+<view class="container margin-b-20">
+	<view class="ms-buycard-top">
+		<image class="ms-buycard-img" src="/images/icon/ka.jpg"></image>
+		<view class="ms-buycard-mark">
+			<image class="icon-img-min" src="/images/icon/zhuyi.png"></image>
+			<text class="fz-24 d-fc-white">使用说明</text>
+		</view>
+	</view>
+
+
+	<view class="ms-info-box" style="margin-top: -80rpx;">
+		<view class="ms-info-box-title ">
+			<view class="ms-info-box-left">
+				<image src="/images/icon/jihuo.png" class="icon-img-60"></image>
+				<text class="fz-34 d-fc-black-l">我要激活卡</text>
+			</view>
+			<image src="/images/icon/jinru.png" class="icon-img"></image>
+		</view>
+	</view>
+
+	<navigator url="/pages/index/buyCard" hover-class="none" class="ms-info-box">
+		<view class="ms-info-box-title">
+			<view class="ms-info-box-left">
+				<image src="/images/icon/jihuo.png" class="icon-img-60"></image>
+				<text class="fz-34 d-fc-black-l">我要购买卡</text>
+			</view>
+			<image src="/images/icon/jinru.png" class="icon-img"></image>
+		</view>
+	</navigator>
+
+</view>

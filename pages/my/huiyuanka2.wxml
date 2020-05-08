@@ -1,0 +1,65 @@
+<!--pages/my/huiyuanka2.wxml-->
+
+<view class="container">
+
+	<view class="ms-box margin-t-20">
+		<view class="ms-box-content none-border bg-red">
+			<view class="ms-bank-info">
+
+				<view class="ms-bank-type">
+					<image class="icon-img-60 margin-r-20" src="/images/icon/maisui-b.png"></image>
+					<text class="fz-36 d-fc-white">麦穗旅游主卡</text>
+				</view>
+
+				<view class="margin-t-20 padding-l-25">
+					<text class="fz-50 d-fc-white">0852 0852 0852</text>
+				</view>
+
+				<view class="ms-card-foot margin-t-60">
+					<text class="fz-30 d-fc-white  padding-l-25" style="flex:1">有效期：2020.1.1~2020.12.30</text>
+					<view class="ms-bank-type ">
+						<image class="icon-img" src="/images/icon/weishiyong.png"></image>
+						<text class="fz-30 d-fc-white">可以使用1次</text>
+					</view>
+				</view>
+			</view>
+			<image class="bg-img" src="/images/icon/vip-bg.png"></image>
+		</view>
+	</view>
+
+	<view class="ms-box">
+		<view class="ms-box-content none-border bg-yellow">
+			<view class="ms-bank-info">
+
+				<view class="ms-bank-type">
+					<image class="icon-img-60 margin-r-20" src="/images/icon/maisui-v.png"></image>
+					<text class="fz-36 d-fc-v">麦穗旅游副卡</text>
+				</view>
+
+				<view class="margin-t-20 padding-l-25">
+					<text class="fz-50 d-fc-v">0852 0852 0852</text>
+				</view>
+
+				<view class="ms-card-foot margin-t-60">
+					<text class="fz-30 d-fc-v  padding-l-25" style="flex:1">有效期：2020.1.1~2020.12.30</text>
+					<view class="ms-bank-type ">
+						<image class="icon-img" src="/images/icon/yishiyong.png"></image>
+						<text class="fz-30 d-fc-v">已使用</text>
+					</view>
+				</view>
+
+			</view>
+
+			<image class="bg-img" src="/images/icon/vip-bg.png"></image>
+		</view>
+	</view>
+	<navigator url="/pages/index/buyCard" hover-class="none" class="ms-info-box">
+		<view class="ms-info-box-title">
+			<view class="ms-info-box-left">
+				<image src="/images/icon/jihuo.png" class="icon-img-60"></image>
+				<text class="fz-34 d-fc-black-l">我要激活卡</text>
+			</view>
+			<image src="/images/icon/jinru.png" class="icon-img"></image>
+		</view>
+	</navigator>
+</view>

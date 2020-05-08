@@ -173,6 +173,13 @@
   color: #343c58 !important;
 }
 
+.d-fc-v{
+  color:#81511c !important;
+}
+
+.d-fc-black-l {
+  color: #505050 !important;
+}
 .dc-fc-blacker{
   color:#333333 !important;
 }
@@ -222,6 +229,30 @@
 
 .padding-r-40 {
   padding-right: 40rpx;
+}
+
+.padding-l-10 {
+  padding-left: 10rpx;
+}
+
+.padding-l-15 {
+  padding-left: 15rpx;
+}
+
+.padding-l-20 {
+  padding-left: 20rpx;
+}
+
+.padding-l-25 {
+  padding-left: 25rpx;
+}
+
+.padding-l-30 {
+  padding-left: 30rpx;
+}
+
+.padding-l-40 {
+  padding-left: 40rpx;
 }
 
 .none-padding{
@@ -306,6 +337,14 @@
   font-size: 24rpx !important;
 }
 
+.fz-26 {
+  font-size: 26rpx !important;
+}
+
+
+.fz-28 {
+  font-size: 28rpx !important;
+}
 .fz-30 {
   font-size: 30rpx !important;
 }
@@ -327,6 +366,15 @@
 }
 .fz-48 {
   font-size: 48rpx !important;
+}
+
+.fz-50 {
+  font-size: 50rpx !important;
+}
+
+
+.fz-52 {
+  font-size: 52rpx !important;
 }
 
 .fz-60 {
@@ -547,15 +595,30 @@
   justify-content: flex-start;
   margin-bottom:40rpx;
 }
-.ms-input input{
+.ms-input input,.ms-input textarea{
   margin-top:20rpx;
   border:1px solid #bfbfbf;
   border-radius: 15rpx;
   padding:15rpx 25rpx;
   font-size:30rpx;
-
 }
+
+.ms-input textarea{
+  width:95%;
+  height:200rpx;
+  padding:15rpx 0 15rpx 25rpx !important;
+}
+
 .input-c{
   font-size:30rpx;
   color:#999;
+}
+
+
+.ms-fill-btn{
+  color:#f39800;
+  border:1px solid #f39800;
+  padding:10rpx 35rpx;
+  border-radius:30rpx;
+  font-size:28rpx;
 }

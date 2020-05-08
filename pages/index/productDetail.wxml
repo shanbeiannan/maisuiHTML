@@ -1,0 +1,145 @@
+<!--pages/index/productDetail.wxml-->
+<view class="container">
+	<view class="ms-product-top"></view>
+	<view class="ms-box ms-mar">
+		<view class="ms-index-bottom">
+			<swiper class="banner" indicator-dots="true" indicator-active-color="#ffffff">
+				<swiper-item>
+					<navigator url="/pages/index/buyCard" class="banner-contair ">
+						<image src="/images/default/default.jpg"></image>
+					</navigator>
+				</swiper-item>
+				<swiper-item>
+					<view class="banner-contair " bindtap="onTabBar">
+						<image src="/images/default/default.jpg"></image>
+					</view>
+				</swiper-item>
+				<swiper-item>
+					<view class="banner-contair ">
+						<image src="/images/default/default.jpg"></image>
+					</view>
+				</swiper-item>
+			</swiper>
+		</view>
+		<view>
+			<view class="ms-box-title none-border">
+				<view class="image-l-title">
+					<text class="fz-32">麦穗旅游产品名称</text>
+				</view>
+			</view>
+		</view>
+	</view>
+
+
+	<view class="ms-box margin-t-40 margin-b-80">
+		<view class="ms-box-title">
+			<view class="image-l-title">
+
+				<text class="fz-32">产品信息</text>
+			</view>
+
+		</view>
+
+		<view class="ms-box-content none-border ">
+			<view class="ms-product-content fz-32">
+				旅行是一种生活态度，行进的脚步永不停歇，捡拾生命中的美好与新鲜，让旅行更舒适，让生活更多彩
+
+			</view>
+			<view class="ms-box-title none-border none-l-padding">
+				<view class="ms-title-btn">
+					超高性价
+				</view>
+			</view>
+			<view class="ms-product-content fz-32">
+				麦穗旅游卡，价值1580元，可报名任何麦穗旅游的任何一条旅游路线。
+
+			</view>
+			<view class="ms-box-title none-border none-l-padding">
+				<view class="ms-title-btn">
+					线路多样性
+				</view>
+			</view>
+
+			<view class="ms-product-content fz-32">
+				麦穗旅游主推1580元东南亚精品游，包括泰国六天五晚、越南五天四晚，柬埔寨五天四晚、韩国超级游轮游等（详情及更多产品请查看小程序内具体行程），1580元，吃喝住玩一价全含。
+			</view>
+
+			<view class="ms-box-title none-border none-l-padding">
+				<view class="ms-title-btn">
+					出行灵活
+				</view>
+			</view>
+			<view class="ms-product-content fz-32">
+				精品路线周周发团，不用提前规划假期，说走就走。
+			</view>
+
+			<view class="ms-box-title none-border none-l-padding">
+				<view class="ms-title-btn">
+					贴心服务
+				</view>
+			</view>
+			<view class="ms-product-content fz-32">
+				专属旅行管家，一对一服务，行程细节全无担忧。
+			</view>
+
+			<view class="ms-box-title none-border none-l-padding">
+				<view class="ms-title-btn">
+					出行灵活
+				</view>
+			</view>
+			<view class="ms-product-content fz-32">
+				精品路线周周发团，不用提前规划假期，说走就走。
+			</view>
+
+			<view class="ms-box-title none-border none-l-padding">
+				<view class="ms-title-btn">
+					超长有效期
+				</view>
+			</view>
+			<view class="ms-product-content fz-32">
+				2020年内购买的麦穗旅游卡，使用有效期均截止到2021年12月31日。
+			</view>
+
+			<view class="ms-box-title none-border none-l-padding">
+				<view class="ms-title-btn">
+					使用方便
+				</view>
+			</view>
+			<view class="ms-product-content fz-32">
+				登录麦穗旅游小程序，输入卡号和密码，立即激活，立即使用。
+			</view>
+
+			<view class="ms-box-title none-border none-l-padding">
+				<view class="ms-title-btn">
+					自用、送礼两相宜
+				</view>
+			</view>
+			<view class="ms-product-content fz-32">
+				电子卡方便快捷，实物卡精致高档，既可自己享受超值之旅，也可作为馈赠亲友之佳品。
+			</view>
+
+			<view class="ms-box-title none-border none-l-padding">
+				<view class="ms-title-btn">
+					注意事项
+				</view>
+			</view>
+			<view class="ms-product-content fz-32">
+				本卡不记名，不挂失，不可兑换现金。
+			</view>
+
+
+
+		</view>
+
+	</view>
+
+	<view class="submit-box">
+		<view class="text-distance">
+			<image src="/images/icon/kefu.png" class="" />
+			<text>咨询客服</text>
+		</view>
+		<view class="submit-btn d-fc-v">立即购买</view>
+	</view>
+
+
+</view>

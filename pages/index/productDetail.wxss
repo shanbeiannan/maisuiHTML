@@ -1,0 +1,86 @@
+/* pages/index/productDetail.wxss */
+.ms-product-top{
+  background-color: #ffcd1e;
+  width:100%;
+  height:180rpx;
+}
+.ms-mar{
+  margin-top:-160rpx;
+}
+
+.banner{
+  height:320rpx;
+}
+.banner .banner-contair,.banner image{  
+  border-radius:20rpx;
+  height:320rpx;
+}
+.banner image{
+  width:100%;
+}
+.ms-product-content {
+  color: #333333;
+  line-height: 64rpx;
+  margin-bottom: 30rpx;
+}
+
+.none-l-padding{
+  padding:0 !important;
+}
+
+.ms-title-btn {
+  text-align: center;
+  border-radius: 40rpx;
+  border: 1px solid #f7b551;
+  padding: 10rpx 30rpx;
+  font-size: 32rpx;
+  color: #f7b551;
+  margin-bottom: 30rpx;
+}
+
+
+.submit-box {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 120rpx;
+  line-height: 120rpx;
+  background-color: #343c58;
+  border-radius: 50rpx 0rpx 0rpx 0rpx;
+  color: #fff;
+}
+
+.submit-box  .submit-btn {
+  width: 295rpx;
+  height: 100%;
+  text-align: center;
+  background-color: #ffcd1e;
+  border-radius: 50rpx 0rpx 0rpx 0rpx;
+  font-size: 36rpx;
+  font-weight: 400;
+  color: #fff;
+}
+
+.submit-box  .text-distance {
+  display: flex;
+  line-height: 60rpx;
+  margin-left: 65rpx;
+  font-size: 36rpx;
+  align-items: center;
+}
+
+.submit-box  .text-distance image, .submit-box  .text-distance text {
+  width: 48rpx;
+  height: 48rpx;
+  flex: 0.3;
+  line-height: 48rpx;
+  margin-right: 10rpx;
+  vertical-align: middle;
+}
+
+.submit-box  .text-distance text {
+  flex: 1;
+  width: 100%;
+}

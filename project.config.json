@@ -111,6 +111,40 @@
 					"pathName": "pages/my/mySet",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "会员卡",
+					"pathName": "pages/my/huiyuanka",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的会员卡",
+					"pathName": "pages/my/huiyuanka2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "分享邀约",
+					"pathName": "pages/my/share",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "收货地址",
+					"pathName": "pages/my/address",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "产品详情",
+					"pathName": "pages/index/productDetail",
+					"scene": null
 				}
 			]
 		}

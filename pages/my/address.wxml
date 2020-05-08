@@ -1,0 +1,41 @@
+<!--pages/my/address.wxml-->
+<view class="container">
+	<view class="ms-box margin-t-40">
+		<!-- <view class="ms-box-title">
+			<view class="image-l-title">
+				<image class="icon-img" src="/images/icon/luru.png"></image>
+				<text class="fz-30 fz-w-600">录入信息</text>
+			</view>
+			<view class="ms-fill-btn">
+				验证
+			</view>
+		</view> -->
+
+		<view class="ms-box-content none-border">
+			<view class="ms-input-list">
+				<view class="ms-input">
+					<text class="fz-30 margin-b-10">收货地址</text>
+					<textarea placeholder="请填真实信息" placeholder-class="input-c"></textarea>
+          
+				</view>
+
+				<view class="ms-input">
+					<text class="fz-30 margin-b-10">收货人</text>
+					<input placeholder="请填真实信息" placeholder-class="input-c"></input>
+				</view>
+
+				<view class="ms-input">
+					<text class="fz-30 margin-b-10">联系电话</text>
+					<input placeholder="请填真实信息" placeholder-class="input-c"></input>
+				</view>
+
+			</view>
+		</view>
+
+	</view>
+
+	<view class="ms-btn-bottom">
+		<view class="btn-big org">确认并提交</view>
+	</view>
+
+</view>
