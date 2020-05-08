@@ -454,6 +454,15 @@
   
 }
 
+
+.ms-index-btn .gray{
+  text-align: center;
+  background-color: #ddd;
+  border-radius: 30px;
+  color: #666;
+  padding:15rpx 0;
+  
+}
 /**button*/
 
 .btn-small, .btn-big {
@@ -614,6 +623,10 @@
   color:#999;
 }
 
+.ms-text-content{
+  line-height: 34rpx;
+  height:150rpx;
+}
 
 .ms-fill-btn{
   color:#f39800;

@@ -127,38 +127,36 @@
 			<view class="ms-index-top-content">
 				<view class="ms-index-top-right">
 					<view class="ms-index-top-title margin-t-25">					
-						<text class="fz-34 d-fc-blacker">试手气，抽红包</text>
+						<text class="fz-30 d-fc-blacker">试手气，抽红包</text>
 					</view>				
 
 					<view class="ms-index-top-title margin-t-20">					
-						<text class="fz-30 d-fc-gray">每日可抽三次红包（最高88元），可连续抽7天，快去试试你的手气吧</text>
+						<text class="fz-28 d-fc-gray ms-text-content">每日可抽红包（最高88元），可连抽7天，快去试试你的手气吧</text>
 					</view>				
 
 					<view class="ms-index-btn">
-						<view class="yellow fz-30">
-							领红包
-						</view>
+					
+						<view class="gray fz-30" >抽红包</view>
 					</view>
 				</view>
 			</view>
 			<view class="ms-index-top-content">
 				<view class="ms-index-top-right">
 					<view class="ms-index-top-title margin-t-25">					
-						<text class="fz-34 d-fc-blacker">朋友畅玩您赚钱</text>
+						<text class="fz-30 d-fc-blacker">朋友畅玩您赚钱</text>
 					</view>				
 
 					<view class="ms-index-top-title margin-t-20">					
-						<text class="fz-30 d-fc-gray">邀请朋友购卡，每张100元佣金，上不封顶。邀请越多，赚钱机会越大.</text>
+						<text class="fz-28 d-fc-gray ms-text-content">邀请朋友购卡，每张100元佣金，上不封顶。邀请越多，赚钱机会越大.</text>
 					</view>				
 
-					<view class="ms-index-btn">
-						<view class="yellow fz-30">
-							领红包
-						</view>
+					<view class="ms-index-btn ">
+						<view class="yellow fz-30">邀请好友</view>
 					</view>
 				</view>
 			</view>
 		</view>
+
 
 
 

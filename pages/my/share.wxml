@@ -1,7 +1,15 @@
 <!--pages/my/share.wxml-->
 <view class="container">
-	 <view class="ms-share">
-    <view></view>
-    <view></view>
-   </view>
+	<view class="ms-share">
+		<view class="ms-share-info">
+			<!-- <image src="/images/default/default.jpg"></image> -->
+			<text class="ms-share-title">
+        </text>
+		</view>
+		<view class="ms-share-info">
+			<!-- <image src="/images/default/default.jpg"></image> -->
+			<text class="ms-share-title">
+        </text>
+		</view>
+	</view>
 </view>
