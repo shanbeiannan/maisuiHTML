@@ -111,6 +111,11 @@ page {
   height: 80%;
 }
 
+.ms-redBag-luky{
+  position: relative;
+  margin: auto;
+}
+
 .ms-redBag-image .ms-hongbao-image {
   margin-top: 100rpx;
   width: 100%;
@@ -118,8 +123,11 @@ page {
   z-index: 10;
 }
 
-.ms-hongbao-on-info{
- 
+.ms-redBag-luky .ms-hongbao-image{
+  margin-top: 100rpx;
+}
+
+.ms-hongbao-on-info{ 
   position: absolute;
   width: 100%;
   height: 100%;
@@ -131,6 +139,11 @@ page {
   text-align: center;
   z-index: 10;
 }
+
+.ms-redBag-luky .ms-hongbao-on-info{ 
+  top:265rpx;
+}
+
 .ms-redbag-mongy{
   color:#ffe387;
   font-size:80rpx;
@@ -143,6 +156,11 @@ page {
   margin: 0 auto;
   width:100%;
   height:200rpx;
+}
+
+.ms-redBag-luky .ms-btn-box-bg{
+  height:90rpx;
+
 }
 
 .ms-hongbao-btn.blue, .ms-hongbao-btn.yellow{   
@@ -159,23 +177,31 @@ page {
   text-align: center;
   padding: 20rpx 30rpx;
   transition: all 0.01s;
-  box-shadow: 0px 4px 0px #1b4ebf;
+  box-shadow: 0 10rpx 0 #1b4ebf;
 }
+
 .ms-hongbao-btn.blue:active {
-  box-shadow: 0px 0px 0px #1b4ebf; 
+  box-shadow: 0 0 0 #1b4ebf; 
   position: absolute;
-  top: 2rpx;
+  top: 10rpx;
 }
 .ms-hongbao-btn.yellow{
   top:110rpx;
   border: solid 1px #ffd100;
   background: #ffd100;
-  box-shadow: 0px 4px 0px #f39800;
+  box-shadow: 0 10rpx 0 #f39800;
 }
+.ms-redBag-luky .ms-hongbao-btn.yellow{   
+  top:0rpx;
+}
+
 .ms-hongbao-btn.yellow:active{
   position: absolute;
-  box-shadow: 0px 0px 0px #f39800; 
-  top: 112rpx;
+  box-shadow: 0 0 0 #f39800; 
+  top: 120rpx;
+}
+.ms-redBag-luky .ms-hongbao-btn.yellow:active{   
+  top:10rpx;
 }
 .ms-bottom{  
   padding: 20rpx;

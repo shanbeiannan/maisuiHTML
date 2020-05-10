@@ -6,7 +6,10 @@ Page({
    */
   data: {
     winW:0,
-    winH:0
+    winH:0,
+    isShow:false,
+    isShowRedBag:false,
+    isShowQuan:false
   },
 
   /**
@@ -24,8 +27,39 @@ Page({
       },
     })
     
-  },
+    
 
+  },
+  onOpenDilog:function(e){
+    this.setData({
+      isShow:true,
+      isShowQuan:false,
+      isShowRedBag:true
+    })
+  },
+  onOpenQuan:function(e){
+    this.setData({
+      isShow:true,
+      isShowQuan:true,
+      isShowRedBag:false
+    })
+  },
+  onClose:function(e){
+    this.setData({
+      isShow:false,
+      isShowRedBag:false,
+      isShowQuan:false
+    })
+  },
+  onLook:function(e){
+    wx.navigateTo({
+      url: '/pages/my/mycoupan',
+      complete: (res) => {},
+      events: events,
+      fail: (res) => {},
+      success: (result) => {},
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

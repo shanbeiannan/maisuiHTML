@@ -60,7 +60,7 @@
 		</view> -->
 		<view class="ms-index-top">
 			<view class="ms-index-top-content">
-				<view class="ms-index-top-left">
+				<view class="ms-index-top-left" bindtap="onOpenDilog">
 					<view class="ms-index-top-body-new">
 						<view class="ms-index-top-title none-padding">
 							<text class="fz-30 d-fc-white">今日已领红包</text>
@@ -88,7 +88,7 @@
 				</view>
 			</view>
 			<view class="ms-index-top-content">
-				<view class="ms-index-top-right">
+				<view class="ms-index-top-right" bindtap="onOpenQuan">
 					<view class="ms-index-top-body-new">
 						<view class="ms-index-top-title none-padding">
 							<text class="fz-30 dc-fc-blacker">已经邀请到<text class="fz-36 margin-l-10 margin-r-10">12</text>人</text>
@@ -191,8 +191,8 @@
 
 </view>
 
-<view class="ms-redBag-toast" style="height:{{winH}}px;width:{{winW}}px;"></view>
-<view class="ms-redBag-image-con" style="height:{{winH}}px;width:{{winW}}px;">
+<view class="ms-redBag-toast" style="height:{{winH}}px;width:{{winW}}px;" wx:if="{{isShow}}"></view>
+<view class="ms-redBag-image-con" style="height:{{winH}}px;width:{{winW}}px;" wx:if="{{isShowRedBag}}" bindtap="onClose">
 	<view class="ms-redBag-image">
 		<image class="ms-hongbao-image" src="/images/icon/qiang.png"></image>
 		<view class="ms-hongbao-on-info">
@@ -203,13 +203,48 @@
 			<text class="fz-30 d-fc-white margin-b-20">还有2次机会</text>
 			<view class="ms-btn-box-bg margin-b-20">
 				<view class="ms-hongbao-btn blue  margin-b-20">不满意，再试试手气</view>
-		
+
 				<view class="ms-hongbao-btn yellow ">满意，分享得现金</view>
 			</view>
 			<view>
-			<text class="fz-30 d-fc-white ms-bottom">每天可领一次红包，可领7天</text>
+				<text class="fz-30 d-fc-white ms-bottom">每天可领一次红包，可领7天</text>
 			</view>
 		</view>
 
 	</view>
 </view>
+
+
+<view class="ms-redBag-image-con" style="height:{{winH}}px;width:{{winW}}px;" wx:if="{{isShowQuan}}" bindtap="onClose">
+<!-- 未领取 -->
+	<view class="ms-redBag-luky">
+		<image class="ms-hongbao-image" src="/images/icon/youhui.png"></image>
+		<view class="ms-hongbao-on-info">
+			<text class="fz-34 fz-w-600 d-fc-v">恭喜你成功获得</text>
+			<view class="d-fc-red margin-t-60">
+				<text class="fz-34">￥</text>
+				<text class="fz-60">1000</text>
+				<text class="fz-30">优惠券</text>
+			</view>
+			<text class="fz-24 d-fc-v margin-t-10">有效期2020年10月20日</text>
+			<view class="ms-btn-box-bg margin-t-10" catchtap="onLook">
+				<view class="ms-hongbao-btn yellow ">去使用</view>
+			</view>
+		</view>
+	</view>
+<!-- 已领取 -->
+	<!-- <view class="ms-redBag-luky">
+		<image class="ms-hongbao-image" src="/images/icon/youhui2.png"></image>
+		<view class="ms-hongbao-on-info">
+			<text class="fz-34 fz-w-600 d-fc-v margin-t-60">对不起，</text>
+			<text class="fz-34 fz-w-600 d-fc-v">您已经领过现金券啦！</text>
+			<view class="ms-btn-box-bg margin-t-40">
+				<view class="ms-hongbao-btn yellow ">去查看</view>
+			</view>
+		</view>
+	</view> -->
+
+
+</view>
+
+
