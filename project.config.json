@@ -144,6 +144,13 @@
 					"id": -1,
 					"name": "产品详情",
 					"pathName": "pages/index/productDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "转赠",
+					"pathName": "pages/my/zhaunzengtaren",
 					"scene": null
 				}
 			]

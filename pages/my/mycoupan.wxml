@@ -25,8 +25,13 @@
 				</view>
 			</view>
 			<view class="ms-mycoupan-down">
-				<text class="fz-24 d-fc-gray" style="flex:0.7">这里放一些使用优惠券的简单说明文字。这里放一些使用优惠券的简单说明文字。</text>
-				<view class="ms-index-btn" style="flex:0.25">
+				<text class="fz-24 d-fc-gray" style="flex:0.55">这里放一些使用优惠券的简单说明文字。</text>
+				 <navigator url="/pages/my/zhaunzengtaren" class="ms-index-btn" style="flex:0.2">
+					<view class="yellow-fill fz-24">
+						转赠
+					</view>
+				</navigator>
+				<view class="ms-index-btn" style="flex:0.2">
 					<view class="yellow fz-24">
 						去使用
 					</view>
@@ -49,9 +54,13 @@
 				</view>
 			</view>
 			<view class="ms-mycoupan-down">
-				<text class="fz-24 d-fc-gray" style="flex:0.7">这里放一些使用优惠券的简单说明文字。这里放一些使用优惠券的简单说明文字。</text>
-
-				<view class="ms-index-btn" style="flex:0.25">
+				<text class="fz-24 d-fc-gray" style="flex:0.55">这里放一些使用优惠券的简单说明文字。</text>
+	      <view class="ms-index-btn" style="flex:0.2">
+					<view class="yellow fz-24">
+						转赠
+					</view>
+				</view>
+				<view class="ms-index-btn" style="flex:0.2">
 					<view class="yellow fz-24">
 						去使用
 					</view>

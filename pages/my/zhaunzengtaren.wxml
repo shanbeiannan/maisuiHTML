@@ -1,0 +1,39 @@
+<!--pages/my/zhaunzengtaren.wxml-->
+<view class="container">
+	<view class="ms-info-box margin-t-20">
+		<view class="ms-info-box-title ">
+			<text class="fz-32 fz-w-600">转赠</text>
+		</view>
+		<view class="ms-info-box-body">
+
+			<radio-group bindchange="radioChange">
+
+				<label class="info-weui-cell weui-check__label" wx:for="{{radioItems}}" wx:item-index='index' wx:key="value">
+				
+          <!-- 我不知道是多个还是单个，按多个单选做的 -->
+					<view class="ms-info-box-foot wx:for='{{radioItems.length == index+1?'none-border':''}}'"  >
+						<view class="ms-info-photo">
+							<image src="{{item.photo}}" class="icon-img-80"></image>
+							<text class="fz-30 ">{{item.name}}</text>
+						</view>
+
+						<view>
+							<radio class="weui-check" value="{{item.value}}" checked="{{item.checked}}" />
+							<view class="weui-cell__ft weui-cell__ft_in-radio">
+								<icon class="weui-icon-checkbox_success" type="success" size="23" wx:if="{{item.checked}}"></icon>
+								<icon class="weui-icon-checkbox_circle" type="circle" size="23" wx:else></icon>
+
+							</view>
+						</view>
+					</view>
+
+				</label>
+			</radio-group>
+		</view>
+
+	</view>
+
+	<view class="ms-btn-bottom">
+		<view class="btn-big org">确认</view>
+	</view>
+</view>

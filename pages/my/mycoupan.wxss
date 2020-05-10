@@ -6,7 +6,10 @@
   margin:0 !important;
 }
 
-
+.ms-mycoupan-list{
+  width: 100%;
+  padding:0 25rpx;
+}
 
 .ms-mycoupan-head{
   width: 100%;

@@ -2,14 +2,19 @@
 <view class="container">
 	<view class="ms-my-head margin-b-20">
 		<view class="ms-my-head-left">
-			<view class="my-info" wx:if="{{!hasUserInfo && canIUse}}">
+			<view class="my-info" >
+				<image src="/static/images/default-tx.png" class="tx"></image>
+				<button class="btn-name"  open-type="getUserInfo" bindgetuserinfo="getUserInfo">授权登录</button>
+			</view>
+
+			<!-- <view class="my-info" wx:if="{{!hasUserInfo && canIUse}}">
 				<image src="/static/images/default-tx.png" class="tx"></image>
 				<button class="btn-name" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">授权登录</button>
 			</view>
 			<view class="my-info" wx:else>
 				<image bindtap="bindViewTap" src="{{userInfo.avatarUrl}}" class="tx"></image>
 				<view class="name">用户名</view>
-			</view>
+			</view> -->
 		</view>
 		<view class="ms-my-head-right">
 			<image src="/images/icon/shezhi.png"></image>
@@ -120,7 +125,7 @@
 		</view>
 	</view>
 
-	<navigator url="/pages/my/myBankCard"  hover-class="none" class="my-info-list margin-t-30">
+	<navigator url="/pages/my/myBankCard" hover-class="none" class="my-info-list margin-t-30">
 
 		<view class="d-flex d-justify-content-between d-align-items-center">
 			<view class="ms-my-list-left">

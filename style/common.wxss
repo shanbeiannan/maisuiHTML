@@ -417,6 +417,12 @@
   height:60rpx;
   margin:0 10rpx;
 }
+
+.icon-img-80{
+  width:80rpx;
+  height:80rpx;
+  margin:0 10rpx;
+}
 .list_h, .list_b {
   margin: 20rpx auto;
   display: flex;
@@ -448,8 +454,17 @@
 .ms-index-btn .yellow{
   text-align: center;
   background-color: #ffcd1e;
+  border:1px solid #ffcd1e;
   border-radius: 30px;
   color: #6a3906;
+  padding:15rpx 0;
+  
+}
+.ms-index-btn .yellow-fill{
+  text-align: center;
+  border:1px solid #f7b551;
+  border-radius: 30px;
+  color: #f8b551;
   padding:15rpx 0;
   
 }
@@ -457,7 +472,8 @@
 
 .ms-index-btn .gray{
   text-align: center;
-  background-color: #ddd;
+  background-color: #ddd;  
+  border:1px solid #ddd;
   border-radius: 30px;
   color: #666;
   padding:15rpx 0;

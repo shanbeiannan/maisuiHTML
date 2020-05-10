@@ -1,4 +1,4 @@
-/* pages/index/buyCard.wxss */
+/* pages/my/zhaunzengtaren.wxss */
 
 .ms-buycard-top {
   position: relative;
@@ -41,17 +41,13 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
+  border-bottom: 1px solid #eee
 }
 
 .ms-info-box-body {
   padding: 25rpx;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #eee
-}
-
-.ms-info-box-title {
   border-bottom: 1px solid #eee
 }
 
@@ -96,4 +92,15 @@
 
 .ms-def-btn{
   padding:25rpx;
+}
+
+.ms-info-photo{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ms-info-photo image{
+  border-radius: 50%;
 }

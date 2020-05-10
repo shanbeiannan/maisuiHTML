@@ -15,7 +15,8 @@
     "pages/my/huiyuanka2",
     "pages/my/share",
     "pages/my/address",
-    "pages/index/productDetail"
+    "pages/index/productDetail",
+    "pages/my/zhaunzengtaren"
   ],
   "tabBar": {
     "list": [

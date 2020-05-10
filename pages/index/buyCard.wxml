@@ -49,24 +49,55 @@
 		</view>
 	</view>
 
+	<view class="ms-info-box">
+		<view class="ms-info-box-title ">
+			<text class="fz-32">收货地址</text>
+		</view>
+		<view class="ms-info-box-foot ">
+			<view class=" none-padding">
+				<view class="fz-30">
+					天津市河西区南京路39号南京路39号南京路
+				</view>
+				<view class="fz-30 margin-t-20">
+					周杰伦 138****8888
+				</view>
+			</view>
+
+		</view>
+
+	</view>
+
+
+	<view class="ms-info-box">
+		<view class="ms-info-box-title ">
+			<text class="fz-32">收货地址</text>
+		</view>
+
+
+		<view class="ms-def-btn ">
+			<image class="icon-img margin-b-20" src="/images/icon/jia.png"></image>
+			<text class="fz-28 d-fc-gray">添加收货地址</text>
+		</view>
+
+	</view>
 
 	<view class="ms-info-box">
 		<view class="ms-info-box-title ">
 			<text class="fz-32">支付方式</text>
 		</view>
 		<view class="ms-info-box-foot ">
-    <view class="ms-info-list none-padding">
-    	<image class="icon-img" src="/images/icon/wechat.png"></image>
-      <text class="fz-30">微信支付</text>
-      </view>
-		
+			<view class="ms-info-list none-padding">
+				<image class="icon-img" src="/images/icon/wechat.png"></image>
+				<text class="fz-30">微信支付</text>
+			</view>
+
 		</view>
 	</view>
 
-  <view class="ms-pay-btn">
-    <view class="ms-pay-btn-left fz-36 fz-w-600">￥{{payMoney}}</view>
-    <view class="ms-pay-btn-right d-bg-org d-fc-zon">确认支付</view>
-  </view>
+	<view class="ms-pay-btn">
+		<view class="ms-pay-btn-left fz-36 fz-w-600">￥{{payMoney}}</view>
+		<view class="ms-pay-btn-right d-bg-org d-fc-zon">确认支付</view>
+	</view>
 
 
 </view>
