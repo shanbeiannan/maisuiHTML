@@ -98,7 +98,7 @@
 
 						</view>
 
-					
+
 						<view class="ms-index-top-title none-padding  margin-t-20">
 							<text class="fz-30 dc-fc-blacker">关联出售<text class="fz-36 margin-l-10 margin-r-10">13</text>张</text>
 						</view>
@@ -106,7 +106,7 @@
 							<text class="fz-30 dc-fc-blacker">麦穗旅游卡</text>
 						</view>
 
-				
+
 						<view class="ms-index-top-title none-padding margin-t-20">
 							<text class="fz-30 dc-fc-blacker">已得佣金</text>
 							<image class="icon-img-min" src="/images/icon/yongjin-y.png"></image>
@@ -126,29 +126,29 @@
 		<view class="ms-index-top">
 			<view class="ms-index-top-content">
 				<view class="ms-index-top-right">
-					<view class="ms-index-top-title margin-t-25">					
+					<view class="ms-index-top-title margin-t-25">
 						<text class="fz-30 d-fc-blacker">试手气，抽红包</text>
-					</view>				
+					</view>
 
-					<view class="ms-index-top-title margin-t-20">					
+					<view class="ms-index-top-title margin-t-20">
 						<text class="fz-28 d-fc-gray ms-text-content">每日可抽红包（最高88元），可连抽7天，快去试试你的手气吧</text>
-					</view>				
+					</view>
 
 					<view class="ms-index-btn">
-					
-						<view class="gray fz-30" >抽红包</view>
+
+						<view class="gray fz-30">抽红包</view>
 					</view>
 				</view>
 			</view>
 			<view class="ms-index-top-content">
 				<view class="ms-index-top-right">
-					<view class="ms-index-top-title margin-t-25">					
+					<view class="ms-index-top-title margin-t-25">
 						<text class="fz-30 d-fc-blacker">朋友畅玩您赚钱</text>
-					</view>				
+					</view>
 
-					<view class="ms-index-top-title margin-t-20">					
+					<view class="ms-index-top-title margin-t-20">
 						<text class="fz-28 d-fc-gray ms-text-content">邀请朋友购卡，每张100元佣金，上不封顶。邀请越多，赚钱机会越大.</text>
-					</view>				
+					</view>
 
 					<view class="ms-index-btn ">
 						<view class="yellow fz-30">邀请好友</view>
@@ -189,4 +189,27 @@
 		</view>
 	</view>
 
+</view>
+
+<view class="ms-redBag-toast" style="height:{{winH}}px;width:{{winW}}px;"></view>
+<view class="ms-redBag-image-con" style="height:{{winH}}px;width:{{winW}}px;">
+	<view class="ms-redBag-image">
+		<image class="ms-hongbao-image" src="/images/icon/qiang.png"></image>
+		<view class="ms-hongbao-on-info">
+			<text class="fz-36 fz-w-600 d-fc-v">还可领5天</text>
+
+			<text class="ms-redbag-mongy">89.1</text>
+
+			<text class="fz-30 d-fc-white margin-b-20">还有2次机会</text>
+			<view class="ms-btn-box-bg margin-b-20">
+				<view class="ms-hongbao-btn blue  margin-b-20">不满意，再试试手气</view>
+		
+				<view class="ms-hongbao-btn yellow ">满意，分享得现金</view>
+			</view>
+			<view>
+			<text class="fz-30 d-fc-white ms-bottom">每天可领一次红包，可领7天</text>
+			</view>
+		</view>
+
+	</view>
 </view>

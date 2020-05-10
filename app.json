@@ -16,7 +16,9 @@
     "pages/my/share",
     "pages/my/address",
     "pages/index/productDetail",
-    "pages/my/zhaunzengtaren"
+    "pages/my/zhaunzengtaren",
+    "pages/product/productDetail",
+    "pages/product/productList"
   ],
   "tabBar": {
     "list": [

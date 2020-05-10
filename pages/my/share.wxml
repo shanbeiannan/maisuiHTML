@@ -1,15 +1,23 @@
 <!--pages/my/share.wxml-->
 <view class="container">
-	<view class="ms-share">
-		<view class="ms-share-info">
-			<!-- <image src="/images/default/default.jpg"></image> -->
-			<text class="ms-share-title">
-        </text>
-		</view>
-		<view class="ms-share-info">
-			<!-- <image src="/images/default/default.jpg"></image> -->
-			<text class="ms-share-title">
-        </text>
-		</view>
+	<radio-group class="ms-share" bindchange="radioChange">
+		<label class="ms-share-info" wx:for="{{radioItems}}" wx:item-index='index' wx:key="value">
+
+			<view class="ms-share-container">
+				<image class="ms-shar-img" src="{{item.img}}"></image>
+			</view>
+
+			<view class="ms-chosebtn">
+				<radio class="weui-check" value="{{item.value}}" checked="{{item.checked}}" />
+				<view class="weui-cell__ft weui-cell__ft_in-radio">
+					<icon class="weui-icon-checkbox_success" type="success" size="23" wx:if="{{item.checked}}"></icon>
+					<icon class="weui-icon-checkbox_circle" type="circle" size="23" wx:else></icon>
+				</view>
+			</view>
+		</label>
+	</radio-group>
+
+	<view class="ms-btn-bottom">
+		<view class="btn-big org">确认</view>
 	</view>
 </view>

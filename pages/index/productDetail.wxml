@@ -134,12 +134,50 @@
 	</view>
 
 	<view class="submit-box">
-		<view class="text-distance">
-			<image src="/images/icon/kefu.png" class="" />
+		<view class="text-distance"  bindtap="openDialog" >
+			<image src="/images/icon/kefu-w.png"/>
 			<text>咨询客服</text>
 		</view>
 		<view class="submit-btn d-fc-v">立即购买</view>
 	</view>
 
 
+</view>
+
+
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-demo-dialog {{istrue ? 'weui-demo-dialog_show' : ''}}">
+      <view class="weui-mask" bindtap="closeDialog"></view>
+      <view class="weui-half-screen-dialog" catchtap="stopEvent">
+        <view class="weui-half-screen-dialog__hd">
+          <view class="weui-half-screen-dialog__hd__main">
+            <text class="weui-half-screen-dialog__subtitle fz-36">我要咨询</text>
+          </view>
+        </view>
+        <view class="list-line"></view>
+        <view class="weui-half-screen-dialog__bd">
+          <view class="product-half-screen-dialog">
+            <button open-type="contact" class="product-half-screen-dialog-tool btn_new">
+              <image src="/static/images/zx_wechat.png"></image>
+              <text>在线咨询</text>
+            </button>
+
+            <view class="product-half-screen-dialog-tool" bindtap="onlinetel2">
+              <image src="/static/images/zx_servier.png"></image>
+              <text>客服咨询电话</text>
+            </view>
+
+            <view class="product-half-screen-dialog-tool" bindtap="onlinetel1">
+              <image src="/static/images/zx_phone.png"></image>
+              <text>产品咨询电话</text>
+            </view>
+
+          </view>
+        </view>
+        <view class="weui-half-screen-dialog__ft">
+        </view>
+      </view>
+    </view>
+  </view>
 </view>

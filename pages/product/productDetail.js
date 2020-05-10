@@ -1,15 +1,16 @@
-// pages/index/productDetail.js
+// pages/product/productDetail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    istrue: false
   },
 
   /**我要咨询弹出层 */
   openDialog: function () {
+    console.log(1)
     this.setData({
       istrue: true
     })

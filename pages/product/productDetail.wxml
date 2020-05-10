@@ -1,0 +1,138 @@
+<!--pages/product/productDetail.wxml-->
+<view class="container">
+	<view class="ms-box margin-t-20">
+		<view class="border-b">
+			<text class="fz-38 fz-w-600 d-fc-black">麦穗旅游标题麦穗旅游标题麦穗旅游麦穗旅游标题</text>
+		</view>
+    
+		<view class="ms-box-title">
+			<view class="image-l-title">
+				<view class="radio-yellow margin-r-10"></view>
+				<text class="fz-36 fz-w-600 d-fc-black">线路详情</text>
+			</view>
+			<view class="d-flex d-align-items-center">
+				<text class="fz-30 d-fc-gray">查看详情</text>
+				<image class="icon-img-min" src="/images/icon/jia.png"></image>
+			</view>
+		</view>
+
+	</view>
+	<view class="ms-box" style="margin-bottom:160rpx;">
+		<view class="ms-box-title">
+			<view class="image-l-title">
+				<view class="radio-yellow margin-r-10"></view>
+				<text class="fz-36 fz-w-600 d-fc-black">用户评论</text>
+			</view>
+			<view class="ms-fill-btn">
+				满意度99.99%
+			</view>
+		</view>
+		<view class="ms-customer-comment">
+			<view class="ms-comment-list">
+				<view class="ms-info-photo">
+					<image src="/images/default/default-tx.png" class="icon-img-80"></image>
+					<text class="fz-30 d-fc-blacker">周*伦</text>
+				</view>
+				<view class="ms-comment fz-30 d-fc-blacker">
+					这里截字吧，放两行文字，这里放点评的内容，我玩得还开森呀！
+				</view>
+				<text class="fz-24 d-fc-gray time">2020.1.1 12:46</text>
+			</view>
+			<view class="line"></view>
+
+			<view class="ms-comment-list">
+				<view class="ms-info-photo">
+					<image src="/images/default/default-tx.png" class="icon-img-80"></image>
+					<text class="fz-30 d-fc-blacker">周*伦</text>
+				</view>
+				<view class="ms-comment fz-30 d-fc-blacker">
+					这里截字吧，放两行文字，这里放点评的内容，我玩得还开森呀！
+				</view>
+				<text class="fz-24 d-fc-gray time">2020.1.1 12:46</text>
+			</view>
+			<view class="line"></view>
+
+			<view class="ms-comment-list">
+				<view class="ms-info-photo">
+					<image src="/images/default/default-tx.png" class="icon-img-80"></image>
+					<text class="fz-30 d-fc-blacker">周*伦</text>
+				</view>
+				<view class="ms-comment fz-30 d-fc-blacker">
+					这里截字吧，放两行文字，这里放点评的内容，我玩得还开森呀！
+				</view>
+				<text class="fz-24 d-fc-gray time">2020.1.1 12:46</text>
+			</view>
+			<view class="line"></view>
+
+			<view class="ms-comment-list">
+				<view class="ms-info-photo">
+					<image src="/images/default/default-tx.png" class="icon-img-80"></image>
+					<text class="fz-30 d-fc-blacker">周*伦</text>
+				</view>
+				<view class="ms-comment fz-30 d-fc-blacker">
+					这里截字吧，放两行文字，这里放点评的内容，我玩得还开森呀！
+				</view>
+				<text class="fz-24 d-fc-gray time">2020.1.1 12:46</text>
+			</view>
+			<view class="line"></view>
+
+			<view class="ms-comment-list">
+				<view class="ms-info-photo">
+					<image src="/images/default/default-tx.png" class="icon-img-80"></image>
+					<text class="fz-30 d-fc-blacker">周*伦</text>
+				</view>
+				<view class="ms-comment fz-30 d-fc-blacker">
+					这里截字吧，放两行文字，这里放点评的内容，我玩得还开森呀！
+				</view>
+				<text class="fz-24 d-fc-gray time">2020.1.1 12:46</text>
+			</view>
+		</view>
+	</view>
+	<view class="submit-box">
+		<view class="text-distance"  bindtap="openDialog" >
+			<image src="/images/icon/kefu-w.png" />
+			<text>咨询客服</text>
+		</view>
+		<view class="submit-btn d-fc-v">立即购买</view>
+	</view>
+
+</view>
+
+
+
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-demo-dialog {{istrue ? 'weui-demo-dialog_show' : ''}}">
+      <view class="weui-mask" bindtap="closeDialog"></view>
+      <view class="weui-half-screen-dialog" catchtap="stopEvent">
+        <view class="weui-half-screen-dialog__hd">
+          <view class="weui-half-screen-dialog__hd__main">
+            <text class="weui-half-screen-dialog__subtitle fz-36">我要咨询</text>
+          </view>
+        </view>
+        <view class="list-line"></view>
+        <view class="weui-half-screen-dialog__bd">
+          <view class="product-half-screen-dialog">
+            <button open-type="contact" class="product-half-screen-dialog-tool btn_new">
+              <image src="/images/default/zx_wechat.png"></image>
+              <text>在线咨询</text>
+            </button>
+
+            <view class="product-half-screen-dialog-tool" bindtap="onlinetel2">
+              <image src="/images/default/zx_servier.png"></image>
+              <text>客服咨询电话</text>
+            </view>
+
+            <view class="product-half-screen-dialog-tool" bindtap="onlinetel1">
+              <image src="/images/default/zx_phone.png"></image>
+              <text>产品咨询电话</text>
+            </view>
+
+          </view>
+        </view>
+        <view class="weui-half-screen-dialog__ft">
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

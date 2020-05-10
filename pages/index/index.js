@@ -5,14 +5,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    winW:0,
+    winH:0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.getSystemInfo({
+      complete: (res) => {},
+      fail: (res) => {},
+      success: (result) => {
+        this.setData({
+          winW:result.windowWidth,
+          winH:result.windowHeight,
+        })
+      },
+    })
+    
   },
 
   /**

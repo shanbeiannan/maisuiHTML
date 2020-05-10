@@ -151,6 +151,13 @@
 					"id": -1,
 					"name": "转赠",
 					"pathName": "pages/my/zhaunzengtaren",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "线路想起-评论",
+					"pathName": "pages/product/productDetail",
 					"scene": null
 				}
 			]

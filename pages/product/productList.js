@@ -1,4 +1,4 @@
-// pages/index/productDetail.js
+// pages/product/productList.js
 Page({
 
   /**
@@ -8,17 +8,6 @@ Page({
 
   },
 
-  /**我要咨询弹出层 */
-  openDialog: function () {
-    this.setData({
-      istrue: true
-    })
-  },
-  closeDialog: function () {
-    this.setData({
-      istrue: false
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */

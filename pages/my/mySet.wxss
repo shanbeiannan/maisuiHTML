@@ -8,12 +8,6 @@ align-items: center;
 padding: 40rpx 30rpx 40rpx 45rpx;
 
 }
-.line{
-  border-bottom: 1px solid #e5e5e5;
-width: 88%;
-margin: 0 auto;
-
-}
 
 .ms-set-btn{
   background-color: #ec6941;

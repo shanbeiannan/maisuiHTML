@@ -4,13 +4,34 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top:20rpx;
+  flex-wrap: wrap;
+  width: 95%;
 }
 
 .ms-share-info{  
-  position: relative;
+  position: relative;  
+  width:50%;  
+  margin-bottom: 25rpx;
+}
+
+.ms-share-container{
+ 
+  width: 95%;
   background-color: #ffffff;
 	box-shadow: 2px 21px 22px 2px 
 		rgba(0, 0, 0, 0.05);
-	border-radius: 20px;
+  border-radius: 20px;
+  height:480rpx;
+  margin:0 auto;
 }
 
+.ms-chosebtn{
+  position: absolute;
+  top:30rpx;
+  right:30rpx;
+}
+.ms-shar-img{
+  width:100%;
+  height:100%;
+  border-radius: 20rpx;
+}

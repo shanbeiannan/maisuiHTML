@@ -1,0 +1,49 @@
+/* pages/product/productDetail.wxss */
+.ms-box-title{
+  border:0 !important;
+}
+.border-b{
+  padding:60rpx;
+
+  border-bottom:1px solid #e9e9e9;
+}
+.radio-yellow {
+  width: 20rpx;
+  height: 20rpx;
+  background: #ffba6b;
+  border: 6rpx solid #ffe1b2;
+  border-radius: 50%;
+}
+.image-l-title{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ms-customer-comment{
+  width:90%;
+  border-top:1px solid #e9e9e9;
+  margin:0 auto;
+  padding:25rpx;
+}
+.ms-comment-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.ms-comment-list text.time{
+  align-self: flex-end;
+}
+
+.ms-comment{
+  margin:25rpx 0;
+  padding-left:20rpx;
+}
+
+
+.line{
+  width:100%;
+  margin:25rpx 0;
+}
