@@ -1,0 +1,36 @@
+<!--pages/product/index.wxml-->
+<view class="container">
+	<view class="boxBg">
+
+		<view class="list-box list-pd margin-t-20">
+			<view class="list-inner" bindtap="gotoURL" data-productid="{{item.dnProductID}}">
+				<view class="list-tag d-fc-v">泰国</view>
+				<image lazy-load="true" src="/images/default/default.jpg" class="list-inner-img"></image>
+				<view class="list-inner-all"></view>
+				<view class="list-inner-title">机票自理</view>
+
+				<view class="list-title d-fc-sblack fz-36 list-box-text">
+					<view >
+            <text>去过</text>
+						<text class="d-fc-redl fz-w-600">26</text>
+						<text class="fz-28">人</text>
+					</view>
+
+					<view >
+            <text class="margin-r-40 d-fc-ssgray">|</text>
+						<text class="margin-r-20 d-fc-sblack ">满意度</text>  
+            <text class="d-fc-zon fz-w-600 ">99.99%</text>  
+					</view>
+				</view>
+
+			</view>
+		</view>
+
+		<view class="list-box list-pd">
+			<view class="list-inner">
+				<image src="/images/default/default-img.png" mode="widthFix" class="default-img"></image>
+			</view>
+		</view>
+	</view>
+
+</view>

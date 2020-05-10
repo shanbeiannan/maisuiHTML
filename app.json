@@ -18,7 +18,8 @@
     "pages/index/productDetail",
     "pages/my/zhaunzengtaren",
     "pages/product/productDetail",
-    "pages/product/productList"
+    "pages/product/productList",
+    "pages/product/index"
   ],
   "tabBar": {
     "list": [
@@ -27,6 +28,12 @@
         "text": "首页",
         "iconPath": "images/tabBarIcon/homepage.png",
         "selectedIconPath": "images/tabBarIcon/homepage_fill.png"
+      },
+      {
+        "pagePath": "pages/product/index",
+        "text": "产品",
+        "iconPath": "images/tabBarIcon/mine.png",
+        "selectedIconPath": "images/tabBarIcon/mine_fill.png"
       },
       {
         "pagePath": "pages/my/index",

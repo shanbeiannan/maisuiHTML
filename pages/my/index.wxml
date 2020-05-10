@@ -3,7 +3,7 @@
 	<view class="ms-my-head margin-b-20">
 		<view class="ms-my-head-left">
 			<view class="my-info" >
-				<image src="/static/images/default-tx.png" class="tx"></image>
+				<image src="/images/default/default-tx.png" class="tx"></image>
 				<button class="btn-name"  open-type="getUserInfo" bindgetuserinfo="getUserInfo">授权登录</button>
 			</view>
 

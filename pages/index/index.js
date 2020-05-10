@@ -51,7 +51,7 @@ Page({
       isShowQuan:false
     })
   },
-  onLook:function(e){
+  onLook:function(events){
     wx.navigateTo({
       url: '/pages/my/mycoupan',
       complete: (res) => {},

@@ -158,6 +158,14 @@
 					"id": -1,
 					"name": "线路想起-评论",
 					"pathName": "pages/product/productDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "产品",
+					"pathName": "pages/product/index",
+					"query": "",
 					"scene": null
 				}
 			]
