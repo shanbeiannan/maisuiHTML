@@ -101,108 +101,162 @@ page {
 .ms-redBag-image-con {
   position: fixed;
   top: 0;
-  left: 0;
+  width: 100%;
+  margin: auto;
 }
 
 .ms-redBag-image {
   position: relative;
-  margin: auto;
-  width: 80%;
-  height: 80%;
+  margin:140rpx auto;
+  width: 640rpx;
+  height: 800rpx;
 }
 
-.ms-redBag-luky{
+.ms-redBag-luky {
   position: relative;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .ms-redBag-image .ms-hongbao-image {
   margin-top: 100rpx;
-  width: 100%;
-  height: 100%;
+  width: 640rpx;
+  height: 290rpx;
   z-index: 10;
+  margin: 0 auto;
 }
 
-.ms-redBag-luky .ms-hongbao-image{
+.ms-redBag-luky .ms-hongbao-image {
   margin-top: 100rpx;
+  width: 750rpx;
+  height: 560rpx;
 }
 
-.ms-hongbao-on-info{ 
+.ms-hongbao-on-info-t {
   position: absolute;
   width: 100%;
-  height: 100%;
-  display: flex;
-  top:200rpx;
-  left:0;
-  flex-direction: column;
-  align-content: center;  
+  height: 100rpx;
+  top: 80rpx;
+  left: 0; 
   text-align: center;
-  z-index: 10;
+  z-index: 10; 
 }
 
-.ms-redBag-luky .ms-hongbao-on-info{ 
-  top:265rpx;
+.ms-hongbao-on-info {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  top: 290rpx;
+  left: 0;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  z-index: 0; 
+  background-color: #fc3939;
+  border-bottom-right-radius: 25rpx;
+  border-bottom-left-radius: 25rpx;
 }
 
-.ms-redbag-mongy{
-  color:#ffe387;
-  font-size:80rpx;
+.ms-redBag-luky .ms-hongbao-on-info {
+  top: 265rpx;
+}
+
+.ms-redbag-mongy {
+  color: #ffe387;
+  font-size: 70rpx;
   font-weight: blod;
-  padding:150rpx 0 40rpx;
+  padding:40rpx 0 80rpx;
 }
 
-.ms-btn-box-bg{
+.ms-rbg-bottom {
+  
+  width: 100%;
+  position: abslout;
+  border-bottom-right-radius: 25rpx;
+  border-bottom-left-radius: 25rpx;
+ 
+}
+.ms-rbg-bottom-content{
+  width:640rpx;
+  margin:0 auto;
+  left:5rpx;
+  padding:30rpx 0;
+  background-color: #000;
+  border-top:1px dotted #fff;
+  text-align: center;
+  border-bottom-right-radius: 25rpx;
+  border-bottom-left-radius: 25rpx;
+}
+
+.ms-btn-box-bg {
   position: relative;
   margin: 0 auto;
-  width:100%;
-  height:200rpx;
+  width: 100%;
+  height: 200rpx;
 }
 
-.ms-redBag-luky .ms-btn-box-bg{
-  height:90rpx;
+.ms-redBag-luky .ms-btn-box-bg {
+  height: 90rpx;
 
 }
 
-.ms-hongbao-btn.blue, .ms-hongbao-btn.yellow{   
+.ms-hongbao-btn.blue,
+.ms-hongbao-btn.yellow {
   position: absolute;
-  width:300rpx;
-  left:50%;
-  margin-left:-180rpx;
-  font-size: 30rpx;
+  width: 300rpx;
+  left: 50%;
+  margin-left: -180rpx;
+  font-size: 24rpx;
   color: #FFF;
-  display: block; 
+  display: block;
   border-radius: 40rpx;
   border: solid 1px #497df1;
   background: #497df1;
   text-align: center;
-  padding: 20rpx 30rpx;
+  padding: 15rpx 30rpx;
   transition: all 0.01s;
   box-shadow: 0 10rpx 0 #1b4ebf;
 }
 
 .ms-hongbao-btn.blue:active {
-  box-shadow: 0 0 0 #1b4ebf; 
+  box-shadow: 0 0 0 #1b4ebf;
   position: absolute;
   top: 10rpx;
 }
-.ms-hongbao-btn.yellow{
-  top:110rpx;
+
+.ms-hongbao-btn.yellow {
+  top: 110rpx;
   border: solid 1px #ffd100;
   background: #ffd100;
   box-shadow: 0 10rpx 0 #f39800;
 }
-.ms-redBag-luky .ms-hongbao-btn.yellow{   
-  top:0rpx;
+
+.ms-redBag-luky .ms-hongbao-btn.yellow {
+  top: 0rpx;
 }
 
-.ms-hongbao-btn.yellow:active{
+.ms-hongbao-btn.yellow:active {
   position: absolute;
-  box-shadow: 0 0 0 #f39800; 
+  box-shadow: 0 0 0 #f39800;
   top: 120rpx;
 }
-.ms-redBag-luky .ms-hongbao-btn.yellow:active{   
-  top:10rpx;
+
+.ms-redBag-luky .ms-hongbao-btn.yellow:active {
+  top: 10rpx;
 }
-.ms-bottom{  
+
+.ms-bottom {
   padding: 20rpx;
+}
+
+
+
+.ms-quan-box{
+  height:180rpx;
+  text-align: center;
+}
+.ms-quan-box-top{
+  padding-top:70rpx;
+}
+.ms-quan-box-bottom{
+  margin-top: 20rpx;
 }

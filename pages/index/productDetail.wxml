@@ -32,13 +32,7 @@
 
 
 	<view class="ms-box margin-b-80">
-		<view class="ms-box-title">
-			<view class="image-l-title">
-
-				<text class="fz-32">产品信息</text>
-			</view>
-
-		</view>
+		
 
 		<view class="ms-box-content none-border ">
 			<view class="ms-product-content fz-32">
@@ -159,17 +153,17 @@
         <view class="weui-half-screen-dialog__bd">
           <view class="product-half-screen-dialog">
             <button open-type="contact" class="product-half-screen-dialog-tool btn_new">
-              <image src="/static/images/zx_wechat.png"></image>
+              <image src="/images/icon/zx_wechat.png"></image>
               <text>在线咨询</text>
             </button>
 
             <view class="product-half-screen-dialog-tool" bindtap="onlinetel2">
-              <image src="/static/images/zx_servier.png"></image>
+              <image src="/images/icon/zx_servier.png"></image>
               <text>客服咨询电话</text>
             </view>
 
             <view class="product-half-screen-dialog-tool" bindtap="onlinetel1">
-              <image src="/static/images/zx_phone.png"></image>
+              <image src="/images/icon/zx_phone.png"></image>
               <text>产品咨询电话</text>
             </view>
 

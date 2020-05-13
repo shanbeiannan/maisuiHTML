@@ -1,0 +1,42 @@
+/* pages/product/productDetail2.wxss */
+.ms-product-top{
+  background-color: #ffcd1e;
+  width:100%;
+  height:180rpx;
+}
+.ms-mar{
+  margin-top:-160rpx;
+}
+
+.banner{
+  height:320rpx;
+}
+.banner .banner-contair,.banner image{  
+  border-radius:20rpx;
+  height:320rpx;
+}
+.banner image{
+  width:100%;
+}
+.ms-product-content {
+  color: #333333;
+  line-height: 64rpx;
+  margin-bottom: 30rpx;
+}
+
+.none-l-padding{
+  padding:0 !important;
+}
+
+.ms-title-btn {
+  text-align: center;
+  border-radius: 40rpx;
+  border: 1px solid #f7b551;
+  padding: 10rpx 30rpx;
+  font-size: 32rpx;
+  color: #f7b551;
+  margin-bottom: 30rpx;
+}
+.ms-box-b-radius{
+  margin-bottom:180rpx;
+}

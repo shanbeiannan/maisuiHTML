@@ -1,0 +1,122 @@
+<!--pages/product/productDetail2.wxml-->
+<view class="container">
+	<view class="ms-product-top"></view>
+	<view class="ms-box ms-mar">
+		<view class="ms-index-bottom">
+			<swiper class="banner" indicator-dots="true" indicator-active-color="#ffffff">
+				<swiper-item>
+					<navigator url="/pages/index/buyCard" class="banner-contair ">
+						<image src="/images/default/default.jpg"></image>
+					</navigator>
+				</swiper-item>
+				<swiper-item>
+					<view class="banner-contair " bindtap="onTabBar">
+						<image src="/images/default/default.jpg"></image>
+					</view>
+				</swiper-item>
+				<swiper-item>
+					<view class="banner-contair ">
+						<image src="/images/default/default.jpg"></image>
+					</view>
+				</swiper-item>
+			</swiper>
+		</view>
+		<view>
+			<view class="ms-box-title none-border">
+				<view class="image-l-title">
+					<text class="fz-32">麦穗旅游产品名称</text>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<!-- 以下模块可以随意组合 -->
+	<view class="ms-box-t-radius">
+  <!-- 不用内间距的直接放到这里 -->
+		<image class="ms-content-t-radius-image" src="/images/default/default.jpg"></image>
+
+		<view class="ms-box-content none-border ">
+      <!-- 用到内间距的，放到这里面 -->
+			<text class="fz-28 d-fc-black">上面</text>
+		</view>
+	</view>
+
+
+	<view class="ms-box-n-radius">
+
+		<image class="ms-content-image" src="/images/default/default.jpg"></image>
+		<text class="fz-28 d-fc-black">中间:无内间距</text>
+
+
+		<view class="ms-box-content none-border ">
+			<image class="ms-content-image" src="/images/default/default.jpg"></image>
+			<text class="fz-28 d-fc-black">中间：有内间距</text>
+		</view>
+
+	</view>
+
+
+	<view class="ms-box-b-radius">
+
+		<image class="ms-content-image" src="/images/default/default.jpg"></image>
+		<view class="ms-box-content none-border ">
+
+			<image class="ms-content-image" src="/images/default/default.jpg"></image>
+			<text class="fz-28 d-fc-black">下面</text>
+			<image class="ms-content-image" src="/images/default/default.jpg"></image>
+
+		</view>
+		<image class="ms-content-b-radius-image" src="/images/default/default.jpg"></image>
+	</view>
+	<!-- 以上模块可以随意组合 -->
+
+
+
+	<view class="submit-box">
+		<view class="text-distance" bindtap="openDialog">
+			<image src="/images/icon/kefu-w.png" />
+			<text>咨询客服</text>
+		</view>
+		<view class="submit-btn d-fc-v">立即购买</view>
+	</view>
+
+
+</view>
+
+
+<view class="page">
+	<view class="page__bd">
+		<view class="weui-demo-dialog {{istrue ? 'weui-demo-dialog_show' : ''}}">
+			<view class="weui-mask" bindtap="closeDialog"></view>
+			<view class="weui-half-screen-dialog" catchtap="stopEvent">
+				<view class="weui-half-screen-dialog__hd">
+					<view class="weui-half-screen-dialog__hd__main">
+						<text class="weui-half-screen-dialog__subtitle fz-36">我要咨询</text>
+					</view>
+				</view>
+				<view class="list-line"></view>
+				<view class="weui-half-screen-dialog__bd">
+					<view class="product-half-screen-dialog">
+						<button open-type="contact" class="product-half-screen-dialog-tool btn_new">
+							<image src="/images/icon/zx_wechat.png"></image>
+							<text>在线咨询</text>
+						</button>
+
+						<view class="product-half-screen-dialog-tool" bindtap="onlinetel2">
+							<image src="/images/icon/zx_servier.png"></image>
+							<text>客服咨询电话</text>
+						</view>
+
+						<view class="product-half-screen-dialog-tool" bindtap="onlinetel1">
+							<image src="/images/icon/zx_phone.png"></image>
+							<text>产品咨询电话</text>
+						</view>
+
+					</view>
+				</view>
+				<view class="weui-half-screen-dialog__ft">
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

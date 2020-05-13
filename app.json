@@ -19,7 +19,8 @@
     "pages/my/zhaunzengtaren",
     "pages/product/productDetail",
     "pages/product/productList",
-    "pages/product/index"
+    "pages/product/index",
+    "pages/product/productDetail2"
   ],
   "tabBar": {
     "list": [
