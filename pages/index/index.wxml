@@ -206,10 +206,16 @@
 
 			<text class="fz-24 d-fc-white margin-b-20">还有2次机会</text>
 
-			<view class="ms-btn-box-bg">
+			<!-- <view class="ms-btn-box-bg">
 				<view class="ms-hongbao-btn blue">不满意，再试试手气</view>
 				<view class="ms-hongbao-btn yellow ">满意，分享得现金</view>
+			</view> -->
+
+			<view class="ms-btn-box-bg">			
+				<view class="ms-hongbao-btn-middle yellow ">试试手气</view>
 			</view>
+
+
 			<view class="ms-rbg-bottom">
 				<view class="ms-rbg-bottom-content">
 					<text class="fz-24 d-fc-white ms-bottom">每天可领一次红包，可领7天</text>

@@ -150,17 +150,13 @@ image.bg{
   align-items: center;
   align-content: center;
 }
-
 .ms-my-list-right{
   justify-content: flex-end;
 }
-
 .enter-img{
   width:40rpx;
   height:40rpx;
 }
-
-
 .btn-name{
   flex:1;
   border: 0;
@@ -174,4 +170,7 @@ image.bg{
 .btn-name::after{
   content: " ";
   border:none;
+}
+button{
+  padding:none!important;
 }

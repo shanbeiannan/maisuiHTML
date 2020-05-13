@@ -3,7 +3,7 @@
 	<view class="boxBg">
 
 		<view class="list-box list-pd margin-t-20">
-			<view class="list-inner" bindtap="gotoURL" data-productid="{{item.dnProductID}}">
+			<navigator class="list-inner" url="/pages/product/productDetail">
 				<view class="list-tag d-fc-v">泰国</view>
 				<image lazy-load="true" src="/images/default/default.jpg" class="list-inner-img"></image>
 				<view class="list-inner-all"></view>
@@ -23,7 +23,7 @@
 					</view>
 				</view>
 
-			</view>
+			</navigator>
 		</view>
 
 		<view class="list-box list-pd">
