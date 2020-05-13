@@ -1,0 +1,31 @@
+/* pages/product/fabiaopingjia.wxss */
+.ms-box-title{
+  justify-content: flex-start;
+}
+.border-b{
+  padding:25rpx;
+  display:flex;
+  flex-direction: column;
+  border-bottom:1px solid #e9e9e9;
+}
+.image-l-title{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ms-box-textarea{
+  padding:30rpx 0;
+  font-size:30rpx;
+  color:#333333;
+  width:92%;
+  margin:0 auto;
+}
+.p-class{
+  font-size:30rpx;
+  color:#999;
+}
+.ms-mark-text{
+  width: 95%;
+  text-align: left;
+}

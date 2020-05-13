@@ -20,7 +20,8 @@
     "pages/product/productDetail",
     "pages/product/productList",
     "pages/product/index",
-    "pages/product/productDetail2"
+    "pages/product/productDetail2",
+    "pages/product/fabiaopingjia"
   ],
   "tabBar": {
     "list": [

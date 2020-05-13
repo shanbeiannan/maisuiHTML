@@ -155,8 +155,8 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "线路想起-评论",
+					"id": 15,
+					"name": "线路详情-评论",
 					"pathName": "pages/product/productDetail",
 					"query": "",
 					"scene": null
@@ -172,6 +172,13 @@
 					"id": -1,
 					"name": "产品详情-2",
 					"pathName": "pages/product/productDetail2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "发布评价",
+					"pathName": "pages/product/fabiaopingjia",
 					"query": "",
 					"scene": null
 				}

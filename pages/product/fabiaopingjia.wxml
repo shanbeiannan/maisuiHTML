@@ -1,0 +1,31 @@
+<!--pages/product/fabiaopingjia.wxml-->
+<view class="container">
+	<view class="ms-box margin-t-20">
+		<view class="border-b">
+			<text class="fz-34 fz-w-600 dc-fc-blacker">麦穗旅游标题麦穗旅游标题麦穗旅游麦穗旅游标题</text>
+			<text class="fz-30 dc-fc-blacker margin-t-10">到达日期：2020-05-13</text>
+		</view>
+
+		<view class="ms-box-title none-border">
+			<view class="image-l-title  margin-r-20">
+				<text class="fz-30  dc-fc-blacker margin-r-10">满意度</text>
+        <view class="ms-star-list">
+				<image wx:for="{{stars}}" wx:item-index='index' wx:key="id" class="icon-img" src="{{item.image}}" bindtap="onStarSelect" data-id="{{item.id}}" data-mark="{{item.mark}}"></image>
+			</view>
+			</view>			
+			<view class="d-flex d-align-items-center">
+				<text class="fz-28 d-fc-gray ">{{mark}}</text>
+			</view>
+		</view>
+
+	</view>
+	<view class="ms-box margin-t-20">
+    <textarea class="ms-box-textarea" placeholder="评论下您的出游体验，分享使人快乐哦~" placeholder-class="p-class"></textarea>
+  
+  </view>
+  <text class="fz-24 d-fc-gray ms-mark-text">仅限150个字</text>
+  
+	<view class="ms-btn-bottom">
+		<view class="btn-big org d-fc-v" >确定并发布</view>
+	</view>
+</view>

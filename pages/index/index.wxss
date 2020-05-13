@@ -108,7 +108,7 @@ page {
 .ms-redBag-image {
   position: relative;
   margin:140rpx auto;
-  width: 640rpx;
+  width: 500rpx;
   height: 800rpx;
 }
 
@@ -119,10 +119,28 @@ page {
 
 .ms-redBag-image .ms-hongbao-image {
   margin-top: 100rpx;
-  width: 640rpx;
-  height: 290rpx;
+  width: 500rpx;
+  height: 235rpx;
   z-index: 10;
   margin: 0 auto;
+}
+
+
+.ms-hongbao-image-left,.ms-hongbao-image-right{
+  position: absolute; 
+  z-index: 10;
+}
+.ms-hongbao-image-left{
+  width:100rpx ;
+  height:100rpx;  
+  left:-65rpx;
+  top:160rpx;
+}
+.ms-hongbao-image-right{
+  width:80rpx ;
+  height:80rpx;  
+  right:-50rpx;
+  top:360rpx;
 }
 
 .ms-redBag-luky .ms-hongbao-image {
@@ -135,7 +153,7 @@ page {
   position: absolute;
   width: 100%;
   height: 100rpx;
-  top: 80rpx;
+  top: 60rpx;
   left: 0; 
   text-align: center;
   z-index: 10; 
@@ -145,17 +163,19 @@ page {
   position: absolute;
   width: 100%;
   display: flex;
-  top: 290rpx;
+  top: 230rpx;
   left: 0;
   flex-direction: column;
   align-content: center;
   text-align: center;
   z-index: 0; 
+ 
+}
+.ms-redBag-image .ms-hongbao-on-info {
   background-color: #fc3939;
   border-bottom-right-radius: 25rpx;
   border-bottom-left-radius: 25rpx;
 }
-
 .ms-redBag-luky .ms-hongbao-on-info {
   top: 265rpx;
 }
@@ -176,7 +196,7 @@ page {
  
 }
 .ms-rbg-bottom-content{
-  width:640rpx;
+  width:500rpx;
   margin:0 auto;
   left:5rpx;
   padding:30rpx 0;
