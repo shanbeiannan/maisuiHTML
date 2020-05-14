@@ -21,8 +21,21 @@
   height:40rpx;
 }
 .my-info {
-  display: flex;
-  
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+ color: #333;
+  font-size: 30rpx;
+}
+.name image{
+  width:180rpx;
 }
 
 .my-info .tx {
@@ -32,13 +45,6 @@
   background-color: #ffc600;
   border: solid 5rpx #ffc600;
   border-radius: 50%;
-}
-
-.my-info .name {
-  margin-top: 35rpx;
-  margin-left: 15rpx;
-  color: #333;
-  font-size: 30rpx;
 }
 
 
@@ -150,13 +156,17 @@ image.bg{
   align-items: center;
   align-content: center;
 }
+
 .ms-my-list-right{
   justify-content: flex-end;
 }
+
 .enter-img{
   width:40rpx;
   height:40rpx;
 }
+
+
 .btn-name{
   flex:1;
   border: 0;
@@ -170,7 +180,4 @@ image.bg{
 .btn-name::after{
   content: " ";
   border:none;
-}
-button{
-  padding:none!important;
 }

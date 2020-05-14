@@ -1,5 +1,25 @@
 <!--pages/my/share.wxml-->
 <view class="container">
+
+		<view class="ms-box margin-t-20">
+		<view class="ms-box-title">
+			<view class="image-l-title">
+				<image class="icon-img" src="/images/icon/laba.png"></image>
+				<text class="fz-30 fz-w-600 d-fc-org1">温馨提示：</text>
+			</view>			
+		</view>
+
+		<view class="ms-box-content none-border">
+			<view class="ms-input-list">
+				<view class="ms-input fz-30 d-fc-sgray">
+					这里放说明这里放说明文不要误解我的意思——我还是读了很多内容，通过书籍和博客，新闻推送和杂志等途径。但当作家变得罗嗦，我的眼光越来越刁钻，每当阅读这些内容时我的大脑时常感到无聊。字文字这里放说明文字
+				
+				</view>
+			</view>
+		</view>
+
+	</view>
+
 	<radio-group class="ms-share" bindchange="radioChange">
 		<label class="ms-share-info" wx:for="{{radioItems}}" wx:item-index='index' wx:key="value">
 

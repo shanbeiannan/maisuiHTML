@@ -172,7 +172,9 @@
 .d-fc-org {
   color: #ff9d00 !important;
 }
-
+.d-fc-org1 {
+  color: #f2c31c !important;
+}
 .d-fc-green {
   color: #4db860 !important;
 }
@@ -285,7 +287,11 @@
 .margin-l-10 {
   margin-left: 10rpx !important;
 }
-
+.margin-l-15 {
+  margin-left: 15rpx !important;
+}.margin-l-20 {
+  margin-left: 20rpx !important;
+}
 .margin-r-40 {
   margin-right: 40rpx !important;
 }
@@ -458,6 +464,22 @@
   margin: 0 10rpx;
 }
 
+
+
+button{
+  line-height: 30rpx!important;
+  width: 300rpx !important;
+  text-align: center !important;
+  background: transparent!important;
+  color:#fff;
+  font-size:24rpx;
+}
+
+button::after {
+  content: " ";
+  color:#fff;  
+}
+
 .list_h,
 .list_b {
   margin: 20rpx auto;
@@ -494,7 +516,7 @@
   border: 1px solid #ffcd1e;
   border-radius: 30px;
   color: #6a3906;
-  padding: 15rpx 0;
+  padding: 10rpx 0;
 
 }
 
@@ -515,7 +537,7 @@
   border: 1px solid #ddd;
   border-radius: 30px;
   color: #666;
-  padding: 15rpx 0;
+  padding: 10rpx 0;
 
 }
 
@@ -890,6 +912,18 @@
   overflow: hidden;
 }
 
+.list-none-box{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:30rpx 0;
+}
+
+.default-img-none{
+  width:240rpx;
+}
+
 .list-tag {
   position: absolute;
   top: 0;
@@ -1054,6 +1088,7 @@ border-radius: 15rpx;
   font-size:30rpx;
   line-height: 50rpx;
   border-radius: 25rpx;
+  margin-right: 10rpx;
 }
 
 .btn-big {
@@ -1108,47 +1143,6 @@ border-radius: 15rpx;
   padding: 0 20rpx;
 }
 
-.list-pd {
-  box-sizing: border-box;
-  padding: 0 20rpx;
-}
-
-.list-box {
-  margin-bottom: 34rpx;
-}
-
-.list-head, .list-bottom {
-  display: flex;
-  padding: 30rpx 40rpx;
-}
-
-.list-title {
-  padding: 0 40rpx;
-  line-height: 76rpx;
-}
-
-.list-inner {
-  position: relative;
-  height: auto;
-  /*margin-top: 34rpx;*/
-  background: #fff;
-  border-radius: 15rpx;
-  overflow: hidden;
-}
-
-.list-tag {
-  position: absolute;
-  top: 0;
-  right: 0;
-  line-height: 38rpx;
-  font-size: 30rpx;
-  font-weight: bold;
-  font-stretch: normal;
-  padding: 10rpx 18rpx;
-  color: #fff;
-  background-color: #ff9d00;
-  border-radius: 0rpx 0rpx 0rpx 15rpx;
-}
 
 .default-img {
   width: 100%;

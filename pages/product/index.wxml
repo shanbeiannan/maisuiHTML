@@ -10,16 +10,16 @@
 				<view class="list-inner-title">机票自理</view>
 
 				<view class="list-title d-fc-sblack fz-36 list-box-text">
-					<view >
-            <text>去过</text>
+					<view>
+						<text>去过</text>
 						<text class="d-fc-redl fz-w-600">26</text>
 						<text class="fz-28">人</text>
 					</view>
 
-					<view >
-            <text class="margin-r-40 d-fc-ssgray">|</text>
-						<text class="margin-r-20 d-fc-sblack ">满意度</text>  
-            <text class="d-fc-zon fz-w-600 ">99.99%</text>  
+					<view>
+						<text class="margin-r-40 d-fc-ssgray">|</text>
+						<text class="margin-r-20 d-fc-sblack ">满意度</text>
+						<text class="d-fc-zon fz-w-600 ">99.99%</text>
 					</view>
 				</view>
 
@@ -28,9 +28,19 @@
 
 		<view class="list-box list-pd">
 			<view class="list-inner">
-				<image src="/images/default/default-img.png" mode="widthFix" class="default-img"></image>
+				<view class="list-none-box">
+					<image src="/images/icon/moren.png" mode="widthFix" class="default-img-none"></image>
+					<text class="fz-30 d-fc-sgray">没有订单，随便说点啥~</text>
+				</view>
 			</view>
 		</view>
+	</view>
+
+
+<!-- 没有信息 -->
+	<view class="list-none-box">
+		<image src="/images/icon/moren.png" mode="widthFix" class="default-img-none"></image>
+		<text class="fz-30 d-fc-sgray">没有订单，随便说点啥~</text>
 	</view>
 
 </view>

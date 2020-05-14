@@ -35,3 +35,11 @@
   height:100%;
   border-radius: 20rpx;
 }
+.image-l-title{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ms-input{
+  margin-bottom:0;
+}
