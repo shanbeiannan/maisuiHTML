@@ -33,7 +33,7 @@
 	<!-- 以下模块可以随意组合 -->
 	<view class="ms-box-t-radius">
   <!-- 不用内间距的直接放到这里 -->
-		<image class="ms-content-t-radius-image" src="/images/default/default.jpg"></image>
+		<image class="ms-content-t-radius-image" mode="widthFix" src="/images/default/default.jpg"></image>
 
 		<view class="ms-box-content none-border ">
       <!-- 用到内间距的，放到这里面 -->
@@ -44,12 +44,12 @@
 
 	<view class="ms-box-n-radius">
 
-		<image class="ms-content-image" src="/images/default/default.jpg"></image>
+		<image class="ms-content-image" mode="widthFix" src="/images/default/default.jpg"></image>
 		<text class="fz-28 d-fc-black">中间:无内间距</text>
 
 
 		<view class="ms-box-content none-border ">
-			<image class="ms-content-image" src="/images/default/default.jpg"></image>
+			<image class="ms-content-image" mode="widthFix" src="/images/default/default.jpg"></image>
 			<text class="fz-28 d-fc-black">中间：有内间距</text>
 		</view>
 
@@ -58,10 +58,10 @@
 
 	<view class="ms-box-b-radius">
 
-		<image class="ms-content-image" src="/images/default/default.jpg"></image>
+		<image class="ms-content-image" mode="widthFix" src="/images/default/default.jpg"></image>
 		<view class="ms-box-content none-border ">
 
-			<image class="ms-content-image" src="/images/default/default.jpg"></image>
+			<image class="ms-content-image" mode="widthFix" src="/images/default/default.jpg"></image>
 			<text class="fz-28 d-fc-black">下面</text>
 			<image class="ms-content-image" src="/images/default/default.jpg"></image>
 
