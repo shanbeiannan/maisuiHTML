@@ -60,7 +60,7 @@
 		</view> -->
 		<view class="ms-index-top">
 			<view class="ms-index-top-content">
-				<view class="ms-index-top-left" bindtap="onOpenDilog">
+				<view class="ms-index-top-left" >
 					<view class="ms-index-top-body-new">
 						<view class="ms-index-top-title none-padding">
 							<text class="fz-30 d-fc-white">今日已领红包</text>
@@ -88,7 +88,7 @@
 				</view>
 			</view>
 			<view class="ms-index-top-content">
-				<view class="ms-index-top-right" bindtap="onOpenQuan">
+				<view class="ms-index-top-right" >
 					<view class="ms-index-top-body-new">
 						<view class="ms-index-top-title none-padding">
 							<text class="fz-30 dc-fc-blacker">已经邀请到<text class="fz-36 margin-l-10 margin-r-10">12</text>人</text>
@@ -124,7 +124,7 @@
 		</view>
 
 		<view class="ms-index-top">
-			<view class="ms-index-top-content">
+			<view class="ms-index-top-content" bindtap="onOpenDilog">
 				<view class="ms-index-top-right">
 					<view class="ms-index-top-title margin-t-25">
 						<text class="fz-30 d-fc-blacker">试手气，抽红包</text>
@@ -168,7 +168,7 @@
 		</view>
 
 
-		<view class="ms-index-bottom">
+		<view class="ms-index-bottom" bindtap="onOpenQuan">
 			<swiper class="banner" indicator-dots="true" indicator-active-color="#ffffff">
 				<swiper-item>
 					<navigator url="/pages/index/buyCard" class="banner-contair ">

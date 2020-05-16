@@ -547,7 +547,7 @@ button::after {
 .btn-big {
   box-sizing: border-box;
   padding: 0 10rpx;
-  font-size: 40rpx;
+  font-size:34rpx;
   color: #999;
   text-align: center;
   background-color: #fff;
@@ -579,7 +579,7 @@ button::after {
 .btn-small.red,
 .btn-big.red,
 .btn-big.gray {
-  color: #fff;
+  color: #81511c;
   border: solid 1rpx #ff5346;
   background-color: #ff5346;
 }
@@ -591,7 +591,7 @@ button::after {
 
 .btn-big.org {
   color: #81511c;
-  font-size: 38rpx;
+  font-size: 34rpx;
   font-weight: 500;
   border: solid 1rpx #ffcd1e;
   background-color: #ffcd1e;
@@ -603,7 +603,7 @@ button::after {
 }
 
 .btn-big.green {
-  color: #fff;
+  color: #81511c;
   border: solid 1rpx #48ba82;
   background-color: #48ba82;
 }
@@ -613,11 +613,30 @@ button::after {
   background: #fff;
 }
 
+
+.btn-big{
+  margin:0 auto;
+  padding:0 !important;
+}
+.btn-big button{
+  width:100% !important;
+  padding:34rpx 0 !important;
+  font-weight:600 !important;
+  font-size:34rpx !important;
+  color:rgba(0,0,0,.6) !important;
+}
+
+
 /**容器**/
 
 .none-border {
   border: none !important;
 }
+
+.none-margin {
+  margin: none !important;
+}
+
 
 .ms-mark {
   display: flex;
@@ -962,7 +981,7 @@ button::after {
 
 
 /* 弹出层 以下--整合*/
-.ms-toast-bg{
+/* .ms-toast-bg{
   background-color: #000;
   position: absolute;
   top:0;
@@ -1031,8 +1050,8 @@ button::after {
   height:300rpx;
   max-height:400rpx;
   overflow-y: scroll;
-}
-/* 弹出层：结束 */
+}*/
+/*弹出层：结束 */
 .info-warn,.info-warn.more{
   border: 1px #ff4c4c dotted;
   border-radius: 100rpx;
@@ -1075,7 +1094,7 @@ border-radius: 15rpx;
 .btn-small, .btn-big {
   box-sizing: border-box;
   padding: 0 10rpx;
-  font-size: 40rpx;
+  font-size: 30rpx;
   color: #999;
   text-align: center;
   background-color: #fff;
@@ -1111,6 +1130,13 @@ border-radius: 15rpx;
   border: solid 1rpx #ff5346;
   background-color: #ff5346;
 }
+
+.btn-small.org{
+  color: #fff;
+  border: solid 1rpx #ff9d00;
+  background-color: #ff9d00;
+}
+
 
 .btn-big.org {
   color: #fff;

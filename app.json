@@ -21,7 +21,8 @@
     "pages/product/productList",
     "pages/product/index",
     "pages/product/productDetail2",
-    "pages/product/fabiaopingjia"
+    "pages/product/fabiaopingjia",
+    "pages/index/mytoast"
   ],
   "tabBar": {
     "list": [
