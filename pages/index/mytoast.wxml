@@ -101,23 +101,23 @@
   <view class="ms-redBag-luky">
     <image class="ms-hongbao-image" src="/images/icon/youhui.png" mode="widthFix"></image>
     <view class="ms-hongbao-on-info">
-      <text class="fz-44 d-fc-zon1">恭喜你,成功获得了</text>
+      <text class="fz-36 d-fc-zon1">恭喜你,成功获得了</text>
       <view class="ms-quan-box ">
         <view class="d-fc-red ms-quan-box-top">
           <text class="fz-50 fz-w-700">￥</text>
           <text class="fz-80  fz-w-700">1000</text>
         </view>
         <view class=" ms-quan-box-top">
-          <text class="fz-44 fz-w-700">现金券</text>
+          <text class="fz-34 fz-w-700">现金券</text>
         </view>
 
       </view>
-      <view class="ms-quan-box margin-t-60">
-        <text class="fz-34 d-fc-zz ms-quan-box-bottom">有效期至：2020年10月20日</text>
+      <view class="ms-quan-box margin-t-40">
+        <text class="fz-30 d-fc-zz ms-quan-box-bottom">有效期至：2020年10月20日</text>
       </view>
-      <view class="ms-btn-box-bg margin-t-40 margin-b-20" catchtap="onLook">
+      <view class="ms-btn-box-bg margin-t-20 margin-b-20" catchtap="onLook">
         <view class="ms-btn-box-bg-list up">
-          <view class="ms-hongbao-btn yellow ">去使用</view>
+          <view class="ms-hongbao-btn fz-34 yellow ">去使用</view>
         </view>
       </view>
       <view class="ms-quan-box margin-t-80">
@@ -137,14 +137,14 @@
   <view class="ms-redBag-luky">
     <image class="ms-hongbao-image" src="/images/icon/youhui.png" mode="widthFix"></image>
     <view class="ms-hongbao-on-info actived">
-      <text class="fz-44 d-fc-zon1">对不起,</text>
+      <text class="fz-36 d-fc-zon1">对不起,</text>
       <view class="d-fc-red ms-quan-box-top">
-        <text class="fz-44 d-fc-zon1">您已经领过现金券了</text>
+        <text class="fz-36 d-fc-zon1">您已经领过现金券了</text>
       </view>
       <view class="ms-quan-box">
-        <text class="fz-34 d-fc-zz ms-quan-box-bottom">下一波奖金券在路上...</text>
+        <text class="fz-30 d-fc-zz ms-quan-box-bottom">下一波奖金券在路上...</text>
       </view>
-      <view class="ms-btn-box-bg margin-t-40 margin-b-20" catchtap="onLook">
+      <view class="ms-btn-box-bg margin-t-20 margin-b-20" catchtap="onLook">
         <view class="ms-btn-box-bg-list up">
           <view class="ms-hongbao-btn yellow ">去使用</view>
         </view>

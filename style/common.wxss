@@ -1433,15 +1433,16 @@ button::after {
 
 .ms-redBag-luky {
   position: relative;
-  margin: 0 auto;
+  margin: 100rpx auto;
+  width:700rpx;
 }
 
 .ms-redBag-image .ms-hongbao-image {
   margin-top: 100rpx;
-  width: 540rpx;
+  width: 100%;
   height: 245rpx;
   z-index: 10;
-  margin: 0 auto;
+ 
 }
 
 .ms-hongbao-image-left, .ms-hongbao-image-right {
@@ -1464,10 +1465,11 @@ button::after {
 }
 
 .ms-redBag-luky .ms-hongbao-image {
-  margin-top: 100rpx;
-  width: 750rpx;
-  height: 560rpx;
+  margin: 100rpx auto;
+ width:100%;
 }
+
+
 
 .ms-hongbao-on-info-t {
   position: absolute;
@@ -1507,7 +1509,7 @@ button::after {
 }
 
 .actived .ms-quan-box{
-  margin-top:140rpx;
+  margin-top:120rpx;
 }
 
 .ms-redbag-mongy {
@@ -1549,7 +1551,9 @@ button::after {
   margin-left: -220rpx;
   box-shadow: 4px 10px 10px 0px rgba(158, 1, 1, 0.86);
 }
-
+.ms-redBag-luky .ms-btn-box-bg-list.up{
+  margin-left: -275rpx;
+}
 .ms-btn-box-bg-list.down
 {
    top: 130rpx;
@@ -1574,6 +1578,11 @@ button::after {
   padding: 25rpx 30rpx;
   transition: all 0.01s;
   box-shadow: 0 10rpx 0 #1b4ebf;
+}
+
+.ms-redBag-luky .ms-btn-box-bg-list.up .ms-hongbao-btn.yellow
+{
+  width: 500rpx; 
 }
 
 .ms-hongbao-btn-middle.blue, .ms-hongbao-btn-middle.yellow {
