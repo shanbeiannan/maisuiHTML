@@ -1636,6 +1636,10 @@ button::after {
 
 .ms-quan-box-top {
   padding-top: 30rpx;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .ms-quan-box-bottom {

@@ -213,7 +213,7 @@
 
     <view class="btn-list-new">
       <view class="gray" catchtap="onNoAgree">不接受</view>
-      <view class="org" catchtap="onAgree">我知道了</view>
+      <!-- <view class="org" catchtap="onAgree">我知道了</view> -->
     </view>
 
   </view>
