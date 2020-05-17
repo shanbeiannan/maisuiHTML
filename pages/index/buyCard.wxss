@@ -1,14 +1,15 @@
 /* pages/index/buyCard.wxss */
+/* pages/index/buyCard.wxss */
 
 .ms-buycard-top {
   position: relative;
   width: 100%;
-  height:360rpx;
+  height: 400rpx;
 }
 
 .ms-buycard-img {
   width: 100%;
-  height: 360rpx;
+  height: 400rpx;
 }
 
 .ms-buycard-mark {
@@ -21,7 +22,8 @@
   justify-content: space-between;
   align-items: center;
   top: 25rpx;
-  right: 25rpx;  
+  right: 25rpx;
+  
 }
 
 .ms-info-box {
@@ -36,7 +38,7 @@
 
 .ms-info-box-title,
 .ms-info-box-foot {
-  padding: 25rpx;
+  padding: 25rpx 40rpx;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -87,13 +89,10 @@
   border-top-left-radius: 30rpx;
 }
 .ms-pay-btn-right{
+  border:1px solid #ffcd1e;
   padding:30rpx;
   flex:0.4;
   text-align: center;
   border-top-right-radius: 30rpx;
   border-bottom-right-radius: 30rpx;
-}
-
-.ms-def-btn{
-  padding:25rpx;
 }

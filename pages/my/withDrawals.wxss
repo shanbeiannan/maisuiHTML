@@ -1,18 +1,29 @@
 /* pages/my/withDrawals.wxss */
 
-
-.ms-drawalsmoney{
-  display:flex;
+.ms-drawalsmoney {
+  display: flex;
   flex-direction: column;
 }
-.ms-input-money{
-  display:flex;
+
+.ms-input-money {
+  display: flex;
   flex-direction: row;
   align-items: center;
+  height: 90rpx;
 }
 
-.ms-bank-info,.ms-bank-mark{
-  display:flex;
+.ms-input-money input {
+  height: 90rpx;
+  font-size: 58rpx;
+  font-weight: 700;
+}
+.p-class{
+  font-size:48rpx;
+  font-weight: 100;
+}
+
+.ms-bank-info, .ms-bank-mark {
+  display: flex;
   flex-direction: row;
   align-items: center;
 }

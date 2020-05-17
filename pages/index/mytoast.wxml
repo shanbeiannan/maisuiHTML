@@ -1,28 +1,28 @@
 <!--pages/index/mytoast.wxml-->
 
 <view style="display:flex; flex-direction: column; justify-items: space-between;">
-	<view class="margin-t-20">
-		<view class="btn-big red " bindtap="onOpenDilog_one">红包(一个按钮)</view>
-	</view>
+  <view class="margin-t-20">
+    <view class="btn-big red " bindtap="onOpenDilog_one">红包(一个按钮)</view>
+  </view>
 
-	<view class="margin-t-20">
-		<view class="btn-big red " bindtap="onOpenDilog_two">红包（两个按钮）</view>
-	</view>
+  <view class="margin-t-20">
+    <view class="btn-big red " bindtap="onOpenDilog_two">红包（两个按钮）</view>
+  </view>
 
-	<view class="margin-t-20">
-		<view class="btn-big org" bindtap="onGetQuan">领优惠券</view>
-	</view>
-	<view class="margin-t-20">
+  <view class="margin-t-20">
+    <view class="btn-big org" bindtap="onGetQuan">领优惠券</view>
+  </view>
+  <view class="margin-t-20">
 
-		<view class="btn-big org" bindtap="onShowQuan">已领优惠券</view>
-	</view>
-	<view class="margin-t-20">
+    <view class="btn-big org" bindtap="onShowQuan">已领优惠券</view>
+  </view>
+  <view class="margin-t-20">
 
-		<view class="btn-big green" bindtap="onShowGive">转赠他人</view>
-	</view>
-	<view class="margin-t-20">
-		<view class="btn-big gray" bindtap="onShowToast">温馨提示</view>
-	</view>
+    <view class="btn-big green" bindtap="onShowGive">转赠他人</view>
+  </view>
+  <view class="margin-t-20">
+    <view class="btn-big gray" bindtap="onShowToast">温馨提示</view>
+  </view>
 </view>
 
 
@@ -30,110 +30,131 @@
 <view class="ms-redBag-toast" style="height:{{winH}}px;width:{{winW}}px;" wx:if="{{isShow}}"></view>
 <!-- 红包 （一个按钮）-->
 <view class="ms-redBag-image-con" style="height:{{winH}}px;width:{{winW}}px;" wx:if="{{isShowRedBag_one}}" bindtap="onClose">
-	<view class="ms-redBag-image">
-		<image class="ms-hongbao-image" src="/images/icon/qiang-t.png"></image>
-		<image class="ms-hongbao-image-left" src="/images/icon/qianbi-1.png"></image>
-		<image class="ms-hongbao-image-right" src="/images/icon/qianbi-2.png"></image>
-		<view class="ms-hongbao-on-info-t">
-			<text class="fz-30 fz-w-600 d-fc-v">还可领5天</text>
-		</view>
-		<view class="ms-hongbao-on-info">
-			<text class="ms-redbag-mongy">89.1</text>
+  <view class="ms-redBag-image">
+    <image class="ms-hongbao-image" src="/images/icon/qiang-t.png"></image>
+    <image class="ms-hongbao-image-left" src="/images/icon/qianbi-1.png"></image>
+    <image class="ms-hongbao-image-right" src="/images/icon/qianbi-1.png"></image>
+    <view class="ms-hongbao-on-info-t">
+      <text class="fz-34 fz-w-700 d-fc-v">还可领5天</text>
+    </view>
+    <view class="ms-hongbao-on-info">
+      <text class="ms-redbag-mongy">89.1</text>
 
-			<text class="fz-24 d-fc-white margin-b-20">还有2次机会</text>
+      <text class="fz-30 d-fc-white margin-b-20">还有2次机会</text>
 
-			<!-- <view class="ms-btn-box-bg">
-				<view class="ms-hongbao-btn blue">不满意，再试试手气</view>
-				<view class="ms-hongbao-btn yellow ">满意，分享得现金</view>
-			</view> -->
+      <view class="ms-btn-box-bg">
+        <view class="ms-btn-box-bg-list downl">
+          <view class="ms-hongbao-btn-middle yellow ">试试手气</view>
+        </view>
 
-			<view class="ms-btn-box-bg">
-				<view class="ms-hongbao-btn-middle yellow ">试试手气</view>
-			</view>
+      </view>
 
 
-			<view class="ms-rbg-bottom">
-				<view class="ms-rbg-bottom-content">
-					<text class="fz-24 d-fc-white ms-bottom">每天可领一次红包，可领7天</text>
-				</view>
-			</view>
-		</view>
+      <view class="ms-rbg-bottom">
+        <view class="ms-rbg-bottom-content">
+          <text class="fz-30 d-fc-white ms-bottom">每天可领一次红包，可领7天</text>
+        </view>
+      </view>
+    </view>
 
-	</view>
+  </view>
 </view>
 <!-- 红包（连个按钮） -->
 <view class="ms-redBag-image-con" style="height:{{winH}}px;width:{{winW}}px;" wx:if="{{isShowRedBag_two}}" bindtap="onClose">
-	<view class="ms-redBag-image">
-		<image class="ms-hongbao-image" src="/images/icon/qiang-t.png"></image>
-		<image class="ms-hongbao-image-left" src="/images/icon/qianbi-1.png"></image>
-		<image class="ms-hongbao-image-right" src="/images/icon/qianbi-2.png"></image>
-		<view class="ms-hongbao-on-info-t">
-			<text class="fz-30 fz-w-600 d-fc-v">还可领5天</text>
-		</view>
-		<view class="ms-hongbao-on-info">
-			<text class="ms-redbag-mongy">89.1</text>
+  <view class="ms-redBag-image">
+    <image class="ms-hongbao-image" src="/images/icon/qiang-t.png"></image>
+    <image class="ms-hongbao-image-left" src="/images/icon/qianbi-1.png"></image>
+    <image class="ms-hongbao-image-right" src="/images/icon/qianbi-1.png"></image>
+    <view class="ms-hongbao-on-info-t">
+      <text class="fz-30 fz-w-600 d-fc-v">还可领5天</text>
+    </view>
+    <view class="ms-hongbao-on-info">
+      <text class="ms-redbag-mongy">89.1</text>
 
-			<text class="fz-24 d-fc-white margin-b-20">还有2次机会</text>
+      <text class="fz-24 d-fc-white margin-b-20">还有2次机会</text>
 
-			<view class="ms-btn-box-bg">
-				<view class="ms-hongbao-btn blue">不满意，再试试手气</view>
-				<view class="ms-hongbao-btn yellow ">满意，分享得现金</view>
-			</view>
-			<!-- 
-			<view class="ms-btn-box-bg">
-				<view class="ms-hongbao-btn-middle yellow ">试试手气</view>
-			</view> -->
+      <view class="ms-btn-box-bg">
 
+        <view class="ms-btn-box-bg-list up">
+          <view class="ms-hongbao-btn blue">不满意，再试试手气</view>
+        </view>
 
-			<view class="ms-rbg-bottom">
-				<view class="ms-rbg-bottom-content">
-					<text class="fz-24 d-fc-white ms-bottom">每天可领一次红包，可领7天</text>
-				</view>
-			</view>
-		</view>
+        <view class="ms-btn-box-bg-list down">
+          <view class="ms-hongbao-btn yellow ">满意，分享得现金</view>
+        </view>
 
-	</view>
+      </view>
+
+      <view class="ms-rbg-bottom">
+        <view class="ms-rbg-bottom-content">
+          <text class="fz-24 d-fc-white ms-bottom">每天可领一次红包，可领7天</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
 </view>
 
 <!-- 优惠券未领取 -->
 <view class="ms-redBag-image-con" style="height:{{winH}}px;width:{{winW}}px;" wx:if="{{isGetQuan}}" bindtap="onClose">
-	<!-- 未领取 -->
-	<view class="ms-redBag-luky">
-		<image class="ms-hongbao-image" src="/images/icon/youhui.png"></image>
-		<view class="ms-hongbao-on-info">
-			<text class="fz-28 fz-w-600 d-fc-v">恭喜你成功获得</text>
-			<view class=" ms-quan-box ">
-				<view class="d-fc-red ms-quan-box-top">
-					<text class="fz-30">￥</text>
-					<text class="fz-48">1000</text>
-					<text class="fz-24">优惠券</text>
-				</view>
+  <!-- 未领取 -->
+  <view class="ms-redBag-luky">
+    <image class="ms-hongbao-image" src="/images/icon/youhui.png" mode="widthFix"></image>
+    <view class="ms-hongbao-on-info">
+      <text class="fz-44 d-fc-zon1">恭喜你,成功获得了</text>
+      <view class="ms-quan-box ">
+        <view class="d-fc-red ms-quan-box-top">
+          <text class="fz-50 fz-w-700">￥</text>
+          <text class="fz-80  fz-w-700">1000</text>
+        </view>
+        <view class=" ms-quan-box-top">
+          <text class="fz-44 fz-w-700">现金券</text>
+        </view>
 
-				<text class="fz-24 d-fc-v ms-quan-box-bottom" >有效期2020年10月20日</text>
-			</view>
+      </view>
+      <view class="ms-quan-box margin-t-60">
+        <text class="fz-34 d-fc-zz ms-quan-box-bottom">有效期至：2020年10月20日</text>
+      </view>
+      <view class="ms-btn-box-bg margin-t-40 margin-b-20" catchtap="onLook">
+        <view class="ms-btn-box-bg-list up">
+          <view class="ms-hongbao-btn yellow ">去使用</view>
+        </view>
+      </view>
+      <view class="ms-quan-box margin-t-80">
+        <image src="/images/icon/buanbi.png" class="icon-img-60"></image>
+      </view>
 
-			<view class="ms-btn-box-bg margin-t-10" catchtap="onLook">
-				<view class="ms-hongbao-btn yellow ">去使用</view>
-			</view>
-		</view>
-	</view>
+    </view>
+
+  </view>
 
 </view>
 
 <!-- 已领取 -->
 <view class="ms-redBag-image-con" style="height:{{winH}}px;width:{{winW}}px;" wx:if="{{isShowQuan}}" bindtap="onClose">
 
-	<!-- 已领取 -->
-	<view class="ms-redBag-luky">
-		<image class="ms-hongbao-image" src="/images/icon/youhui2.png"></image>
-		<view class="ms-hongbao-on-info">
-			<text class="fz-28 fz-w-600 d-fc-v margin-t-80">对不起，</text>
-			<text class="fz-28 fz-w-600 d-fc-v">您已经领过现金券啦！</text>
-			<view class="ms-btn-box-bg margin-t-40">
-				<view class="ms-hongbao-btn yellow ">去查看</view>
-			</view>
-		</view>
-	</view>
+  <!-- 已领取 -->
+  <view class="ms-redBag-luky">
+    <image class="ms-hongbao-image" src="/images/icon/youhui.png" mode="widthFix"></image>
+    <view class="ms-hongbao-on-info actived">
+      <text class="fz-44 d-fc-zon1">对不起,</text>
+      <view class="d-fc-red ms-quan-box-top">
+        <text class="fz-44 d-fc-zon1">您已经领过现金券了</text>
+      </view>
+      <view class="ms-quan-box">
+        <text class="fz-34 d-fc-zz ms-quan-box-bottom">下一波奖金券在路上...</text>
+      </view>
+      <view class="ms-btn-box-bg margin-t-40 margin-b-20" catchtap="onLook">
+        <view class="ms-btn-box-bg-list up">
+          <view class="ms-hongbao-btn yellow ">去使用</view>
+        </view>
+      </view>
+
+      <view class="ms-quan-box margin-t-80">
+        <image src="/images/icon/buanbi.png" class="icon-img-60"></image>
+      </view>
+    </view>
+  </view>
 
 
 </view>
@@ -141,31 +162,31 @@
 <!-- 转赠 -->
 <view class="ms-redBag-image-con" style="height:{{winH}}px;width:{{winW}}px;" wx:if="{{isShowGive}}" bindtap="onClose">
 
-	<view class="ms-toast-box">
-		<view class="ms-top-quan">
-			<view class="ms-top-quan-left">
-				<image class="icon-img-50" src="/images/icon/maisui.png"></image>
-				<text class="fz-32 margin-t-10 margin-l-10">麦穗旅游优惠券</text>
-				<text class="fz-24 margin-t-10 margin-l-10">有效期：2020.12.12~2022.12.12</text>
-			</view>
-			<view class="ms-top-quan-right">
-				<text class="fz-24 d-fc-white">￥</text>
-				<text class="fz-48 d-fc-white">1000</text>
-			</view>
-		</view>
-		<view class="ms-bottom-quan">
-			<view class="ms-info-photo margin-b-20">
-				<image src="/images/default/default-tx.png" class="icon-img-50"></image>
-				<text class="fz-26 d-fc-sgray margin-r-20">周杰伦</text>
-        <text class="fz-26 d-fc-blacker">赠送给你一张优惠券</text>
-			</view>
+  <view class="ms-toast-box">
+    <view class="ms-top-quan">
+      <view class="ms-top-quan-left">
+        <image class="icon-img-60" src="/images/icon/maisui.png"></image>
+        <text class="fz-34 margin-t-10 margin-l-10">麦穗旅游优惠券</text>
+        <text class="fz-28 margin-t-10 margin-l-10">有效期：2020.12.12~2022.12.12</text>
+      </view>
+      <view class="ms-top-quan-right">
+        <text class="fz-30 d-fc-white">￥</text>
+        <text class="fz-60 d-fc-white fz-w-700">1000</text>
+      </view>
+    </view>
+    <view class="ms-bottom-quan">
+      <view class="ms-info-photo margin-b-20">
+        <image src="/images/default/default-tx.png" class="icon-img-60"></image>
+        <text class="fz-30 d-fc-sgray margin-r-20">周杰伦</text>
+        <text class="fz-30 d-fc-blacker">赠送给你一张优惠券</text>
+      </view>
 
-			<view class="btn-list-new">
-				<view class="gray fz-28" catchtap="onNoAgree">不接受</view>
-				<view class="org fz-28" catchtap="onAgree">收下了</view>
-			</view>
-		</view>
-	</view>
+      <view class="btn-list-new">
+        <view class="gray fz-34" catchtap="onNoAgree">不接受</view>
+        <view class="org fz-34" catchtap="onAgree">收下了</view>
+      </view>
+    </view>
+  </view>
 
 </view>
 
@@ -173,29 +194,29 @@
 <!-- 温馨提示 -->
 <view class="ms-redBag-image-con" style="height:{{winH}}px;width:{{winW}}px;" wx:if="{{isShowToast}}" bindtap="onClose">
 
-	<view class="ms-box">
-		<view class="ms-box-title">
-			<view class="image-l-title">
-				<image class="icon-img" src="/images/icon/laba.png"></image>
-				<text class="fz-30 fz-w-600 d-fc-org1">温馨提示：</text>
-			</view>
-		</view>
+  <view class="ms-box">
+    <view class="ms-box-title">
+      <view class="image-l-title">
+        <image class="icon-img" src="/images/icon/laba.png"></image>
+        <text class="fz-30 fz-w-600 d-fc-org1">温馨提示：</text>
+      </view>
+    </view>
 
-		<view class="ms-box-content none-border">
-			<view class="ms-input-list">
-				<view class="ms-input fz-30 d-fc-sgray">
-					这里放说明这里放说明文不要误解我的意思——我还是读了很多内容，通过书籍和博客，新闻推送和杂志等途径。但当作家变得罗嗦，我的眼光越来越刁钻，每当阅读这些内容时我的大脑时常感到无聊。字文字这里放说明文字
+    <view class="ms-box-content none-border">
+      <view class="ms-input-list">
+        <view class="ms-input fz-30 d-fc-sgray">
+          这里放说明这里放说明文不要误解我的意思——我还是读了很多内容，通过书籍和博客，新闻推送和杂志等途径。但当作家变得罗嗦，我的眼光越来越刁钻，每当阅读这些内容时我的大脑时常感到无聊。字文字这里放说明文字
 
-				</view>
-			</view>
-		</view>
+        </view>
+      </view>
+    </view>
 
-		<view class="btn-list-new">
-			<view class="gray" catchtap="onNoAgree">不接受</view>
-			<view class="org" catchtap="onAgree">我知道了</view>
-		</view>
+    <view class="btn-list-new">
+      <view class="gray" catchtap="onNoAgree">不接受</view>
+      <view class="org" catchtap="onAgree">我知道了</view>
+    </view>
 
-	</view>
+  </view>
 
 
 </view>

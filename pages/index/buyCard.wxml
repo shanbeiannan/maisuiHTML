@@ -3,8 +3,8 @@
 	<view class="ms-buycard-top">
 		<image class="ms-buycard-img" src="/images/icon/ka.jpg"></image>
 		<view class="ms-buycard-mark">
-			<image class="icon-img-min" src="/images/icon/zhuyi.png"></image>
-			<text class="fz-24 d-fc-white">使用说明</text>
+			<image class="icon-img" src="/images/icon/zhuyi.png"></image>
+			<text class="fz-30 d-fc-white">使用说明</text>
 		</view>
 	</view>
 
@@ -12,7 +12,7 @@
 	<view class="ms-info-box" style="margin-top: -100rpx;">
 		<view class="ms-info-box-title ">
 			<text class="fz-32 fz-w-600">旅游卡金额</text>
-			<text class="fz-32 fz-w-600">￥1580</text>
+			<text class="fz-34 fz-w-600">￥1580</text>
 		</view>
 		<view class="ms-info-box-body">
 			<checkbox-group bindchange="checkboxChange">
@@ -20,11 +20,11 @@
 				<label class="info-weui-cell weui-check__label" wx:for="{{checkboxItems}}" wx:key="value">
 					<view class="info-box">
 						<view class="ms-info-list">
-							<image src="{{item.img}}" class="icon-img"></image>
+							<image src="{{item.img}}" class="icon-img-45"></image>
 							<view class="info-list-content fz-t">{{item.name}}</view>
 						</view>
 						<view class="ms-info-list">
-							<text class="d-fc-zon fz-30 fz-w-600">-￥{{item.money}}</text>
+							<text class="d-fc-zon fz-32 fz-w-600">-￥{{item.money}}</text>
 							<view>
 								<checkbox class="weui-check" value="{{item.value}}" checked="{{item.checked}}" />
 								<view class="weui-cell__ft weui-cell__ft_in-radio">
@@ -39,12 +39,12 @@
 
 		</view>
 		<view class="ms-info-box-foot">
-			<text class="fz-30 ">实付金额</text>
+			<text class="fz-32 ">实付金额</text>
 			<view>
-				<text class="fz-30 d-fc-sgray">共节省</text>
-				<text class="fz-30 d-fc-zon">￥</text>
-				<text class="fz-30 d-fc-zon margin-r-20">{{saveMoney}}</text>
-				<text class="fz-30 fz-w-600">￥{{payMoney}}</text>
+				<text class="fz-32 d-fc-sgray">共节省</text>
+				<text class="fz-32 d-fc-zon">￥</text>
+				<text class="fz-32 d-fc-zon margin-r-20">{{saveMoney}}</text>
+				<text class="fz-32 fz-w-700">￥{{payMoney}}</text>
 			</view>
 		</view>
 	</view>

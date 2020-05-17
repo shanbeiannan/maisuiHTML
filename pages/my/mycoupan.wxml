@@ -2,11 +2,11 @@
 <view class="container">
 	<view class="ms-mycoupan-head">
 
-		<text class="d-fc-blacker fz-24">您有1张可用优惠券</text>
+		<text class="d-fc-blacker fz-30">您有1张可用优惠券</text>
 
 		<view class="ms-icon-text">
-			<image src="/images/icon/zhuyi-r.png" class="icon-img-min"></image>
-			<text class="fz-24">使用说明</text>
+			<image src="/images/icon/zhuyi-r.png" class="icon-img"></image>
+			<text class="fz-30">使用说明</text>
 		</view>
 	</view>
 

@@ -1,6 +1,11 @@
 /* pages/my/index.wxss */
-
+.ms-my-bgtop{
+  background-color:#fff;  
+  padding:180rpx 0;
+  width:100%;
+}
 .ms-my-head{
+  margin-top:-340rpx;
   width:100%;
   display:flex;
   flex-direction: row;
@@ -42,8 +47,8 @@
   box-sizing: border-box;
   width: 120rpx;
   height: 120rpx;
-  background-color: #ffc600;
-  border: solid 5rpx #ffc600;
+  /* background-color: #ffc600;
+  border: solid 5rpx #ffc600; */
   border-radius: 50%;
 }
 
@@ -174,7 +179,7 @@ image.bg{
   display:flex;
   font-size: 30rpx;
   color: #343c58;
-  top:12rpx;
+  /* top:12rpx; */
   padding-left:8px;
 }
 .btn-name::after{
