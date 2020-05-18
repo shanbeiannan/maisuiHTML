@@ -11,7 +11,8 @@ Page({
     isGetQuan: false,
     isShowQuan:false,
     isShowGive: false,
-    isShowToast: false
+    isShowToast: false,
+    isShowShare:false
   },
 
   /**
@@ -37,7 +38,8 @@ Page({
       isGetQuan: false,
       isShowQuan:false,
       isShowGive: false,
-      isShowToast: false
+      isShowToast: false,
+      isShowShare: false
     })
   },
   onOpenDilog_two: function (e) {
@@ -48,7 +50,8 @@ Page({
       isGetQuan: false,
       isShowQuan:false,
       isShowGive: false,
-      isShowToast: false
+      isShowToast: false,
+      isShowShare: false
     })
   },
   onGetQuan: function (e) {
@@ -59,7 +62,8 @@ Page({
       isGetQuan:true ,
       isShowQuan:false,
       isShowGive: false,
-      isShowToast: false
+      isShowToast: false,
+      isShowShare: false
     })
   },
 
@@ -71,7 +75,8 @@ Page({
       isGetQuan: false,
       isShowQuan:true,
       isShowGive: false,
-      isShowToast: false
+      isShowToast: false,
+      isShowShare: false
     })
   },
   onShowGive: function (e) {
@@ -82,7 +87,8 @@ Page({
       isGetQuan: false,
       isShowQuan:false,
       isShowGive: true,
-      isShowToast: false
+      isShowToast: false,
+      isShowShare: false
     })
   },
   onShowToast: function (e) {
@@ -93,10 +99,22 @@ Page({
       isGetQuan: false,
       isShowQuan:false,
       isShowGive: false,
-      isShowToast: true
+      isShowToast: true,
+      isShowShare: false
     })
   },
-
+  onShowShare: function (e) {
+    this.setData({
+      isShow: true,
+      isShowRedBag_one: false,
+      isShowRedBag_two: false,
+      isGetQuan: false,
+      isShowQuan:false,
+      isShowGive: false,
+      isShowToast: false,
+      isShowShare: true
+    })
+  },
   onNoAgree:function(e){
 
     console.log("onNoAgree");
@@ -116,7 +134,8 @@ Page({
       isGetQuan: false,
       isShowQuan:false,
       isShowGive: false,
-      isShowToast: false
+      isShowToast: false,
+      isShowShare: false
     })
   },
 

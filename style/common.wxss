@@ -157,9 +157,11 @@
 .d-bg-gray {
   background: #666 !important;
 }
-.d-fc-zz{
-  color:#f6b37f;
+
+.d-fc-zz {
+  color: #f6b37f;
 }
+
 .d-fc-zon1 {
   color: #6a3906 !important;
 }
@@ -344,6 +346,10 @@
   margin-top: 80rpx !important;
 }
 
+.margin-t-100 {
+  margin-top: 100rpx !important;
+}
+
 .margin-r-20 {
   margin-right: 20rpx !important;
 }
@@ -427,6 +433,7 @@
 .fz-46 {
   font-size: 46rpx !important;
 }
+
 .fz-48 {
   font-size: 48rpx !important;
 }
@@ -442,12 +449,15 @@
 .fz-60 {
   font-size: 60rpx !important;
 }
+
 .fz-80 {
   font-size: 80rpx !important;
 }
+
 .fz-100 {
   font-size: 100rpx !important;
 }
+
 .fz-weight {
   font-weight: bloder;
 }
@@ -518,7 +528,8 @@ button::after {
   color: #fff;
 }
 
-.list_h, .list_b {
+.list_h,
+.list_b {
   margin: 20rpx auto;
   display: flex;
   flex-direction: row;
@@ -573,7 +584,8 @@ button::after {
 
 /**button*/
 
-.btn-small, .btn-big {
+.btn-small,
+.btn-big {
   box-sizing: border-box;
   padding: 0 10rpx;
   font-size: 34rpx;
@@ -605,7 +617,9 @@ button::after {
   margin-right: 10rpx;
 }
 
-.btn-small.red, .btn-big.red, .btn-big.gray {
+.btn-small.red,
+.btn-big.red,
+.btn-big.gray {
   color: #81511c;
   border: solid 1rpx #ff5346;
   background-color: #ff5346;
@@ -672,7 +686,10 @@ button::after {
   width: 90%;
 }
 
-.ms-box, .ms-box-n-radius, .ms-box-t-radius, .ms-box-b-radius {
+.ms-box,
+.ms-box-n-radius,
+.ms-box-t-radius,
+.ms-box-b-radius {
   background-color: #fff;
   width: 95%;
   display: flex;
@@ -783,7 +800,8 @@ button::after {
   margin-bottom: 40rpx;
 }
 
-.ms-input input, .ms-input textarea {
+.ms-input input,
+.ms-input textarea {
   margin-top: 20rpx;
   border: 1px solid #bfbfbf;
   border-radius: 15rpx;
@@ -828,7 +846,7 @@ button::after {
   color: #fff;
 }
 
-.submit-box  .submit-btn {
+.submit-box .submit-btn {
   width: 295rpx;
   height: 100%;
   text-align: center;
@@ -839,7 +857,7 @@ button::after {
   color: #fff;
 }
 
-.submit-box  .text-distance {
+.submit-box .text-distance {
   display: flex;
   line-height: 60rpx;
   margin-left: 65rpx;
@@ -847,7 +865,8 @@ button::after {
   align-items: center;
 }
 
-.submit-box  .text-distance image, .submit-box  .text-distance text {
+.submit-box .text-distance image,
+.submit-box .text-distance text {
   width: 48rpx;
   height: 48rpx;
   flex: 0.3;
@@ -856,7 +875,7 @@ button::after {
   vertical-align: middle;
 }
 
-.submit-box  .text-distance text {
+.submit-box .text-distance text {
   flex: 1;
   width: 100%;
 }
@@ -933,13 +952,14 @@ button::after {
   margin-bottom: 34rpx;
 }
 
-.list-head, .list-bottom {
+.list-head,
+.list-bottom {
   display: flex;
   padding: 30rpx 40rpx;
 }
 
 .list-title {
-  padding: 25rpx 40rpx;
+  padding: 10rpx 40rpx;
   line-height: 76rpx;
   display: flex;
   flex-direction: row;
@@ -1005,7 +1025,8 @@ button::after {
 
 /*弹出层：结束 */
 
-.info-warn, .info-warn.more {
+.info-warn,
+.info-warn.more {
   border: 1px #ff4c4c dotted;
   border-radius: 100rpx;
   display: flex;
@@ -1048,7 +1069,8 @@ button::after {
   border-bottom: 1px #eee dotted;
 }
 
-.btn-small, .btn-big {
+.btn-small,
+.btn-big {
   box-sizing: border-box;
   padding: 0 10rpx;
   font-size: 30rpx;
@@ -1082,7 +1104,8 @@ button::after {
   margin-right: 10rpx;
 }
 
-.btn-small.red, .btn-big.red {
+.btn-small.red,
+.btn-big.red {
   color: #6a3906;
   border: solid 1rpx #ff5346;
   background-color: #ff5346;
@@ -1187,7 +1210,7 @@ button::after {
   color: #fff;
 }
 
-.submit-box  .submit-btn {
+.submit-box .submit-btn {
   width: 295rpx;
   height: 100%;
   text-align: center;
@@ -1198,16 +1221,19 @@ button::after {
   color: #fff;
 }
 
-.submit-box  .text-distance {
+.submit-box .text-distance {
   margin-left: 65rpx;
 }
 
-.item-box .item-head, .item-box .item-food, .item-box .item-conter {
+.item-box .item-head,
+.item-box .item-food,
+.item-box .item-conter {
   position: relative;
   background: #fff;
 }
 
-.item-box .item-head, .item-box .item-conter {
+.item-box .item-head,
+.item-box .item-conter {
   margin-bottom: 0rpx;
 }
 
@@ -1297,7 +1323,8 @@ button::after {
   margin-right: 20rpx;
 }
 
-.item-box .item-text, .item-box .item-partition {
+.item-box .item-text,
+.item-box .item-partition {
   font-size: 24rpx;
   font-stretch: normal;
 }
@@ -1364,7 +1391,8 @@ button::after {
   margin-top: 40rpx;
 }
 
-.info-btn-list, .info-btn-list.border-green {
+.info-btn-list,
+.info-btn-list.border-green {
   display: flex;
   flex-direction: row;
   flex: 0.8;
@@ -1394,7 +1422,8 @@ button::after {
   height: 36rpx;
 }
 
-.info-text, .info-text.green {
+.info-text,
+.info-text.green {
   flex: 0.8;
   font-size: 34rpx;
   color: #ff9d00;
@@ -1415,6 +1444,7 @@ button::after {
   position: fixed;
   top: 0;
   opacity: 0.8;
+  z-index: 10;
 }
 
 .ms-redBag-image-con {
@@ -1422,6 +1452,7 @@ button::after {
   top: 0;
   width: 100%;
   margin: auto;
+  z-index: 11;
 }
 
 .ms-redBag-image {
@@ -1434,20 +1465,21 @@ button::after {
 .ms-redBag-luky {
   position: relative;
   margin: 100rpx auto;
-  width:700rpx;
+  width: 700rpx;
 }
 
 .ms-redBag-image .ms-hongbao-image {
   margin-top: 100rpx;
   width: 100%;
   height: 245rpx;
-  z-index: 10;
- 
+  z-index: 100;
+
 }
 
-.ms-hongbao-image-left, .ms-hongbao-image-right {
+.ms-hongbao-image-left,
+.ms-hongbao-image-right {
   position: absolute;
-  z-index: 10;
+  z-index: 100;
 }
 
 .ms-hongbao-image-left {
@@ -1466,7 +1498,7 @@ button::after {
 
 .ms-redBag-luky .ms-hongbao-image {
   margin: 100rpx auto;
- width:100%;
+  width: 100%;
 }
 
 
@@ -1475,17 +1507,17 @@ button::after {
   position: absolute;
   width: 100%;
   height: 100rpx;
-  top: 60rpx;
+  top: 160rpx;
   left: 0;
   text-align: center;
-  z-index: 10;
+  z-index: 100;
 }
 
 .ms-hongbao-on-info {
   position: absolute;
   width: 100%;
   display: flex;
-  top: 245rpx;
+  top: 345rpx;
   left: 0;
   flex-direction: column;
   align-content: center;
@@ -1503,13 +1535,13 @@ button::after {
   top: 230rpx;
 }
 
-.actived{
-  top:280rpx !important;
-  margin-bottom:80rpx;
+.actived {
+  top: 280rpx !important;
+  margin-bottom: 80rpx;
 }
 
-.actived .ms-quan-box{
-  margin-top:120rpx;
+.actived .ms-quan-box {
+  margin-top: 120rpx;
 }
 
 .ms-redbag-mongy {
@@ -1544,30 +1576,38 @@ button::after {
   width: 100%;
   height: 260rpx;
 }
-.ms-btn-box-bg-list.up, .ms-btn-box-bg-list.down, .ms-btn-box-bg-list.downl{
+
+.ms-btn-box-bg-list.up,
+.ms-btn-box-bg-list.down,
+.ms-btn-box-bg-list.downl {
   position: absolute;
-  left: 50%;  
+  left: 50%;
   border-radius: 90rpx;
   margin-left: -220rpx;
   box-shadow: 4px 10px 10px 0px rgba(158, 1, 1, 0.86);
 }
-.ms-redBag-luky .ms-btn-box-bg-list.up{
+
+.ms-redBag-luky .ms-btn-box-bg-list.up {
   margin-left: -275rpx;
 }
-.ms-btn-box-bg-list.down
-{
-   top: 130rpx;
+
+.ms-btn-box-bg-list.down {
+  top: 130rpx;
 }
-.ms-btn-box-bg-list.downl{
-  top:80rpx;
+
+.ms-btn-box-bg-list.downl {
+  top: 80rpx;
 }
+
 .ms-redBag-luky .ms-btn-box-bg {
   height: 90rpx;
 }
 
-.ms-hongbao-btn-middle.blue, .ms-hongbao-btn-middle.yellow, .ms-hongbao-btn.blue,
-.ms-hongbao-btn.yellow { 
-  width: 380rpx; 
+.ms-hongbao-btn-middle.blue,
+.ms-hongbao-btn-middle.yellow,
+.ms-hongbao-btn.blue,
+.ms-hongbao-btn.yellow {
+  width: 380rpx;
   font-size: 32rpx;
   color: #fff;
   display: block;
@@ -1580,12 +1620,12 @@ button::after {
   box-shadow: 0 10rpx 0 #1b4ebf;
 }
 
-.ms-redBag-luky .ms-btn-box-bg-list.up .ms-hongbao-btn.yellow
-{
-  width: 500rpx; 
+.ms-redBag-luky .ms-btn-box-bg-list.up .ms-hongbao-btn.yellow {
+  width: 500rpx;
 }
 
-.ms-hongbao-btn-middle.blue, .ms-hongbao-btn-middle.yellow {
+.ms-hongbao-btn-middle.blue,
+.ms-hongbao-btn-middle.yellow {
   top: 50rpx;
 }
 
@@ -1602,18 +1642,18 @@ button::after {
 }
 
 .ms-hongbao-btn-middle.yellow {
-  color:#ec1b1b;  
+  color: #ec1b1b;
   border: solid 1px #ffd100;
   background: #ffd100;
   box-shadow: 0 10rpx 0 #f39800;
 }
 
-.ms-hongbao-btn-middle.yellow:active {  
+.ms-hongbao-btn-middle.yellow:active {
   top: 10rpx;
 }
 
 .ms-hongbao-btn.yellow {
- color:#ec1b1b;
+  color: #ec1b1b;
   border: solid 1px #ffd100;
   background: #ffd100;
   box-shadow: 0 10rpx 0 #f39800;
@@ -1622,7 +1662,7 @@ button::after {
 .ms-hongbao-btn.yellow:active {
   position: absolute;
   box-shadow: 0 0 0 #f39800;
-  top:10rpx;
+  top: 10rpx;
 }
 
 .ms-bottom {
@@ -1635,8 +1675,8 @@ button::after {
 }
 
 .ms-quan-box-top {
-  padding-top: 30rpx;
-  display:flex;
+  padding-top: 20rpx;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -1660,7 +1700,8 @@ button::after {
   margin-bottom: 30rpx;
 }
 
-.btn-list-new .gray, .btn-list-new .org {
+.btn-list-new .gray,
+.btn-list-new .org {
   flex: 0.4;
   padding: 15rpx 0;
   font-size: 30rpx;

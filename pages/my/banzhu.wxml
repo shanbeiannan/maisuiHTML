@@ -1,0 +1,47 @@
+<view class="container">
+	<view class="my-info-list margin-t-20">
+		<navigator url="/pages/my/myBankCard" hover-class="none" class="my-info-list">
+			<view class="d-flex d-justify-content-between d-align-items-center">
+				<view class="ms-my-list-left">
+
+					<text class="fz-34 d-fc-blacker">我的订单</text>
+				</view>
+				<view class="ms-my-list-right">
+
+					<image src="/images/icon/jinru.png" class="icon-img-min"></image>
+				</view>
+			</view>
+		</navigator>
+		<view class="line"></view>
+
+		<navigator url="/pages/my/myBankCard" hover-class="none" class="my-info-list">
+
+			<view class="d-flex d-justify-content-between d-align-items-center">
+				<view class="ms-my-list-left">
+
+					<text class="fz-34 d-fc-blacker">我的银行卡</text>
+				</view>
+				<view class="ms-my-list-right">
+
+					<image src="/images/icon/jinru.png" class="icon-img-min"></image>
+				</view>
+			</view>
+		</navigator>
+		<view class="line"></view>
+
+		<navigator url="/pages/my/myBankCard" hover-class="none" class="my-info-list">
+			<view class="d-flex d-justify-content-between d-align-items-center">
+				<view class="ms-my-list-left">
+
+					<text class="fz-34 d-fc-blacker">我的客服</text>
+				</view>
+				<view class="ms-my-list-right">
+
+					<image src="/images/icon/jinru.png" class="icon-img-min"></image>
+				</view>
+			</view>
+		</navigator>
+
+
+	</view>
+</view>

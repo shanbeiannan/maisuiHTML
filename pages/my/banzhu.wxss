@@ -1,0 +1,25 @@
+/* pages/my/banzhu.wxss */
+
+
+.my-info-list {
+  width:95%;
+  box-sizing: border-box;
+ 
+  border-radius: 20rpx;
+  background: #fff;
+  padding: 30rpx 25rpx;
+}
+.line{
+  width:95%;
+}
+.ms-my-list-left,.ms-my-list-right{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+.ms-my-list-right{
+  justify-content: flex-end;
+}

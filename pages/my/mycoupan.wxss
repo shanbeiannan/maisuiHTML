@@ -3,7 +3,8 @@
   padding:0 30rpx;
 }
 .ms-index-btn{
-  margin:0 !important;
+  margin:0  20rpx 0 0!important;
+  flex:0.3;
 }
 
 .ms-mycoupan-list{
@@ -33,15 +34,25 @@
   background-color: #fff;
   box-shadow: -10px 10px 10px 2px 
 		rgba(0, 0, 0, 0.05);
-  border-radius: 10rpx;
-  border-left:solid;
-  border-left-color:#ec6941;
-  border-left-width: 10rpx;
-  padding:10rpx 25rpx;
+  border-radius: 25rpx;  
   margin-bottom: 40rpx;
   overflow: hidden;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:#ec6941;
 }
 
+.ms-mycoupan-left,.ms-mycoupan-right{
+  padding:10rpx 25rpx;
+  flex:0.2;
+
+}
+.ms-mycoupan-right{
+  background-color:#fff;
+  flex:0.8
+}
 .ms-mark-img{
   position: absolute;
   width:120rpx;
@@ -56,7 +67,7 @@
 .ms-mycoupan-up,.ms-mycoupan-down{
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items:center ;
   padding:30rpx 0;
 }
@@ -66,6 +77,7 @@
   border-top-color:#999;
   border-top-width: 1px;
   padding:25rpx 0 !important;
+  
 }
 
 
@@ -95,12 +107,14 @@
 }
 
 .ms-used{
+  background-color:#999 !important;
   border-left-color:#999 !important;
 }
 
 .ms-used .ms-mark-img{
   display: block;
 }
+
 .ms-used .ms-mycoupan-up,.ms-used .ms-mycoupan-down{
   -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
     filter: grayscale(100%);
