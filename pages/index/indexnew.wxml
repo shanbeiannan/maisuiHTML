@@ -1,0 +1,154 @@
+<!--pages/index/indexnew.wxml-->
+<view class="container">
+	<view class="ms-my-bgtop"></view>
+
+	<view class="ms-box-radius">
+		<image class="ms-content-radius-image" mode="widthFix" src="/images/icon/shouye.png"></image>
+		<image class="ms-box-money-image" src="/images/icon/yuan-anniu.png"></image>
+    <view class="line-list"></view>
+    <view  class="text-mark fz-22 d-fc-white">每日可抽取1次红包,可连续抽取7天,快去试试你的手气吧。</view>
+		<view class="ms-index-box">
+			<view class="ms-index-box-top">
+				<view class="left">
+					<text class="fz-24 d-fc-v margin-r-10">累计红包:</text>
+					<text class="fz-24 d-fc-redl">123.67</text>
+				</view>
+				<view class="right">
+					规则
+				</view>
+			</view>
+
+			<view class="ms-index-box-middle fz-60 fz-w-700 d-fc-redl">
+				12.76
+			</view>
+      
+			<view class="ms-index-box-bottom">
+        
+				<view class="ms-mark-content">
+					<view class="fz-20 top-content">88元</view>
+					<view class="top-content-mark"></view>
+					<image class="icon-img margin-b-20" mode="widthFix" src="/images/icon/duigou.png"></image>
+					<view class="fz-20 day">第1天</view>
+				</view>
+
+        <view class="ms-mark-content">
+					<view class="fz-20 top-content">88元</view>
+					<view class="top-content-mark"></view>
+					<image class="icon-img margin-b-20" mode="widthFix" src="/images/icon/duigou.png"></image>
+					<view class="fz-20 day">第2天</view>
+				</view>
+
+        <view class="ms-mark-content">
+					<view class="fz-20 top-content">88元</view>
+					<view class="top-content-mark"></view>
+					<image class="icon-img margin-b-20" mode="widthFix" src="/images/icon/duigou.png"></image>
+					<view class="fz-20  day">第3天</view>
+				</view>
+
+        <view class="ms-mark-content">
+					<view class="fz-20 top-content">88元</view>
+					<view class="top-content-mark"></view>
+					<image class="icon-img margin-b-20 " mode="widthFix" src="/images/icon/duigou.png"></image>
+					<view class="fz-20 top-content">今天</view>
+				</view>
+
+        <view class="ms-mark-content">
+					<view class="fz-20 top-content will">88元</view> 
+					<view class="top-content-mark will"></view>
+					<image class="icon-img-min margin-b-20 middle-mark" mode="widthFix" src="/images/icon/kai.png"></image>
+					<view class="fz-20 day">第5天</view>
+				</view>
+
+        <view class="ms-mark-content">
+					<view class="fz-20 top-content will">88元</view> 
+					<view class="top-content-mark will"></view>
+					<image class="icon-img-min margin-b-20 middle-mark" mode="widthFix" src="/images/icon/kai.png"></image>
+					<view class="fz-20 day">第6天</view>
+				</view>
+
+        <view class="ms-mark-content ">
+					<view class="fz-20 top-content">大包</view>
+					<view class="top-content-mark"></view>
+					<image class="icon-img-min margin-b-20 middle-mark" mode="widthFix" src="/images/icon/kai.png"></image>
+					<view class="fz-20 day">第7天</view>
+				</view>
+
+			</view>
+
+		</view>
+
+ 
+
+	</view>
+
+	<view class="ms-box-radius">
+		<view class="ms-box-index-content">
+			<view class="ms-box-index-content-title">
+				<text class="fz-34 d-fc-white">朋友畅玩您赚钱</text>
+				<text class="fz-24 d-fc-white">·邀请朋友并购卡,每张百元佣金上不封顶</text>
+			</view>
+
+			<view class="ms-box-index-content-content">
+				<view class="ms-money border-r" style="flex:0.4">
+					<view class="d-flex d-align-items-end d-fc-red">
+						<text class="fz-38 fz-w-700">1299.67</text>
+						<text class="fz-28">元</text>
+					</view>
+					<view>
+						<text class="fz-30 dc-fc-blacker">所得佣金</text>
+					</view>
+				</view>
+
+				<view class="ms-money" style="flex:0.3">
+					<view class="d-flex d-align-items-end d-fc-new">
+						<text class="fz-38 fz-w-700">12</text>
+						<text class="fz-28">张</text>
+					</view>
+					<view>
+						<text class="fz-30 dc-fc-blacker">已售出卡</text>
+					</view>
+				</view>
+
+
+				<view class="ms-money border-l" style="flex:0.3">
+					<view class="d-flex d-align-items-end d-fc-new">
+						<text class="fz-38 fz-w-700">12</text>
+						<text class="fz-28">人</text>
+					</view>
+					<view>
+						<text class="fz-30 dc-fc-blacker">邀请人数</text>
+					</view>
+				</view>
+
+			</view>
+		</view>
+		<view class="ms-btn-box-bg-list downl">
+			<view class="ms-hongbao-btn-middle yellow fz-w-700 ">去邀请</view>
+		</view>
+
+	</view>
+
+
+
+	<view class="ms-box-radius">
+		<view class="ms-box-index-content">
+			<view class="ms-box-index-content-title">
+				<text class="fz-34 d-fc-white">在线购卡</text>
+				<text class="fz-24 d-fc-white">·麦穗,在成长的路上</text>
+			</view>
+
+			<view class="ms-box-index-content-image">
+				<view class="ms-image-list">
+					<image src="/images/default/default.jpg"></image>
+				</view>
+				<view class="ms-image-list">
+					<image src="/images/default/default.jpg"></image>
+				</view>
+			</view>
+		</view>
+
+
+	</view>
+
+
+</view>

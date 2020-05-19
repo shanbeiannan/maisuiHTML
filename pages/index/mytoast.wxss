@@ -16,14 +16,3 @@
 }
 
 
-.ms-box-radius{
-  border-radius: 25rpx;
-  width:600rpx;
-  margin:40rpx auto;
-  text-align: right;
-}
-
-.ms-content-radius-image{
-  border-radius: 25rpx;
-  width:100%;
-}

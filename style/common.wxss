@@ -137,7 +137,10 @@
 .ta-r {
   text-align: right !important;
 }
-
+.d-bg-redl{
+  background: #eb3403 !important;
+  
+}
 .d-bg-red {
   background: #ff5346 !important;
 }
@@ -157,7 +160,9 @@
 .d-bg-gray {
   background: #666 !important;
 }
-
+.d-fc-new {
+  color: #ff9f41;
+}
 .d-fc-zz {
   color: #f6b37f;
 }
@@ -384,6 +389,13 @@
 
 .ft-blod {
   font-weight: bold !important;
+}
+.fz-20 {
+  font-size: 20rpx !important;
+}
+
+.fz-22 {
+  font-size: 22rpx !important;
 }
 
 .fz-24 {
@@ -1745,4 +1757,22 @@ button::after {
   padding: 30rpx 30rpx 0;
   border-bottom-left-radius: 30rpx;
   border-bottom-right-radius: 30rpx;
+}
+
+.ms-box-radius{
+  border-radius: 25rpx;
+  width:600rpx;
+  margin:40rpx auto;
+  text-align: right;
+}
+
+.ms-content-radius-image{
+  border-radius: 25rpx;
+  width:100%;
+}
+
+.ms-my-bgtop{
+  background-color:#ffcd1e;  
+  padding:80rpx 0;
+  width:100%;
 }

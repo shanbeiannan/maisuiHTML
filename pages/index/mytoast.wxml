@@ -248,9 +248,7 @@
 				<view class="btn-big org " bindtap="onShowShare"><text class="d-fc-v fz-w-700">保存到相册</text></view>
 			</view>
 		</view>
-
-
-
+		
 	</view>
 
 </view>

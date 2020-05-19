@@ -195,6 +195,13 @@
 					"pathName": "pages/my/banzhu",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "新首页",
+					"pathName": "pages/index/indexnew",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

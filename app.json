@@ -23,7 +23,8 @@
     "pages/product/productDetail2",
     "pages/product/fabiaopingjia",
     "pages/index/mytoast",
-    "pages/my/banzhu"
+    "pages/my/banzhu",
+    "pages/index/indexnew"
   ],
   "tabBar": {
     "list": [
@@ -51,7 +52,7 @@
   },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#ffcd1e",
     "navigationBarTitleText": "麦穗旅游",
     "navigationBarTextStyle": "black"
   },

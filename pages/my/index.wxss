@@ -1,9 +1,5 @@
 /* pages/my/index.wxss */
-.ms-my-bgtop{
-  background-color:#fff;  
-  padding:180rpx 0;
-  width:100%;
-}
+
 .ms-my-head{
   margin-top:-340rpx;
   width:100%;
