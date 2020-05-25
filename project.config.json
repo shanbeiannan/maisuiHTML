@@ -10,10 +10,20 @@
 		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false,
 		"coverView": true,
+		"autoAudits": false,
 		"showShadowRootInWxmlPanel": true,
-		"scopeDataCheck": false
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.0",
@@ -201,6 +211,33 @@
 					"name": "新首页",
 					"pathName": "pages/index/indexnew",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "卡订单列表",
+					"pathName": "pages/order/orderList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "包裹详情",
+					"pathName": "pages/order/orderDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "查看物流",
+					"pathName": "pages/order/wuliu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "公共左右结构",
+					"pathName": "pages/order/leftright",
 					"scene": null
 				}
 			]

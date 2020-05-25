@@ -2,16 +2,15 @@
 .ms-box-radius {
   margin-top: -60px;
   position: relative;
-  width: 100%;
-
+  width: 100%;  
 }
 
 .ms-box-money-image {
   position: absolute;
   z-index: 10;
-  width: 220rpx;
-  height: 220rpx;
-  top: 380rpx;
+  width: 260rpx;
+  height: 260rpx;
+  top: 370rpx;
   left: 50%;
   margin-left: -110rpx;
 }
@@ -19,7 +18,7 @@
 .ms-index-box {
   position: absolute;
   width: 100%;
-  top: 0;
+  top: 5rpx;
   left: 0;
   z-index: 10;
 }
@@ -30,7 +29,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 30rpx 35rpx 20rpx 50rpx;
+  padding: 30rpx 42rpx 20rpx 50rpx;
 }
 
 
@@ -45,7 +44,7 @@
 
 .right {
   background-color: #fbe9dc;
-  font-size: 24rpx;
+  font-size: 26rpx;
   padding: 8rpx 25rpx;
   border-top-left-radius: 30rpx;
   border-bottom-left-radius: 30rpx;
@@ -55,20 +54,37 @@
   text-align: center;
 }
 
+.ms-middle-box{
+  position: relative;
+  padding: 0 50rpx;
+  height:180rpx;
+  
+}
 
 .ms-index-box-bottom {
+  position: absolute;
+  width: 85%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   justify-items: centert;
-  padding: 30rpx 50rpx 0;
+  align-items: center; 
+  z-index:10; 
+}
+
+.img-box{
+  height:65rpx;  
+  vertical-align: middle;
+}
+.atc image{
+  margin:0 !important;
 }
 
 .line-list {
   position: absolute;
   border: 1px dotted #ffd12d;
   width: 75%;
-  top: 260rpx;
+  top: 40%;
   left: 100rpx;
   z-index: 8;
 }
@@ -85,7 +101,7 @@
 .top-content,
 .day {
   background-color: #e32e10;
-  border-radius: 20rpx;
+  border-radius: 8rpx;
   color: #fff;
   padding: 5rpx 10rpx;
 }
@@ -96,7 +112,11 @@
   border-width: 10rpx;
   border-style: solid;
   border-color: #e32e10 transparent transparent transparent;
-  margin-bottom: 10rpx;
+  
+}
+.close-rg{
+  position: absolute;
+  right:0;
 }
 
 .will {
@@ -114,8 +134,8 @@
 
 .text-mark{
   position: absolute;
-  top:660rpx;
-  right:25rpx
+  top:650rpx;
+  right:45rpx
 }
 
 
@@ -126,7 +146,7 @@
   border-radius: 30rpx;
   width: 95%;
   padding: 30rpx 0;
-  margin: 100rpx auto 30rpx auto;
+  margin: 100rpx auto 20rpx auto;
 }
 
 .ms-box-index-content-title {
@@ -141,7 +161,7 @@
 .ms-box-index-content-content {
   width: 95%;
   background-color: #fff2e5;
-  box-shadow: 2px 9px 0px 0px rgba(212, 27, 7, 0.63);
+  box-shadow: 2px 5px 0px 0px rgba(212, 27, 7, 0.63);
   border-radius: 30rpx;
   padding: 30rpx 0;
   margin: 20rpx auto 40rpx auto;
@@ -150,6 +170,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 
 .border-l {
   border-left: 1px dotted #ffdebe;
@@ -168,9 +189,10 @@
   margin-bottom: 50rpx;
 }
 
-.ms-btn-box-bg-list.downl {
+.ms-btn-box-bg-list.downl_new {
   top: 380rpx
 }
+
 
 .yellow {
   color: #6a3906 !important;
@@ -180,19 +202,78 @@
 
 .ms-box-index-content-image {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  width:100%;
+}
+
+
+.content-content-top{
+  display:flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 25rpx;
+  align-items: center;
+  padding:0 25rpx;
+  height:100rpx;
 }
 
-.ms-image-list {
-  border-radius: 30rpx;
-  flex: 0.48;
+.content-content-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  padding:0 10rpx 0 20rpx; 
+}
+
+.content-content-btn{
+  position: relative;
+  border: solid 1px #ffd100;
+  background: #ffd100;
+  box-shadow: 0 8rpx 2rpx #f39800;
+  border-radius: 50%;
+  height:85rpx;
+  width:90rpx;
+  line-height: 90rpx;
+  text-align: center;
+}
+
+.content-content-btn:active{
+  margin-top:8rpx;
+  box-shadow: 0 0rpx 2rpx #f39800; 
+}
+
+
+ .ms-image {
+  width:100%;
+  margin-top:-30rpx;
 
 }
 
-.ms-image-list image {
-  width: 100%;
-  height: 180rpx;
-  border-radius: 30rpx;
+.ms-image image {
+  width: 100%; 
+} 
+
+
+
+/*弹出层*/
+.ms-box {
+  width: 80%;
+  margin: 240rpx auto 0;
+}
+
+.image-l-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-list-new .gray, .btn-list-new .org{
+  flex:0.3
+}
+
+
+button {
+line-height:40rpx !important;
 }

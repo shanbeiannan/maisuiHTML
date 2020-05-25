@@ -78,6 +78,11 @@
   display: -webkit-flex;
   display: flex;
 }
+.d-flex-c {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
 
 .d-justify-content-between {
   justify-content: space-between;
@@ -137,10 +142,7 @@
 .ta-r {
   text-align: right !important;
 }
-.d-bg-redl{
-  background: #eb3403 !important;
-  
-}
+
 .d-bg-red {
   background: #ff5346 !important;
 }
@@ -159,6 +161,9 @@
 
 .d-bg-gray {
   background: #666 !important;
+}
+.d-fc-blue{
+  color:#43a0f6 !important;
 }
 .d-fc-new {
   color: #ff9f41;
@@ -317,6 +322,22 @@
 
 .margin-l-20 {
   margin-left: 20rpx !important;
+}
+
+.margin-l-25 {
+  margin-left: 25rpx !important;
+}
+
+.margin-l-30 {
+  margin-left: 30rpx !important;
+}
+
+.margin-l-40 {
+  margin-left: 40rpx !important;
+}
+
+.margin-l-50 {
+  margin-left: 50rpx !important;
 }
 
 .margin-r-40 {
@@ -479,7 +500,7 @@
 }
 
 .fz-w-600 {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .fz-w-700 {
@@ -1009,7 +1030,7 @@ button::after {
   font-stretch: normal;
   padding: 10rpx 18rpx;
   color: #fff;
-  background-color: #ffcd1e;
+  background-color: #fe9d00;
   border-radius: 0rpx 0rpx 0rpx 15rpx;
 }
 
@@ -1046,6 +1067,7 @@ button::after {
   background-color: #fff2f2;
   padding: 16rpx 10rpx 10rpx;
   margin: 20rpx 0;
+  align-items: center;
 }
 
 .info-warn.more {
@@ -1456,7 +1478,7 @@ button::after {
   position: fixed;
   top: 0;
   opacity: 0.8;
-  z-index: 10;
+  z-index: 20;
 }
 
 .ms-redBag-image-con {
@@ -1464,7 +1486,7 @@ button::after {
   top: 0;
   width: 100%;
   margin: auto;
-  z-index: 11;
+  z-index: 21;
 }
 
 .ms-redBag-image {
@@ -1498,14 +1520,14 @@ button::after {
   width: 140rpx;
   height: 140rpx;
   left: -85rpx;
-  top: 160rpx;
+  top: 240rpx;
 }
 
 .ms-hongbao-image-right {
   width: 120rpx;
   height: 120rpx;
   right: -70rpx;
-  top: 360rpx;
+  top: 440rpx;
 }
 
 .ms-redBag-luky .ms-hongbao-image {
@@ -1529,7 +1551,7 @@ button::after {
   position: absolute;
   width: 100%;
   display: flex;
-  top: 345rpx;
+  top: 340rpx;
   left: 0;
   flex-direction: column;
   align-content: center;
@@ -1560,7 +1582,7 @@ button::after {
   color: #ffe387;
   font-size: 90rpx;
   font-weight: 700;
-  padding: 40rpx 0 60rpx;
+  padding: 30rpx 0 30rpx;
 }
 
 .ms-rbg-bottom {
@@ -1586,7 +1608,7 @@ button::after {
   position: relative;
   margin: 0 auto;
   width: 100%;
-  height: 260rpx;
+  height: 250rpx;
 }
 
 .ms-btn-box-bg-list.up,
@@ -1660,8 +1682,10 @@ button::after {
   box-shadow: 0 10rpx 0 #f39800;
 }
 
-.ms-hongbao-btn-middle.yellow:active {
-  top: 10rpx;
+.ms-hongbao-btn-middle.yellow:active {  
+ 
+  margin-top: 5rpx; background: #ffd100;
+  box-shadow: 0 5rpx 0 #f39800;
 }
 
 .ms-hongbao-btn.yellow {

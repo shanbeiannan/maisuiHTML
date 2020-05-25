@@ -93,7 +93,30 @@
 
 		</view>
 	</view>
+	<view class="ms-info-box">
+		<view class="ms-info-box-title ">
+			<text class="fz-32 fz-w-700 dc-fc-blacker">旅游卡金额</text>
+			<text class="fz-32  d-fc-org1">查看协议</text>
+		</view>
+		<view class="ms-info-box-body">
+			<label class="info-weui-cell weui-check__label" bindtap="SelMark" hover-class="none" >
+				<view class="info-box" style="justify-content: flex-start;">
+					<view class="ms-info-list">
+						<view>
+							<checkbox class="weui-check" value="1" checked="{{xyCheck}}" />
+							<view class="weui-cell__ft weui-cell__ft_in-radio">
+								<icon class="weui-icon-checkbox_success" type="success" size="18" wx:if="{{xyCheck}}"></icon>
+								<icon class="weui-icon-checkbox_circle" type="circle" size="18" wx:else></icon>
+							</view>
+						</view>
+					</view>
+					<view class="info-list-content fz-32" style="display: flex;margin-left: 20rpx; ">我同意<view class="d-fc-blue">《xxxxx协议书》</view>协议</view>
 
+
+				</view>
+			</label>
+		</view>
+	</view>
 	<view class="ms-pay-btn">
 		<view class="ms-pay-btn-left fz-36 fz-w-600">￥{{payMoney}}</view>
 		<view class="ms-pay-btn-right d-bg-org d-fc-zon">确认支付</view>

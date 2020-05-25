@@ -28,7 +28,8 @@ Page({
     }
   ],
   saveMoney:0,
-  payMoney:1580
+  payMoney:1580,
+  xyCheck:false
 },
 checkboxChange: function (e) {
     
@@ -52,6 +53,13 @@ checkboxChange: function (e) {
         saveMoney:saveMoney,
         payMoney:(Number(payMoney)-Number(saveMoney)).toFixed(2)
     });
+},
+SelMark:function(e){//是否选择协议  
+  var xyCheck = this.data.xyCheck;
+     this.setData({
+      xyCheck:!xyCheck
+     })
+   
 },
   /**
    * 生命周期函数--监听页面加载

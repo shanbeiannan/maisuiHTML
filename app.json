@@ -24,7 +24,11 @@
     "pages/product/fabiaopingjia",
     "pages/index/mytoast",
     "pages/my/banzhu",
-    "pages/index/indexnew"
+    "pages/index/indexnew",
+    "pages/order/orderList",
+    "pages/order/orderDetail",
+    "pages/order/wuliu",
+    "pages/order/leftright"
   ],
   "tabBar": {
     "list": [

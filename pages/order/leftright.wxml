@@ -1,0 +1,20 @@
+<!--pages/order/leftright.wxml-->
+<view class="container">
+	<view class="ms-box margin-t-40">
+		<view class="ms-box-title-sort ">
+			<text class="fz-30 fz-w-600 ">联系人</text>
+		  <text class="fz-30  d-fc-sgray ">周杰伦</text>
+		</view>
+		<view class="line"></view>
+		<view class="ms-box-title-sort ">
+			<text class="fz-30 fz-w-600 ">联系电话</text>
+			<text class="fz-30 d-fc-sgray ">1500000000</text>
+		</view>
+		<view class="line"></view>
+		<view class="ms-box-title-sort ">
+			<text class="fz-30 fz-w-600 ">地址</text>
+			<text class="fz-30  d-fc-sgray ">XXXXXXXXXXXXXXXXXXXXXXXXXXXX</text>
+		</view>
+	</view>
+
+</view>

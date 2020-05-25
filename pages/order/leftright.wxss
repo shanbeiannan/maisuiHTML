@@ -1,0 +1,9 @@
+/* pages/order/leftright.wxss */
+.ms-box-title-sort {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40rpx 30rpx 40rpx 45rpx;
+
+}

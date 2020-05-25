@@ -1,0 +1,70 @@
+<!--pages/order/orderList.wxml-->
+<view class="container">
+	<view class="ms-my-bgtop"></view>
+
+	<navigator url="/pages/order/orderDetail" class="ms-info-box" style="margin-top:-100rpx;">
+		<view class="ms-info-box-title ">
+			<text class="fz-32 fz-w-600">麦穗旅游</text>
+			<text class="fz-32 d-fc-red">已发货</text>
+		</view>
+		<view class="ms-info-box-body">
+			<view class="info-box">
+				<image src="/images/default/default.jpg" mode="widthFix"></image>
+				<text class="fz-32">麦穗旅游卡实物卡</text>
+				<view class="d-flex-c d-justify-content-end">
+					<text class="fz-32 fz-w-700">￥580</text>
+					<text class="fz-32 margin-t-20">x1</text>
+				</view>
+			</view>
+		</view>
+		<view class="ms-info-box-foot">
+
+			<view class="foot-top">
+				<text class="fz-30 d-fc-sgray">总金额￥1580，已优惠￥1000，实付金额</text>
+				<text class="fz-38 fz-w-700">￥580</text>
+			</view>
+
+			<view class="foot-btn-list">
+				<view class="foot-btn gray">其他按钮</view>
+				<view class="foot-btn gray" catchtap="ShowPost">查看物流</view>
+				<view class="foot-btn org" catchtap="MakePost">确认收货</view>
+			</view>
+		</view>
+	</navigator>
+
+
+
+
+	<view class="ms-info-box">
+		<view class="ms-info-box-title ">
+			<text class="fz-32 fz-w-600">麦穗旅游</text>
+			<text class="fz-32 d-fc-red">交易成功</text>
+		</view>
+		<view class="ms-info-box-body">
+			<view class="info-box">
+				<image src="/images/default/default.jpg" mode="widthFix"></image>
+				<text class="fz-32">麦穗旅游卡实物卡</text>
+				<view class="d-flex-c d-justify-content-end">
+					<text class="fz-32 fz-w-700">￥580</text>
+					<text class="fz-32 margin-t-20">x1</text>
+				</view>
+			</view>
+		</view>
+		<view class="ms-info-box-foot">
+
+			<view class="foot-top">
+				<text class="fz-30 d-fc-sgray">总金额￥1580，已优惠￥1000，实付金额</text>
+				<text class="fz-38 fz-w-700">￥580</text>
+			</view>
+
+			<view class="foot-btn-list">
+				<view class="foot-btn gray">删除订单</view>
+				<view class="foot-btn gray">查看物流</view>
+				<view class="foot-btn org">我要评价</view>
+			</view>
+		</view>
+	</view>
+
+
+</view>
+

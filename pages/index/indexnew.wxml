@@ -5,8 +5,8 @@
 	<view class="ms-box-radius">
 		<image class="ms-content-radius-image" mode="widthFix" src="/images/icon/shouye.png"></image>
 		<image class="ms-box-money-image" src="/images/icon/yuan-anniu.png"></image>
-    <view class="line-list"></view>
-    <view  class="text-mark fz-22 d-fc-white">每日可抽取1次红包,可连续抽取7天,快去试试你的手气吧。</view>
+
+		<view class="text-mark fz-22 d-fc-white">每日可抽取1次红包,可连续抽取7天,快去试试你的手气吧。</view>
 		<view class="ms-index-box">
 			<view class="ms-index-box-top">
 				<view class="left">
@@ -21,63 +21,76 @@
 			<view class="ms-index-box-middle fz-60 fz-w-700 d-fc-redl">
 				12.76
 			</view>
-      
-			<view class="ms-index-box-bottom">
-        
-				<view class="ms-mark-content">
-					<view class="fz-20 top-content">88元</view>
-					<view class="top-content-mark"></view>
-					<image class="icon-img margin-b-20" mode="widthFix" src="/images/icon/duigou.png"></image>
-					<view class="fz-20 day">第1天</view>
-				</view>
+			<view class="ms-middle-box">
+				<view class="line-list"></view>
+				<view class="ms-index-box-bottom">
+					<view class="ms-mark-content">
+						<view class="fz-20 top-content">88元</view>
+						<view class="top-content-mark"></view>
+						<view class="img-box atc">
+							<image class="icon-img-50" mode="widthFix" src="/images/icon/duigou.png"></image>
+						</view>
+						<view class="fz-20 day">第1天</view>
+					</view>
 
-        <view class="ms-mark-content">
-					<view class="fz-20 top-content">88元</view>
-					<view class="top-content-mark"></view>
-					<image class="icon-img margin-b-20" mode="widthFix" src="/images/icon/duigou.png"></image>
-					<view class="fz-20 day">第2天</view>
-				</view>
+					<view class="ms-mark-content">
+						<view class="fz-20 top-content">88元</view>
+						<view class="top-content-mark"></view>
+						<view class="img-box atc">
+							<image class="icon-img-50" mode="widthFix" src="/images/icon/duigou.png"></image>
+						</view>
+						<view class="fz-20 day">第2天</view>
+					</view>
 
-        <view class="ms-mark-content">
-					<view class="fz-20 top-content">88元</view>
-					<view class="top-content-mark"></view>
-					<image class="icon-img margin-b-20" mode="widthFix" src="/images/icon/duigou.png"></image>
-					<view class="fz-20  day">第3天</view>
-				</view>
+					<view class="ms-mark-content">
+						<view class="fz-20 top-content">88元</view>
+						<view class="top-content-mark"></view>
+						<view class="img-box atc">
+							<image class="icon-img-50" mode="widthFix" src="/images/icon/duigou.png"></image>
+						</view>
+						<view class="fz-20  day">第3天</view>
+					</view>
 
-        <view class="ms-mark-content">
-					<view class="fz-20 top-content">88元</view>
-					<view class="top-content-mark"></view>
-					<image class="icon-img margin-b-20 " mode="widthFix" src="/images/icon/duigou.png"></image>
-					<view class="fz-20 top-content">今天</view>
-				</view>
+					<view class="ms-mark-content">
+						<view class="fz-20 top-content">88元</view>
+						<view class="top-content-mark"></view>
+						<view class="img-box atc">
+							<image class="icon-img-50" mode="widthFix" src="/images/icon/duigou.png"></image>
+						</view>
+						<view class="fz-20 top-content">今天</view>
+					</view>
 
-        <view class="ms-mark-content">
-					<view class="fz-20 top-content will">88元</view> 
-					<view class="top-content-mark will"></view>
-					<image class="icon-img-min margin-b-20 middle-mark" mode="widthFix" src="/images/icon/kai.png"></image>
-					<view class="fz-20 day">第5天</view>
-				</view>
+					<view class="ms-mark-content">
+						<view class="fz-20 top-content ">88元</view>
+						<view class="top-content-mark "></view>
+						<view class="img-box">
+							<image class="icon-img-50 middle-mark" mode="widthFix" src="/images/icon/kai.png"></image>
+						</view>
+						<view class="fz-20 day">第5天</view>
+					</view>
 
-        <view class="ms-mark-content">
-					<view class="fz-20 top-content will">88元</view> 
-					<view class="top-content-mark will"></view>
-					<image class="icon-img-min margin-b-20 middle-mark" mode="widthFix" src="/images/icon/kai.png"></image>
-					<view class="fz-20 day">第6天</view>
-				</view>
+					<view class="ms-mark-content">
+						<view class="fz-20 top-content ">88元</view>
+						<view class="top-content-mark "></view>
+						<view class="img-box">
+							<image class="icon-img-50 middle-mark" mode="widthFix" src="/images/icon/kai.png"></image>
+						</view>
+						<view class="fz-20 day">第6天</view>
+					</view>
 
-        <view class="ms-mark-content ">
-					<view class="fz-20 top-content">大包</view>
-					<view class="top-content-mark"></view>
-					<image class="icon-img-min margin-b-20 middle-mark" mode="widthFix" src="/images/icon/kai.png"></image>
-					<view class="fz-20 day">第7天</view>
+					<view class="ms-mark-content ">
+						<view class="fz-20 top-content">大包</view>
+						<view class="top-content-mark"></view>
+						<view class="img-box">
+							<image class="icon-img-50 middle-mark" mode="widthFix" src="/images/icon/kai.png"></image>
+						</view>
+						<view class="fz-20 day">第7天</view>
+					</view>
 				</view>
-
 			</view>
-
 		</view>
 
- 
+
 
 	</view>
 
@@ -122,7 +135,7 @@
 
 			</view>
 		</view>
-		<view class="ms-btn-box-bg-list downl">
+		<view class="ms-btn-box-bg-list downl downl_new">
 			<view class="ms-hongbao-btn-middle yellow fz-w-700 ">去邀请</view>
 		</view>
 
@@ -130,25 +143,33 @@
 
 
 
-	<view class="ms-box-radius">
-		<view class="ms-box-index-content">
+	<view class="ms-box-radius" style="margin-top:-130rpx;">
+		<view class="ms-box-index-content" style="padding-bottom:10rpx !important;">
 			<view class="ms-box-index-content-title">
-				<text class="fz-34 d-fc-white">在线购卡</text>
-				<text class="fz-24 d-fc-white">·麦穗,在成长的路上</text>
+				<text class="fz-34 d-fc-white fz-w-700">在线购卡</text>
+				<text class="fz-26 d-fc-white">·麦穗,在成长的路上</text>
 			</view>
+			<view class="ms-box-index-content-content" style="padding-bottom:0;margin-bottom:10rpx !important;">
 
-			<view class="ms-box-index-content-image">
-				<view class="ms-image-list">
-					<image src="/images/default/default.jpg"></image>
+				<view class="ms-box-index-content-image">
+					<view class="content-content-top">
+						<view class="content-content-title">
+							<text class="fz-32 d-fc-v">美好旅程，即刻出发</text>
+							<text class="fz-24 d-fc-v margin-t-10">麦穗旅游卡，马上加入吧！让我们开启新的旅程</text>
+						</view>
+						<view class="content-content-btn">
+							<text class="fz-32 d-fc-v fz-w-600">GO!</text>
+						</view>
+					</view>
+
+					<view class="ms-image">
+						<image src="https://img.kangyang.live/pic/index/ka.png?v=1" mode="widthFix"></image>
+					</view>
+
 				</view>
-				<view class="ms-image-list">
-					<image src="/images/default/default.jpg"></image>
-				</view>
+
 			</view>
 		</view>
 
-
 	</view>
-
-
 </view>

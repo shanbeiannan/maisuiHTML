@@ -1,0 +1,53 @@
+<!--pages/order/wuliu.wxml-->
+<view class="container">
+	<view class="ms-my-bgtop ">
+	</view>
+
+	<view class="ms-info-box" style="margin-top:-100rpx;">
+		<view class="ms-info-box-title ">
+			<text class="fz-32 fz-w-600">您的快递已发货</text>
+		</view>
+		<view class="info-box-text-list">
+			<view class="info-box-text fz-30" style="flex:0.2; text-align:right;">
+				<text>收件人：</text>
+				<text class="margin-t-20">地址：</text>
+			</view>
+			<view class="info-box-text fz-30" style="flex:0.8;">
+				<text>周杰伦  15000000000</text>
+				<text class="margin-t-20">天津市 河北区 铁东路街道 xx小区 XX 门008室</text>
+			</view>
+		</view>
+	</view>
+
+
+
+
+
+	<view class="ms-info-box" >
+		<view class="ms-info-box-title ">
+			<text class="fz-32 fz-w-600">快递信息</text>
+
+		</view>
+		<view class="order-box-text-list d-fc-sgray">
+			<view class=" fz-30 ">
+				<text>承运快递：</text>
+				<text>中通快递</text>
+			</view>
+			<view class="margin-t-20 fz-30">
+				<text >快递单号：</text>
+				<text >Z200451556</text>
+			</view>
+			<view class=" margin-t-20 fz-30">
+				<text >发货时间：</text>
+				<text >2020-05-21 12:00:23</text>
+			</view>
+		</view>
+
+	</view>
+
+
+	<view class="ms-btn-bottom">
+		<view class="btn-big org fz-w-700">确认提现</view>
+	</view>
+
+</view>

@@ -1,0 +1,101 @@
+<!--pages/order/orderDetail.wxml-->
+<view class="container">
+	<view class="ms-my-bgtop d-flex-c">
+		<text class="fz-w-700 fz-32 margin-l-50 margin-b-20">已发货</text>
+		<text class="fz-32 margin-l-50">您的包裹正在飞奔向您！</text>
+	</view>
+
+	<view class="ms-info-box" style="margin-top:-40rpx;">
+		<view class="ms-info-box-title ">
+			<text class="fz-32 fz-w-600">查看物流</text>
+			<image src="/images/icon/jinru.png" class="icon-img"></image>
+		</view>
+		<view class="info-box-text-list">
+			<view class="info-box-text fz-30" style="flex:0.2; text-align:right;">
+				<text>收件人：</text>
+				<text class="margin-t-20">地址：</text>
+			</view>
+			<view class="info-box-text fz-30" style="flex:0.8;">
+				<text>周杰伦  15000000000</text>
+				<text class="margin-t-20">天津市 河北区 铁东路街道 xx小区 XX 门008室</text>
+			</view>
+		</view>
+	</view>
+
+
+
+
+	<view class="ms-info-box">
+		<view class="ms-info-box-title ">
+			<text class="fz-32 fz-w-600">麦穗旅游</text>
+			<text class="fz-32 d-fc-red">交易成功</text>
+		</view>
+		<view class="ms-info-box-body">
+			<view class="info-box">
+				<image src="/images/default/default.jpg" mode="widthFix"></image>
+				<text class="fz-32">麦穗旅游卡实物卡</text>
+				<view class="d-flex-c d-justify-content-end">
+					<text class="fz-32 fz-w-700">￥580</text>
+					<text class="fz-32 margin-t-20">x1</text>
+				</view>
+			</view>
+		</view>
+		<view class="order-box-text-list d-fc-sgray" >
+			<view class="order-box-text fz-30 " >
+				<text>总金额</text>
+				<text  class="right">￥1580</text>
+			</view>
+			<view class="order-box-text margin-t-20 fz-30">
+				<text >已优惠</text>
+				<text  class="right">￥1000</text>
+			</view>
+			<view class="order-box-text  margin-t-20 fz-30">
+				<text >到付运费</text>
+				<text  class="right">￥15</text>
+			</view>
+			<view class="order-box-text margin-t-20 fz-30">
+				<text class="dc-fc-blocker" >实付金额</text>
+				<text class="right fz-36 d-fc-zon" >￥580</text>
+			</view>
+		</view>
+
+	</view>
+
+
+	<view class="ms-info-box" style="margin-bottom:180rpx;">
+		<view class="ms-info-box-title ">
+			<text class="fz-32 fz-w-600">订单信息</text>
+
+		</view>
+		<view class="order-box-text-list d-fc-sgray">
+			<view class=" fz-30 ">
+				<text>订单编号：</text>
+				<text>293838393399339</text>
+			</view>
+			<view class="margin-t-20 fz-30">
+				<text >创建时间：</text>
+				<text >2020-05-21 12:00:23</text>
+			</view>
+			<view class="  margin-t-20 fz-30">
+				<text >付款时间：</text>
+				<text >2020-05-21 12:00:23</text>
+			</view>
+			<view class=" margin-t-20 fz-30">
+				<text >发货时间：</text>
+				<text >2020-05-21 12:00:23</text>
+			</view>
+		</view>
+
+	</view>
+
+
+	<view class="ms-info-box-foot">
+		<view class="foot-btn-list">
+			<view class="foot-btn gray">删除订单</view>
+			<view class="foot-btn gray">查看物流</view>
+			<view class="foot-btn org">我要评价</view>
+		</view>
+	</view>
+
+
+</view>
