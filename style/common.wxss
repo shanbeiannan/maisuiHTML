@@ -1800,3 +1800,33 @@ button::after {
   padding:80rpx 0;
   width:100%;
 }
+
+
+/**记录**/
+.ms-report{
+  background-color:#fff;
+  display:flex;
+  flex-direction: column;
+  padding:25rpx;
+  margin-top:25rpx;
+  width: 90%;
+  border-radius: 25rpx;
+}
+
+.ms-report-list{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid #e5e5e5;
+  padding:25rpx;
+}
+
+.ms-report-list:last-child{
+  border-bottom:0;
+}
+
+.ms-report-content{
+  display:flex;
+  flex-direction: column;
+}

@@ -1,0 +1,47 @@
+<!--pages/my/tixianjilu.wxml-->
+<view class="container">
+
+<view class="ms-report">
+  <view class="ms-report-list">
+    <view class="ms-report-content">
+      <text class="fz-34">提现</text>
+      <text class="fz-28 d-fc-sgray margin-t-10">2020年5月26日 20:42</text>
+    </view>
+    <view class="fz-34 fz-w-700 d-fc-red">-￥1000</view>
+  </view>
+  <view class="ms-report-list">
+    <view class="ms-report-content">
+      <text class="fz-34">提现</text>
+      <text class="fz-28 d-fc-sgray margin-t-10">2020年5月26日 20:42</text>
+    </view>
+    <view class="fz-34 fz-w-700 d-fc-red">-￥1000</view>
+  </view>
+
+  <view class="ms-report-list">
+    <view class="ms-report-content">
+      <text class="fz-34">佣金</text>
+      <text class="fz-28 d-fc-sgray margin-t-10">2020年5月26日 20:42</text>
+    </view>
+    <view class="fz-34 fz-w-700 dc-fc-blacker">+￥50</view>
+  </view>
+
+   <view class="ms-report-list">
+    <view class="ms-report-content">
+      <text class="fz-34">佣金</text>
+      <text class="fz-28 d-fc-sgray margin-t-10">2020年5月26日 20:42</text>
+    </view>
+    <view class="fz-34 fz-w-700 dc-fc-blacker">+￥50</view>
+  </view>
+
+   <view class="ms-report-list">
+    <view class="ms-report-content">
+      <text class="fz-34">佣金</text>
+      <text class="fz-28 d-fc-sgray margin-t-10">2020年5月26日 20:42</text>
+    </view>
+    <view class="fz-34 fz-w-700 dc-fc-blacker">+￥50</view>
+  </view>
+
+</view>
+
+
+</view>

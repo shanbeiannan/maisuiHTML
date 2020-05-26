@@ -28,7 +28,8 @@
     "pages/order/orderList",
     "pages/order/orderDetail",
     "pages/order/wuliu",
-    "pages/order/leftright"
+    "pages/order/leftright",
+    "pages/my/tixianjilu"
   ],
   "tabBar": {
     "list": [
