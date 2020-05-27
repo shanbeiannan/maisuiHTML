@@ -29,7 +29,8 @@
     "pages/order/orderDetail",
     "pages/order/wuliu",
     "pages/order/leftright",
-    "pages/my/tixianjilu"
+    "pages/my/tixianjilu",
+    "pages/tab"
   ],
   "tabBar": {
     "list": [

@@ -1,98 +1,140 @@
 /* pages/index/redbag.wxss */
-page {
-  background-color: #d1200b;
+page{
+  background-color:#d1200b;
 
 }
-
-.ms-redbag-head {
+.ms-buycard-top {
   position: relative;
+  width: 100%;
 }
 
-.ms-redbag-bg {
-  overflow: hidden;
+.ms-buycard-img {
+  width: 100%;
 }
 
-.ms-img-list {
+.ms-buycard-mark {
   position: absolute;
-
-}
-
-.ms-redBag-content {
-  margin: 0 auto;
-  width: 80%;
+  border: 1px solid #fff;
+  border-radius: 30rpx;
+  padding: 5rpx 15rpx 5rpx 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
+  align-items: center;
+  top: -105rpx;
+  right: 25rpx;
+  
 }
 
-.ms-redbag-list {
-  position: absolute;
-  top: 180rpx;
+.ms-redbag-head{ 
+  width:100%;
+}
+.ms-redbag-bg{  
+  overflow: hidden;
 }
 
-.ms-redBag {
-  width: 33.33%;
+.ms-img-list{
+  width:100%; 
+}
+
+.ms-redBag-content{  
+  margin:0 auto;
+  width:80%;
+  display:flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  flex-wrap: wrap;  
+}
+.ms-redBag{
+  width:33.33%;
   margin: 0 auto;
   text-align: center;
 }
 
-.img {
-  width: 200rpx;
-  height: 270rpx;
+
+
+.img{
+  width:200rpx;
 }
 
-.ms-redBag-img {
+.img-big{
+  width:200%;
+}
+
+.ms-redBag-img{
   position: relative;
   width: 100%;
 }
 
-.ms-redBag-title,
-.ms-redBag-right,
-.ms-redBag-money {
-  position: absolute;
-  left: 50%;
+.ms-redbag-list{
+  margin-top:-700rpx;
 }
-
-.ms-redBag-title {
-  font-size: 26rpx;
-  margin-top: 45rpx;
-  margin-left: -36rpx;
+.ms-redBag-open-content{
+  position: absolute;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  top:40rpx;
+}
+.ms-redBag-title{
+  font-size:26rpx;
+   margin-bottom:35rpx;
   color: #eccc99;
 }
 
-.ms-redBag-right {
-  margin-left: -20rpx;
-  margin-top: 94rpx;
+.ms-redBag-right{
+  margin:0 auto;
 }
 
-.ms-redBag-money {
+.ms-redBag-money{
   width: 100%;
-  margin-left: -50%;
-  margin-top: 150rpx;
+  margin-top:25rpx; 
   text-align: center;
   color: #cfa972;
-  font-size: 36rpx;
+  font-size:36rpx;
 }
 
-.ms-btn {
-  width: 100%;
-  text-align: center;
-  position: relative;
-
+.img-only .img{
+  width:80%;
 }
 
-.img-btn {
-  width: 550rpx;
-  height: 240rpx;
+.img-only .ms-redBag{
+ width:100%;
 }
 
-.ms-btn-text {
+.img-only .ms-redBag-open-content{
   position: absolute;
-  top: 84rpx;
-  font-size: 40rpx;
-  font-weight: bold;
-  left: 50%;
-  margin-left: -120rpx;
-  color: #fff;  
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  top:140rpx;
+}
+.img-only .ms-redBag-title{
+  font-size:60rpx;
+  font-weight: 700;
+  margin-bottom:105rpx;
+  color: #eccc99;
+}
+
+.img-only .ms-redBag-right{
+  margin:0 auto;
+}
+
+.img-only .ms-redBag-money{
+  width: 100%;
+  margin-top:125rpx; 
+  text-align: center;
+  color: #cfa972;
+  font-size:80rpx;
+  font-weight: 700;
+}
+
+.ms-btn{  
+  margin:0 auto;
+}
+
+button{
+  padding:0 !important;
 }

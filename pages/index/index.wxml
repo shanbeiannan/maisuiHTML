@@ -197,7 +197,7 @@
 	<view class="ms-redBag-image">
 		<image class="ms-hongbao-image" src="/images/icon/qiang-t.png"></image>
 		<image class="ms-hongbao-image-left" src="/images/icon/qianbi-1.png"></image>
-		<image class="ms-hongbao-image-right" src="/images/icon/qianbi-2.png"></image>
+		<image class="ms-hongbao-image-right" src="/images/icon/qianbi-1.png"></image>
 		<view class="ms-hongbao-on-info-t">
 			<text class="fz-30 fz-w-600 d-fc-v">还可领5天</text>
 		</view>

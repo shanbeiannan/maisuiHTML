@@ -242,9 +242,10 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "提现 消费 记录",
-					"pathName": "pages/my/tixianjilu",
+					"id": 26,
+					"name": "pages/tab",
+					"pathName": "pages/tab",
+					"query": "",
 					"scene": null
 				}
 			]

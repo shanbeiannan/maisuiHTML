@@ -1,55 +1,93 @@
-<!--pages/index/redbag.wxml-->
 <view class="container">
+
 	<view class="ms-redbag-head">
-		<image class="ms-redbag-bg" style="height:{{winHeight-5}}px;width:{{winWidth}}px" src="/images/icon/hongbg.jpg"></image>
+
+		<image class="ms-redbag-bg" style="width:100%" mode="widthFix" src="/images/icon/hongbg.jpg"></image>
 
 		<view class="ms-redbag-list">
+			<view class="ms-buycard-top">
+				<view class="ms-buycard-mark">
+					<image class="icon-img-min" src="/images/icon/zhuyi.png"></image>
+					<text class="fz-24 d-fc-white">使用说明</text>
+				</view>
+			</view>
 			<view class="ms-redBag">
-				<image class="img" src="/images/icon/kai.png"></image>
+
+				<view class="ms-redBag-img">
+					<image class="img" mode="widthFix" src="/images/icon/kai.png"></image>
+				</view>
 			</view>
 			<view class="ms-redBag-content">
 				<view class="ms-redBag">
 					<view class="ms-redBag-img">
-						<image class="img" src="/images/icon/kai.png"></image>
+						<image class="img" mode="widthFix" src="/images/icon/kai.png"></image>
 					</view>
 				</view>
 				<view class="ms-redBag">
 					<view class="ms-redBag-img">
-						<image class="img" src="/images/icon/kai2.png"></image>
+						<image class="img" mode="widthFix" src="/images/icon/kai.png"></image>
+					</view>
+				</view>
+				<view class="ms-redBag">
+					<view class="ms-redBag-img">
+						<image class="img" mode="widthFix" src="/images/icon/kai.png"></image>
+					</view>
+				</view>
+				<view class="ms-redBag">
+					<view class="ms-redBag-img">
+						<image class="img" mode="widthFix" src="/images/icon/kai.png"></image>
+					</view>
+				</view>
+				<view class="ms-redBag">
+					<view class="ms-redBag-img">
+						<image class="img" mode="widthFix" src="/images/icon/kai2.png"></image>
+						<view class="ms-redBag-open-content">
+							<text class="ms-redBag-title">恭喜您</text>
+							<image class="icon-img ms-redBag-right" src="/images/icon/duigou.png"></image>
+							<text class="ms-redBag-money">12.7<text class="fz-24">元</text></text>
+						</view>
+					</view>
+				</view>
+				<view class="ms-redBag">
+					<view class="ms-redBag-img">
+						<image class="img" mode="widthFix" src="/images/icon/kai.png"></image>
+					</view>
+				</view>
+			</view>
+		</view>
+
+
+
+		<!-- <view class="ms-redbag-list  img-only">
+
+			<view class="ms-buycard-top">
+				<view class="ms-buycard-mark">
+					<image class="icon-img-min" src="/images/icon/zhuyi.png"></image>
+					<text class="fz-24 d-fc-white">使用说明</text>
+				</view>
+			</view>
+
+			<view class="ms-redBag">
+
+				<view class="ms-redBag-img">
+					<image class="img" mode="widthFix" src="/images/icon/kai2.png"></image>
+					<view class="ms-redBag-open-content">
 						<text class="ms-redBag-title">恭喜您</text>
-						<image class="icon-img ms-redBag-right" src="/images/icon/duigou.png"></image>
+						<image class="icon-img-80 ms-redBag-right" src="/images/icon/duigou.png"></image>
 						<text class="ms-redBag-money">12.7<text class="fz-24">元</text></text>
 					</view>
 				</view>
-				<view class="ms-redBag">
-					<view class="ms-redBag-img">
-						<image class="img" src="/images/icon/kai.png"></image>
-					</view>
-				</view>
-				<view class="ms-redBag">
-					<view class="ms-redBag-img">
-						<image class="img" src="/images/icon/kai.png"></image>
-					</view>
-				</view>
-				<view class="ms-redBag">
-					<view class="ms-redBag-img">
-						<image class="img" src="/images/icon/kai.png"></image>
-					</view>
-				</view>
-				<view class="ms-redBag">
-					<view class="ms-redBag-img">
-						<image class="img" src="/images/icon/kai.png"></image>
-					</view>
-				</view>
-
-
-
 			</view>
 
-			<view class="ms-btn">
-				<image class="img-btn" src="/images/icon/anniu.png"></image>
-				<text class="ms-btn-text">去分享给朋友</text>
-			</view>
+		</view> -->
+
+
+	</view>
+
+
+	<view class="ms-btn">
+		<view class="ms-hongbao-btn-middle yellow">
+			<button class="overise fz-36  fz-w-700 d-fc-red" style="line-height:40rpx!important;" data-name="shareBtn" open-type="share">去分享给朋友</button>
 		</view>
 	</view>
 </view>

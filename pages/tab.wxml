@@ -1,0 +1,64 @@
+<!--pages/tab.wxml-->
+
+<view class="container">
+	<view class="list_hd">
+		<view class="{{isShowList == 0 ?'active':''}} flex-1" data-index="0" bindtap="showList">提现</view>
+		<view class="{{isShowList == 1 ?'active':''}} flex-1" data-index="1" bindtap="showList">佣金</view>
+	</view>
+
+	<swiper class="banner" style="height:{{systemHeight-50}}px" current="{{isShowList}}" bindchange="swiperChangeShow">
+		<swiper-item class="swiperitem">
+			<view class="container">
+				<view class="ms-report ">
+					<view class="ms-report-list">
+						<view class="ms-report-content">
+							<text class="fz-34">提现</text>
+							<text class="fz-28 d-fc-sgray margin-t-10">2020年5月26日 20:42</text>
+						</view>
+						<view class="fz-34 fz-w-700 d-fc-red">-￥1000</view>
+					</view>
+					<view class="ms-report-list">
+						<view class="ms-report-content">
+							<text class="fz-34">提现</text>
+							<text class="fz-28 d-fc-sgray margin-t-10">2020年5月26日 20:42</text>
+						</view>
+						<view class="fz-34 fz-w-700 d-fc-red">-￥1000</view>
+					</view>
+				</view>
+			</view>
+		</swiper-item>
+
+		<swiper-item class="swiperitem">
+			<view class="container">
+				<view class="ms-report ">
+
+					<view class="ms-report-list">
+						<view class="ms-report-content">
+							<text class="fz-34">佣金</text>
+							<text class="fz-28 d-fc-sgray margin-t-10">2020年5月26日 20:42</text>
+						</view>
+						<view class="fz-34 fz-w-700 dc-fc-blacker">+￥50</view>
+					</view>
+
+					<view class="ms-report-list">
+						<view class="ms-report-content">
+							<text class="fz-34">佣金</text>
+							<text class="fz-28 d-fc-sgray margin-t-10">2020年5月26日 20:42</text>
+						</view>
+						<view class="fz-34 fz-w-700 dc-fc-blacker">+￥50</view>
+					</view>
+
+					<view class="ms-report-list">
+						<view class="ms-report-content">
+							<text class="fz-34">佣金</text>
+							<text class="fz-28 d-fc-sgray margin-t-10">2020年5月26日 20:42</text>
+						</view>
+						<view class="fz-34 fz-w-700 dc-fc-blacker">+￥50</view>
+					</view>
+
+				</view>
+			</view>
+		</swiper-item>
+	</swiper>
+
+</view>
