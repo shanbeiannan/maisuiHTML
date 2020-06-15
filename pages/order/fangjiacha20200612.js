@@ -6,8 +6,16 @@ Page({
    */
   data: {
 
+    price:false
+  }
+  ,
+  SelPrice:function(e){//是否选择协议  
+    var price = this.data.price;
+       this.setData({
+        price:!price
+       })
+     
   },
-
   /**
    * 生命周期函数--监听页面加载
    */

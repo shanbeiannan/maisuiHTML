@@ -33,19 +33,52 @@
 		<view class="ms-box-content none-border">
 			<view class="ms-input-list">
 				<view class="ms-input">
+				
+					<label class="info-weui-cell weui-check__label" bindtap="SelPrice" hover-class="none">
+						<view class="info-box">
+							<!-- <view class="ms-info-list" style="display:flex;flex-direction: row;space-between;"> -->
+              	<text class="fz-30 margin-b-40">选择差价</text>
+								<view style="display:flex;flex-direction: row;">
+                  <text class="fz-28">￥</text>
+                  <text  class="fz-32 fz-w-700">200</text>
+									<checkbox class="weui-check" value="1" checked="{{price}}" />
+									<view class="weui-cell__ft weui-cell__ft_in-radio" style="padding-top:5rpx;">
+										<icon class="weui-icon-checkbox_success" type="success" size="18" wx:if="{{price}}"></icon>
+										<icon class="weui-icon-checkbox_circle" type="circle" size="18" wx:else></icon>
+									</view>
+								</view>
+							<!-- </view> -->
+						</view>
+					</label>
+				</view>
+			</view>
+			<view class="ms-input-list">
+				<view class="ms-input">
 					<text class="fz-30 margin-b-10">填写备注</text>
 					<textarea></textarea>
 				</view>
 			</view>
 		</view>
-    <view class="ms-room-bottom">
-      <view>
-        <text  class="fz-30 fz-w-700">支付总金额</text>
-      </view>
-      <view>
-        <text class="fz-28 d-fc-org">￥</text>
-        <text class="fz-38 d-fc-org fz-w-700">1780</text>
-      </view>
-    </view>
+		<view class="ms-room-bottom">
+			<view>
+				<text  class="fz-30 fz-w-700">支付总金额</text>
+			</view>
+			<view>
+				<text class="fz-28 d-fc-org">￥</text>
+				<text class="fz-38 d-fc-org fz-w-700">1780</text>
+			</view>
+		</view>
 	</view>
+
+	<view class="btn-box-pd d-flex d-justify-content-between" style="flex-direction: column;width:95%;">
+
+		<view>
+			<view class="btn-big red margin-b-40 d-fc-white fz-36">支付</view>
+		</view>
+		<view>
+			<view class="btn-big margin-b-40 fz-36">取消订单</view>
+		</view>
+	</view>
+
+
 </view>
