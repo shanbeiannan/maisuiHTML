@@ -1,11 +1,11 @@
 <!--pages/my/index.wxml-->
 <view class="container">
 
-  <view class="ms-my-bgtop"></view>
+	<view class="ms-my-bgtop"></view>
 
-  <view class="ms-my-head margin-b-20">
-	<view class="ms-my-head-left">
-			<view class="my-info" >
+	<view class="ms-my-head margin-b-20">
+		<view class="ms-my-head-left">
+			<view class="my-info">
 				<image src="/images/default/default-tx.png" class="tx"></image>
 				<view class="name" bindtap="getUserInfo">
 					<text class="margin-l-20">授权登录</text>
@@ -21,13 +21,13 @@
 			</view> -->
 		</view>
 
-    <!-- <view class="ms-my-head-left">
+		<!-- <view class="ms-my-head-left">
       <view class="my-info">
         <image src="/images/default/default-tx.png" class="tx"></image>
         <button class="btn-name" open-type="getUserInfo" bindgetuserinfo="getUserInfo">授权登录</button>
       </view> -->
 
-      <!-- <view class="my-info" wx:if="{{!hasUserInfo && canIUse}}">
+		<!-- <view class="my-info" wx:if="{{!hasUserInfo && canIUse}}">
 				<image src="/static/images/default-tx.png" class="tx"></image>
 				<button class="btn-name" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">授权登录</button>
 			</view>
@@ -35,143 +35,154 @@
 				<image bindtap="bindViewTap" src="{{userInfo.avatarUrl}}" class="tx"></image>
 				<view class="name">用户名</view>
 			</view> -->
-    <!-- </view> -->
-    <view class="ms-my-head-right">
-      <image src="/images/icon/shezhi.png"></image>
-    </view>
-  </view>
+		<!-- </view> -->
+		<view class="ms-my-head-right">
+			<image src="/images/icon/shezhi.png"></image>
+		</view>
+	</view>
 
-  <view class="ms-index-top">
-    <view class="ms-index-top-content">
-      <view class="ms-index-top-left">
+	<view class="ms-index-top">
+		<view class="ms-index-top-content">
+			<view class="ms-index-top-left">
 
-        <image class="bg" src="/images/icon/hongbao-w.png"></image>
-        <view class="ms-index-top-body">
-          <view>
-            <text class="fz-60 d-fc-white fz-w-700">87.7</text>
-            <text class="fz-30 d-fc-white">元</text>
-          </view>
-          <view class="fz-30 d-fc-white">
-            我的红包
-          </view>
-        </view>
+				<image class="bg" src="/images/icon/hongbao-w.png"></image>
+				<view class="ms-index-top-body-double">
+					<view class="ms-up">
+						<view>
+							<text class="fz-44 d-fc-white fz-w-700">87.7</text>
+							<text class="fz-28 d-fc-white">元</text>
+						</view>
+						<view class="fz-28 d-fc-white" >
+							我的红包
+						</view>
+					</view>
+					<view class="ms-down">
+						<view>
+							<text class="fz-44 d-fc-white fz-w-700">87.7</text>
+							<text class="fz-28 d-fc-white">元</text>
+						</view>
+						<view class="fz-28 d-fc-white">
+							我的红包
+						</view>
+					</view>
+				</view>
 
-        <navigator url="/pages/my/withDrawals" class="ms-index-btn">
-          <view class="yellow fz-34">
-            申请提现
-          </view>
-        </navigator>
-      </view>
-    </view>
-    <view class="ms-index-top-content">
-      <view class="ms-index-top-left">
-        <view class="ms-cover"></view>
-        <view class="ms-my-index-mark">
-          <text class="d-fc-white fz-30">点击解锁</text>
-          <image class="icon-img-min" src="/images/icon/suo.png"></image>
-        </view>
-        <image class="bg" src="/images/icon/yongjin-w.png"></image>
-        <view class="ms-index-top-body">
-          <view>
-            <text class="fz-60 d-fc-white fz-w-700">100.5</text>
-            <text class="fz-30 d-fc-white">元</text>
-          </view>
-          <view class="fz-30 d-fc-white">
-            我的佣金
-          </view>
-        </view>
+				<navigator url="/pages/my/withDrawals" class="ms-index-btn">
+					<view class="yellow fz-34">
+						申请提现
+					</view>
+				</navigator>
+			</view>
+		</view>
+		<view class="ms-index-top-content">
+			<view class="ms-index-top-left">
+				<view class="ms-cover"></view>
+				<view class="ms-my-index-mark">
+					<text class="d-fc-white fz-30">点击解锁</text>
+					<image class="icon-img-min" src="/images/icon/suo.png"></image>
+				</view>
+				<image class="bg" src="/images/icon/yongjin-w.png"></image>
+				<view class="ms-index-top-body" style="padding:50rpx 25rpx;">
+					<view>
+						<text class="fz-60 d-fc-white fz-w-700">100.5</text>
+						<text class="fz-30 d-fc-white">元</text>
+					</view>
+					<view class="fz-30 d-fc-white">
+						我的佣金
+					</view>
+				</view>
 
-        <navigator url="/pages/my/withDrawals" hover-class="none" class="ms-index-btn">
-          <view class="yellow fz-34">
-            申请提现
-          </view>
-        </navigator>
-      </view>
-    </view>
-  </view>
+				<navigator url="/pages/my/withDrawals" hover-class="none" class="ms-index-btn">
+					<view class="yellow fz-34">
+						申请提现
+					</view>
+				</navigator>
+			</view>
+		</view>
+	</view>
 </view>
 
 <view class="container">
-  <navigator url="/pages/my/mycoupan" class="my-info-list margin-t-30">
+	<navigator url="/pages/my/mycoupan" class="my-info-list margin-t-30">
 
-    <view class="d-flex d-justify-content-between d-align-items-center">
-      <view class="ms-my-list-left">
-        <image class="enter-img margin-r-20" src="/images/icon/quan.png"></image>
-        <text class="fz-34 d-fc-blacker">我的优惠券</text>
-      </view>
-      <view class="ms-my-list-right">
-        <text class="fz-30 d-fc-zon margin-r-20  fz-w-700">1000元</text>
-        <image src="/images/icon/jinru.png" class="enter-img"></image>
-      </view>
-    </view>
-  </navigator>
+		<view class="d-flex d-justify-content-between d-align-items-center">
+			<view class="ms-my-list-left">
+				<image class="enter-img margin-r-20" src="/images/icon/quan.png"></image>
+				<text class="fz-34 d-fc-blacker">我的优惠券</text>
+			</view>
+			<view class="ms-my-list-right">
+				<text class="fz-30 d-fc-zon margin-r-20  fz-w-700">1000元</text>
+				<image src="/images/icon/jinru.png" class="enter-img"></image>
+			</view>
+		</view>
+	</navigator>
 
-  <view class="my-info-list margin-t-30">
+	<view class="my-info-list margin-t-30">
 
-    <view class="d-flex d-justify-content-between d-align-items-center">
-      <view class="ms-my-list-left">
-        <image class="enter-img margin-r-20" src="/images/icon/quan.png"></image>
-        <text class="fz-34 d-fc-blacker">我的卡</text>
-      </view>
-      <view class="ms-my-list-right">
-        <text class="fz-30 d-fc-zon margin-r-20 fz-w-700">2张</text>
-        <image src="/images/icon/jinru.png" class="enter-img"></image>
-      </view>
-    </view>
-  </view>
+		<view class="d-flex d-justify-content-between d-align-items-center">
+			<view class="ms-my-list-left">
+				<image class="enter-img margin-r-20" src="/images/icon/quan.png"></image>
+				<text class="fz-34 d-fc-blacker">我的卡</text>
+			</view>
+			<view class="ms-my-list-right">
+				<text class="fz-30 d-fc-zon margin-r-20 fz-w-700">2张</text>
+				<image src="/images/icon/jinru.png" class="enter-img"></image>
+			</view>
+		</view>
+	</view>
 
 </view>
 
 <view class="container margin-b-30">
 
 
-  <view class="list_h margin-t-40">
-    <view class="list_h_tip"></view>
-    <view class="list_h_title">想要更多</view>
-  </view>
+	<view class="list_h margin-t-40">
+		<view class="list_h_tip"></view>
+		<view class="list_h_title">想要更多</view>
+	</view>
 
 
-  <view class="my-info-list margin-t-20">
+	<view class="my-info-list margin-t-20">
 
-    <view class="d-flex d-justify-content-between d-align-items-center">
-      <view class="ms-my-list-left">
-        <image class="icon-img-50 margin-r-20" src="/images/icon/dingdan.png"></image>
-        <text class="fz-34 d-fc-blacker">我的订单</text>
-      </view>
-      <view class="ms-my-list-right">
-        <text class="fz-30 d-fc-gray margin-r-20">已有3单</text>
-        <image src="/images/icon/jinru.png" class="enter-img"></image>
-      </view>
-    </view>
-  </view>
+		<view class="d-flex d-justify-content-between d-align-items-center">
+			<view class="ms-my-list-left">
+				<image class="icon-img-50 margin-r-20" src="/images/icon/dingdan.png"></image>
+				<text class="fz-34 d-fc-blacker">我的订单</text>
+			</view>
+			<view class="ms-my-list-right">
+				<text class="fz-30 d-fc-gray margin-r-20">已有3单</text>
+				<image src="/images/icon/jinru.png" class="enter-img"></image>
+			</view>
+		</view>
+	</view>
 
-  <navigator url="/pages/my/myBankCard" hover-class="none" class="my-info-list margin-t-30">
+	<navigator url="/pages/my/myBankCard" hover-class="none" class="my-info-list margin-t-30">
 
-    <view class="d-flex d-justify-content-between d-align-items-center">
-      <view class="ms-my-list-left">
-        <image class="icon-img-50 margin-r-20" src="/images/icon/yinhangka.png"></image>
-        <text class="fz-34 d-fc-blacker">我的银行卡</text>
-      </view>
-      <view class="ms-my-list-right">
-        <text class="fz-30 d-fc-gray margin-r-20">添加银行卡即可提现</text>
-        <image src="/images/icon/jinru.png" class="enter-img"></image>
-      </view>
-    </view>
-  </navigator>
+		<view class="d-flex d-justify-content-between d-align-items-center">
+			<view class="ms-my-list-left">
+				<image class="icon-img-50 margin-r-20" src="/images/icon/yinhangka.png"></image>
+				<text class="fz-34 d-fc-blacker">我的银行卡</text>
+			</view>
+			<view class="ms-my-list-right">
+				<text class="fz-30 d-fc-gray margin-r-20">添加银行卡即可提现</text>
+				<image src="/images/icon/jinru.png" class="enter-img"></image>
+			</view>
+		</view>
+	</navigator>
 
-  <view class="my-info-list margin-t-30">
+	<view class="my-info-list margin-t-30">
 
-    <view class="d-flex d-justify-content-between d-align-items-center">
-      <view class="ms-my-list-left">
-        <image class="icon-img-50 margin-r-20" src="/images/icon/kefu.png"></image>
-        <text class="fz-34 d-fc-blacker">我的客服</text>
-      </view>
-      <view class="ms-my-list-right">
-        <text class="fz-30 d-fc-gray margin-r-20">有问题，点击咨询</text>
-        <image src="/images/icon/jinru.png" class="enter-img"></image>
-      </view>
-    </view>
-  </view>
+		<view class="d-flex d-justify-content-between d-align-items-center">
+			<view class="ms-my-list-left">
+				<image class="icon-img-50 margin-r-20" src="/images/icon/kefu.png"></image>
+				<text class="fz-34 d-fc-blacker">我的客服</text>
+			</view>
+			<view class="ms-my-list-right">
+				<text class="fz-30 d-fc-gray margin-r-20">有问题，点击咨询</text>
+				<image src="/images/icon/jinru.png" class="enter-img"></image>
+			</view>
+		</view>
+	</view>
 
 
 </view>

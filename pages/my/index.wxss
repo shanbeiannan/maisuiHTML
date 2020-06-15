@@ -126,6 +126,18 @@ image.bg{
   padding:30rpx 25rpx;
 }
 
+.ms-index-top-body-double{
+  padding: 0 40rpx;
+  text-align:left;
+}
+.ms-index-top-body-double .ms-up{
+  border-bottom:1px solid #fff;padding-bottom:20rpx;
+}
+
+.ms-index-top-body-double .ms-down{
+  padding-top:20rpx;
+}
+
 .ms-index-btn{ 
   width:80%;
   margin:30rpx auto 0;

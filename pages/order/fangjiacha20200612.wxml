@@ -1,0 +1,51 @@
+<!--pages/order/fangjiacha20200612.wxml-->
+
+<view class="container">
+	<view class="ms-my-bgtop ">
+	</view>
+
+	<view class="ms-info-box">
+		<view class="ms-info-box-title ">
+			<text class="fz-32 fz-w-600">订单信息</text>
+
+		</view>
+		<view class="order-box-text-list d-fc-sgray">
+			<view class=" fz-30 ">
+				<text>订单编号：</text>
+				<text>2020202020202020</text>
+			</view>
+			<view class="margin-t-20 fz-30">
+				<text >产品名称：</text>
+				<text >打卡新疆6天</text>
+			</view>
+			<view class=" margin-t-20 fz-30">
+				<text >抵达日期：</text>
+				<text >2020-05-21 12:00:23</text>
+			</view>
+		</view>
+
+	</view>
+
+	<view class="ms-box">
+		<view class="ms-info-box-title ">
+			<text class="fz-32 fz-w-600">房差价</text>
+		</view>
+		<view class="ms-box-content none-border">
+			<view class="ms-input-list">
+				<view class="ms-input">
+					<text class="fz-30 margin-b-10">填写备注</text>
+					<textarea></textarea>
+				</view>
+			</view>
+		</view>
+    <view class="ms-room-bottom">
+      <view>
+        <text  class="fz-30 fz-w-700">支付总金额</text>
+      </view>
+      <view>
+        <text class="fz-28 d-fc-org">￥</text>
+        <text class="fz-38 d-fc-org fz-w-700">1780</text>
+      </view>
+    </view>
+	</view>
+</view>

@@ -247,6 +247,20 @@
 					"pathName": "pages/tab",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/product/xianluliebiao20200615",
+					"pathName": "pages/product/xianluliebiao20200615",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/order/fangjiacha20200612",
+					"pathName": "pages/order/fangjiacha20200612",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

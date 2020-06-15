@@ -30,7 +30,9 @@
     "pages/order/wuliu",
     "pages/order/leftright",
     "pages/my/tixianjilu",
-    "pages/tab"
+    "pages/tab",
+    "pages/product/xianluliebiao20200615",
+    "pages/order/fangjiacha20200612"
   ],
   "tabBar": {
     "list": [
