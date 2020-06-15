@@ -8,10 +8,10 @@
 			<view class="ms-p-image">
 				<image src="/images/default/default.jpg" mode="widthFix"></image>
 			</view>
-			<view  class="ms-p-title">
+			<view class="ms-p-title">
 				<text class="d-fc-blocker fz-w-700 fz-32">麦穗旅游卡</text>
 			</view>
-				<view class="ms-p-price_mark">
+			<view class="ms-p-price_mark">
 				<view class="ms-p-p_m-left">
 					<text class="d-fc-redl fz-28">￥</text>
 					<text class="d-fc-redl fz-32">1580</text>
@@ -40,7 +40,7 @@
 		</view>
 
 
-	<view class="ms-product-new">
+		<view class="ms-product-new">
 			<view class="ms-p-image">
 				<image src="/images/default/default.jpg" mode="widthFix"></image>
 			</view>
@@ -57,8 +57,7 @@
 
 		</view>
 
-
-    	<view class="ms-product-new">
+		<view class="ms-product-new">
 			<view class="ms-p-image">
 				<image src="/images/default/default.jpg" mode="widthFix"></image>
 			</view>
@@ -74,7 +73,6 @@
 			</view>
 
 		</view>
-
 
 	</view>
 
