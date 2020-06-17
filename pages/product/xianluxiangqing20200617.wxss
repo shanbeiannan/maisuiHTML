@@ -1,6 +1,7 @@
 /* pages/product/xianluxiangqing20200617.wxss */
 .ms-p-d-top{
   width:100%;
+  margin-bottom:30rpx;
 }
 .ms-p-d-img{
   width:100%;
