@@ -1,0 +1,32 @@
+<view class="container">
+
+	<view class="ms-p-d-top">
+		<image class="ms-p-d-img" src="/images/default/default.jpg" mode="widthFix"></image>
+
+		<view class="ms-p-d-price">
+			<view>
+				<view class="margin-b-20"><text>原价：</text><text class="ms-p-d-oldprice">￥1580</text></view>
+				<view><text>现价：</text><text class="ms-p-d-newprice">￥580</text></view>
+			</view>
+			<view class="ms-p-d-mark">
+				<view class="fz-28">
+					<view>本线路不支持用</view>
+					<view>麦穗旅游卡支付报名</view>
+				</view>
+				<view><text class="ms-p-d-mark-mark">去买卡></text></view>
+			</view>
+		</view>
+		<view class="ms-p-d-title">
+			<view class="fz-38 fz-w-700">魅力泰国6天5晚</view>
+			<view class="ms-p-d-info">
+				<view><text>出发地：</text><text class="d-fc-gray">天津</text></view>
+				<view class="d-fc-gray">|</view>
+				<view><text>目的地：</text><text class="d-fc-gray">天津</text></view>
+				<view class="d-fc-gray">|</view>
+				<view><text>满意度：</text><text class="d-fc-red">99.99%</text></view>
+			</view>
+
+		</view>
+	</view>
+
+</view>

@@ -32,7 +32,8 @@
     "pages/my/tixianjilu",
     "pages/tab",
     "pages/product/xianluliebiao20200615",
-    "pages/order/fangjiacha20200612"
+    "pages/order/fangjiacha20200612",
+    "pages/product/xianluxiangqing20200617"
   ],
   "tabBar": {
     "list": [

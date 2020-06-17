@@ -5,17 +5,24 @@
   flex-flow: row wrap;
   margin-top:-100rpx;
   width:95%;
-  justify-content: space-around;
-  
+  justify-content:flex-start;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .ms-product-new{  
   border-radius: 10rpx;
- background-color:#fff;
+  background-color:#fff;
   width:47%;
+  margin:0 10rpx;
   margin-bottom:25rpx;
   padding-bottom:25rpx;
 }
+
+.ms-product-new:nth-child(2n){
+  margin-right:0 !important;
+}
+
 .ms-p-image{
   border-radius:25rpx;
   margin-bottom:25rpx;
@@ -32,13 +39,13 @@
 .ms-p-price_mark{
   display:flex;
   flex-direction: row;
+  align-items: center;
   margin-top:20rpx;
   padding:0 25rpx;
 }
 
 .ms-p-p_m-left{
-  padding-right: 25rpx;
-  border-right:1px solid #e5e5e5;
+  padding-right: 25rpx;  
 }
 
 .ms-p-p_m-right{

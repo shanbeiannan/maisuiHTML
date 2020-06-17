@@ -1,0 +1,58 @@
+/* pages/product/xianluxiangqing20200617.wxss */
+.ms-p-d-top{
+  width:100%;
+}
+.ms-p-d-img{
+  width:100%;
+}
+
+.ms-p-d-price{
+  margin-top:-5rpx;
+  padding:25rpx 0 25rpx 25rpx;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff2637;
+  color:#fff;
+}
+.ms-p-d-oldprice{
+  font-size:38rpx;
+  text-decoration: line-through;
+  font-weight: 700;
+}
+.ms-p-d-newprice{
+ padding:0 10px;
+ background-color:#fff;
+ border-radius:25rpx;
+ color:#ff2637;
+ font-weight: 700;
+}
+.ms-p-d-mark{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border-left:1px solid #fff;
+  padding-left:25rpx;
+}
+
+.ms-p-d-mark-mark{
+  background-color:#ffcd1e;
+  border-radius:25rpx 0 0 25rpx;
+  padding:3rpx 15rpx;
+  font-size:30rpx;
+}
+.ms-p-d-title{
+  padding:25rpx;
+  background-color:#fff;
+  border-bottom-left-radius: 25rpx;  
+  border-bottom-right-radius: 25rpx;
+}
+
+.ms-p-d-info{
+  margin-top:25rpx;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size:30rpx;
+}

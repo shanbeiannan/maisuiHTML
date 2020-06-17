@@ -13,10 +13,11 @@
 			</view>
 			<view class="ms-p-price_mark">
 				<view class="ms-p-p_m-left">
-					<text class="d-fc-redl fz-28">￥</text>
-					<text class="d-fc-redl fz-32">1580</text>
+					<text class="d-fc-redl fz-w-700 fz-28">￥</text>
+					<text class="d-fc-redl fz-w-700 fz-32">1580</text>
 				</view>
-				<view class="ms-p-p_m-right"><text class="d-fc-sgray fz-28">26人已买</text></view>
+				<text class="d-fc-ssgray fz-24">|</text>
+				<view class="ms-p-p_m-right"><text class="d-fc-sgray fz-26">26人已买</text></view>
 			</view>
 
 		</view>
@@ -27,14 +28,32 @@
 				<image src="/images/default/default.jpg" mode="widthFix"></image>
 			</view>
 			<view class="ms-p-title">
-				<text class="d-fc-blocker fz-w-700 fz-32">麦穗旅游卡麦穗旅游</text>
+				<text class="d-fc-blocker fz-w-700 fz-32">麦穗旅游卡麦穗旅</text>
 			</view>
 			<view class="ms-p-price_mark">
 				<view class="ms-p-p_m-left">
-					<text class="d-fc-redl fz-28">￥</text>
-					<text class="d-fc-redl fz-32">1580</text>
+					<text class="d-fc-redl fz-w-700 fz-28">￥</text>
+					<text class="d-fc-redl fz-w-700 fz-32">1580</text>
 				</view>
-				<view class="ms-p-p_m-right"><text class="d-fc-sgray fz-28">26人已买</text></view>
+					<text class="d-fc-ssgray fz-24">|</text>
+				<view class="ms-p-p_m-right"><text class="d-fc-sgray fz-26">26人已买</text></view>
+			</view>
+
+		</view>
+		<view class="ms-product-new">
+			<view class="ms-p-image">
+				<image src="/images/default/default.jpg" mode="widthFix"></image>
+			</view>
+			<view class="ms-p-title">
+				<text class="d-fc-blocker fz-w-700 fz-32">麦穗旅游卡麦穗</text>
+			</view>
+			<view class="ms-p-price_mark">
+				<view class="ms-p-p_m-left">
+					<text class="d-fc-redl fz-w-700 fz-28">￥</text>
+					<text class="d-fc-redl fz-w-700 fz-32">1580</text>
+				</view>
+					<text class="d-fc-ssgray fz-24">|</text>
+				<view class="ms-p-p_m-right"><text class="d-fc-sgray fz-26">26人已买</text></view>
 			</view>
 
 		</view>
@@ -49,10 +68,11 @@
 			</view>
 			<view class="ms-p-price_mark">
 				<view class="ms-p-p_m-left">
-					<text class="d-fc-redl fz-28">￥</text>
-					<text class="d-fc-redl fz-32">1580</text>
+					<text class="d-fc-redl fz-w-700 fz-28">￥</text>
+					<text class="d-fc-redl fz-w-700 fz-32">1580</text>
 				</view>
-				<view class="ms-p-p_m-right"><text class="d-fc-sgray fz-28">26人已买</text></view>
+					<text class="d-fc-ssgray fz-24">|</text>
+				<view class="ms-p-p_m-right"><text class="d-fc-sgray fz-26">26人已买</text></view>
 			</view>
 
 		</view>
@@ -62,14 +82,15 @@
 				<image src="/images/default/default.jpg" mode="widthFix"></image>
 			</view>
 			<view class="ms-p-title">
-				<text class="d-fc-blocker fz-w-700 fz-32">麦穗旅游卡麦穗旅游</text>
+				<text class="d-fc-blocker fz-w-700 fz-32">麦穗旅游卡麦穗旅</text>
 			</view>
 			<view class="ms-p-price_mark">
 				<view class="ms-p-p_m-left">
-					<text class="d-fc-redl fz-28">￥</text>
-					<text class="d-fc-redl fz-32">1580</text>
+					<text class="d-fc-redl fz-w-700 fz-28">￥</text>
+					<text class="d-fc-redl fz-w-700 fz-32">1580</text>
 				</view>
-				<view class="ms-p-p_m-right"><text class="d-fc-sgray fz-28">26人已买</text></view>
+					<text class="d-fc-ssgray fz-24">|</text>
+				<view class="ms-p-p_m-right"><text class="d-fc-sgray fz-26">26人已买</text></view>
 			</view>
 
 		</view>
