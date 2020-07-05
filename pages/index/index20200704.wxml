@@ -1,0 +1,186 @@
+<!--pages/index/index20200704.wxml-->
+<view class="container">
+	<view class="ms-index-top">
+		<swiper class="banner" indicator-dots="true" indicator-active-color="#ffffff">
+			<swiper-item>
+				<view url="" class="banner-contair ">
+					<image src="/images/default/default.jpg" mode="widthFixed"></image>
+				</view>
+			</swiper-item>
+			<swiper-item>
+				<view class="banner-contair ">
+					<image src="/images/default/default.jpg" mode="widthFixed"></image>
+				</view>
+			</swiper-item>
+			<swiper-item>
+				<view class="banner-contair ">
+					<image src="/images/default/default.jpg" mode="widthFixed"></image>
+				</view>
+			</swiper-item>
+		</swiper>
+	</view>
+
+	<view class="ms-indexnew-content">
+
+		<view class="ms-content-top">
+			<view class="ms-content-top-left dl-fc-blocker">
+				<text class="ms-content-title fz-36 fz-w-700 margin-b-20">美好旅游,即刻出发!</text>
+				<text class="fz-30">史上最具性价比的旅行团，专属管家24小时随时服务。麦穗会员卡，旅游就是这么简单。</text>
+			</view>
+			<view class="ms-content-top-right">
+				<view class="ms-content-right-t">
+					<image src="/images/icon/icon09.png" class="icon-img-45"></image><text class="fz-30">去分享</text>
+				</view>
+				<view class="ms-content-right-d">
+					<image src="/images/icon/icon10.png" class="icon-img-45"></image><text class="fz-30">去邀约</text>
+				</view>
+			</view>
+		</view>
+
+		<view class="ms-content-module margin-t-20">
+			<view class="ms-content-module-title">
+				<view class="title-left">
+					<view class="ms-content-mark margin-r-10"></view>
+					<view class="fz-34 fz-w-700">第1步:预订线路</view>
+				</view>
+				<view class="title-right">
+					<image src="/images/icon/icon10.png" class="icon-img"></image><text class="fz-28">我要找客服</text>
+				</view>
+			</view>
+			<view class="ms-content-module-content">
+
+				<view class="ms-module-img">
+					<image src="/images/icon/icon01.png" class="icon-img-45"></image>
+				</view>
+
+				<text class="d-fc-gray">➜</text>
+				<view class="ms-module-img">
+					<image src="/images/icon/icon02.png" class="icon-img-45"></image>
+				</view>
+
+				<text class="d-fc-gray">➜</text>
+
+				<view class="ms-module-img">
+					<image src="/images/icon/icon03.png" class="icon-img-45"></image>
+				</view>
+
+				<text class="d-fc-gray">➜</text>
+
+				<view class="ms-module-img">
+					<image src="/images/icon/icon04.png" class="icon-img-45"></image>
+				</view>
+
+			</view>
+
+			<view class="ms-content-module-bottom">
+
+				<text class="fz-24 dl-fc-blocker">选择线路</text>
+
+				<text class="d-fc-gray"></text>
+
+				<text class="fz-24 dl-fc-blocker">选择日期</text>
+
+				<text class="d-fc-gray"></text>
+				<text class="fz-24 dl-fc-blocker">确认订单</text>
+
+				<text class="d-fc-gray"></text>
+
+				<text class="fz-24 dl-fc-blocker">购买机票</text>
+
+			</view>
+
+		</view>
+
+		<view class="ms-content-module margin-t-20">
+			<view class="ms-content-module-title">
+				<view class="title-left">
+					<view class="ms-content-mark margin-r-10"></view>
+					<view class="fz-34 fz-w-700">第2步:出游服务</view>
+				</view>
+				<view class="title-right">
+					<image src="/images/icon/icon10.png" class="icon-img"></image><text class="fz-28">我要找客服</text>
+				</view>
+			</view>
+
+			<view class="ms-content-module-content-n">
+
+				<view class="ms-module-thread">
+					<view class="ms-module-img">
+						<image src="/images/icon/icon05.png" class="icon-img-45"></image>
+					</view>
+					<text class="fz-24 dl-fc-blocker">签证</text>
+				</view>
+				<text class="ms-text-th d-fc-gray">➜</text>
+				<view class="ms-module-thread">
+					<view class="ms-module-img">
+						<image src="/images/icon/icon06.png" class="icon-img-45"></image>
+					</view>
+					<text class="fz-24 dl-fc-blocker">通关</text>
+				</view>
+				<text class="ms-text-th d-fc-gray">➜</text>
+
+				<view class="ms-module-thread">
+					<view class="ms-module-img">
+						<image src="/images/icon/icon07.png" class="icon-img-45"></image>
+					</view>
+					<text class="fz-24 dl-fc-blocker">接送服务</text>
+				</view>
+				<text class="ms-text-th d-fc-gray">➜</text>
+				<view class="ms-module-thread">
+					<view class="ms-module-img">
+						<image src="/images/icon/icon08.png" class="icon-img-45"></image>
+					</view>
+					<text class="fz-24 dl-fc-blocker">入住酒店</text>
+				</view>
+			</view>
+
+
+		</view>
+
+		<view class="ms-content-module-double margin-t-20">
+			<view class="ms-content-module ">
+
+				<view class="ms-content-module-title">
+					<view class="title-left">
+						<view class="ms-content-mark margin-r-10"></view>
+						<view class="fz-34 fz-w-700">私人订制</view>
+					</view>
+
+				</view>
+				<view class="ms-content-module-content">
+					<view class="ms-module-thread-span  dl-fc-blocker fz-30 ">
+						<text>我们可以为您量身定制旅游计划</text>
+						<view class="margin-t-20">
+							<view class="btn ">
+								查看详情
+							</view>
+						</view>
+					</view>
+
+				</view>
+			</view>
+			<view class="ms-content-module margin-l-20">
+				<view class="ms-content-module-title">
+					<view class="title-left ">
+						<view class="ms-content-mark margin-r-10"></view>
+						<view class="fz-34 fz-w-700">会员特权</view>
+					</view>
+
+				</view>
+				<view class="ms-content-module-content">
+					<view class="ms-module-thread-span dl-fc-blocker fz-30 ">
+						<text>我们可以为您量身定制旅游计划</text>
+						<view class="margin-t-20">
+							<view class="btn ">
+								点击加入
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+
+		</view>
+	</view>
+
+
+</view>

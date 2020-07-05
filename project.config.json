@@ -268,6 +268,12 @@
 					"pathName": "pages/product/xianluxiangqing20200617",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index20200704",
+					"pathName": "pages/index/index20200704",
+					"scene": null
 				}
 			]
 		}

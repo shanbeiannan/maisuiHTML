@@ -348,6 +348,15 @@
   margin-right: 40rpx !important;
 }
 
+.margin-r-60 {
+  margin-right: 60rpx !important;
+}
+.margin-r-80 {
+  margin-right: 80rpx !important;
+}
+.margin-r-100 {
+  margin-right: 100rpx !important;
+}
 .margin-t-10 {
   margin-top: 10rpx !important;
 }
@@ -726,12 +735,22 @@ button::after {
 .ms-box,
 .ms-box-n-radius,
 .ms-box-t-radius,
+.ms-box-tb-radius,
 .ms-box-b-radius {
   background-color: #fff;
   width: 95%;
   display: flex;
   flex-direction: column;
 }
+
+.ms-box-tb-radius {
+  border-top-left-radius: 25rpx;
+  border-top-right-radius: 25rpx;
+  border-bottom-left-radius: 25rpx;
+  border-bottom-right-radius: 25rpx;
+  margin-bottom:30rpx;
+}
+
 
 .ms-box-t-radius {
   border-top-left-radius: 25rpx;
@@ -751,6 +770,15 @@ button::after {
 .ms-content-image {
   width: 100%;
 }
+
+.ms-content-tb-radius-image {
+  width: 100%;
+  border-top-left-radius: 25rpx;
+  border-top-right-radius: 25rpx;
+  border-bottom-left-radius: 25rpx;
+  border-bottom-right-radius: 25rpx;
+}
+
 
 .ms-content-t-radius-image {
   width: 100%;
@@ -1436,10 +1464,11 @@ button::after {
   align-items: centrer;
   border: solid 1rpx #ff9d00;
   border-radius: 50rpx;
-  padding: 25rpx 0 18rpx 40rpx;
+  padding: 25rpx;
   vertical-align: middle;
   margin: 0 10rpx;
   width: 90%;
+  text-align: center;
 }
 
 .info-btn-list.border-green {
@@ -1464,10 +1493,7 @@ button::after {
   flex: 0.8;
   font-size: 34rpx;
   color: #ff9d00;
-  text-align: left;
-  vertical-align: middle;
-  line-height: 38rpx;
-  margin-left: 5rpx;
+  margin:0 auto;
 }
 
 .info-text.green {
@@ -1800,7 +1826,7 @@ button::after {
 
 .ms-my-bgtop{
   background-color:#ffcd1e;  
-  padding:80rpx 0;
+  padding:60rpx 0;
   width:100%;
 }
 
