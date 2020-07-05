@@ -9,6 +9,8 @@
 }
 .ms-indexnew-content{
   padding:25rpx;
+  margin-top:-70rpx;
+  z-index: 10;
 }
 
 .ms-content-top{
