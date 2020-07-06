@@ -1,7 +1,7 @@
 <view class="container">
 	<view class="ms-box margin-t-20">
 		<view class="ms-box-title">
-			<text class="fz-30 d-fc-gray">标题</text>
+			<text class="fz-30 dc-fc-blacker">标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</text>
 		</view>
 		<view class="ms-box-content none-border">
 			<view class="fz-30 d-fc-gray">
@@ -15,7 +15,7 @@
 
 	<view class="ms-box ">
 		<view class="ms-box-title">
-			<text class="fz-30 d-fc-gray">标题</text>
+			<text class="fz-30dc-fc-blacker">标题</text>
 			<!-- <image class="icon-img-min" src="/images/icon/jia.png"></image> -->
 		</view>
 		<view class="ms-box-content none-border">
@@ -28,9 +28,23 @@
 		</view>
 	</view>
 
+	<view class="ms-water">
+		<view class="ms-water-top d-fc-white">
+			<text class="fz-34 fz-w-700">客服咨询</text>
+			<text class="fz-30">我们承诺24小时为您解答所有问题</text>
+			<text class="fz-30">→</text>
+		</view>
+		<view>
+			<image src="/images/icon/kefu-w.png" class="icon-img-80"></image>
+		</view>
+	</view>
+
+
+
 	<view class="ms-btn-bottom">
 		<view class="btn-big org">确认提现</view>
 	</view>
+
 
 
 </view>

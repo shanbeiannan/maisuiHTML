@@ -50,24 +50,24 @@
 			<view class="ms-content-module-content">
 
 				<view class="ms-module-img">
-					<image src="/images/icon/icon01.png" class="icon-img-45"></image>
+					<image src="/images/icon/icon01.png" class="icon-img-60"></image>
 				</view>
 
 				<text class="d-fc-gray">➜</text>
 				<view class="ms-module-img">
-					<image src="/images/icon/icon02.png" class="icon-img-45"></image>
-				</view>
-
-				<text class="d-fc-gray">➜</text>
-
-				<view class="ms-module-img">
-					<image src="/images/icon/icon03.png" class="icon-img-45"></image>
+					<image src="/images/icon/icon02.png" class="icon-img-60"></image>
 				</view>
 
 				<text class="d-fc-gray">➜</text>
 
 				<view class="ms-module-img">
-					<image src="/images/icon/icon04.png" class="icon-img-45"></image>
+					<image src="/images/icon/icon03.png" class="icon-img-60"></image>
+				</view>
+
+				<text class="d-fc-gray">➜</text>
+
+				<view class="ms-module-img">
+					<image src="/images/icon/icon04.png" class="icon-img-60"></image>
 				</view>
 
 			</view>
@@ -106,14 +106,14 @@
 
 				<view class="ms-module-thread">
 					<view class="ms-module-img">
-						<image src="/images/icon/icon05.png" class="icon-img-45"></image>
+						<image src="/images/icon/icon05.png" class="icon-img-60"></image>
 					</view>
 					<text class="fz-24 dl-fc-blocker">签证</text>
 				</view>
 				<text class="ms-text-th d-fc-gray">➜</text>
 				<view class="ms-module-thread">
 					<view class="ms-module-img">
-						<image src="/images/icon/icon06.png" class="icon-img-45"></image>
+						<image src="/images/icon/icon06.png" class="icon-img-60"></image>
 					</view>
 					<text class="fz-24 dl-fc-blocker">通关</text>
 				</view>
@@ -121,14 +121,14 @@
 
 				<view class="ms-module-thread">
 					<view class="ms-module-img">
-						<image src="/images/icon/icon07.png" class="icon-img-45"></image>
+						<image src="/images/icon/icon07.png" class="icon-img-60"></image>
 					</view>
 					<text class="fz-24 dl-fc-blocker">接送服务</text>
 				</view>
 				<text class="ms-text-th d-fc-gray">➜</text>
 				<view class="ms-module-thread">
 					<view class="ms-module-img">
-						<image src="/images/icon/icon08.png" class="icon-img-45"></image>
+						<image src="/images/icon/icon08.png" class="icon-img-60"></image>
 					</view>
 					<text class="fz-24 dl-fc-blocker">入住酒店</text>
 				</view>
