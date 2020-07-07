@@ -1,0 +1,84 @@
+<!--pages/index/huiyuan20200707.wxml-->
+<view class="container">
+
+  <image src="/images/default/default-img.png" mode="withFix"></image>
+
+	<view class="ms-hy-content">
+
+		<view class="ms-box-index-content-content">
+			<view class="ms-box-index-content-image">
+				<view class="content-content-top">
+					<view class="content-content-title">
+						<text class="fz-32 d-fc-v">美好旅程，即刻出发</text>
+						<text class="fz-24 d-fc-v margin-t-10">麦穗旅游卡，马上加入吧！让我们开启新的旅程</text>
+					</view>
+					<view class="content-content-btn">
+						<text class="fz-32 d-fc-v fz-w-600">GO!</text>
+					</view>
+				</view>
+
+				<view class="ms-image">
+					<image src="https://img.kangyang.live/pic/index/ka.png?v=1" mode="widthFix"></image>
+				</view>
+
+			</view>
+
+		</view>
+
+		<view class="ms-box-index-content-content huiyuan">
+			<image class="ms-image-mark" src="/images/icon/biaoti.png" mode="heightFix"></image>
+			<text class="ms-text-mark">会员特权1</text>
+			<view class="ms-box-index-content">
+				<view class="ms-list">
+					<text class="colir"></text>
+					<text><text class="fz-w-700">赠送</text>餐饮、酒店住宿、景点门票</text>
+				</view>
+				<view class="ms-list">
+					<text class="colir"></text>
+					<text>泰国、东南亚线路<text class="fz-w-700">任你选</text></text>
+				</view>
+
+				<view class="ms-list">
+					<text class="colir"></text>
+					<text>当地<text class="fz-w-700">星级酒店</text>，旅游责任险/意外险</text>
+				</view>
+
+
+				<view class="ms-list">
+					<text class="colir"></text>
+					<text>提供<text class="fz-w-700">专业</text>司机、导游</text>
+				</view>
+
+			</view>
+
+		</view>
+
+		<view class="ms-box-index-content-content huiyuan">
+			<image class="ms-image-mark" src="/images/icon/biaoti.png" mode="heightFix"></image>
+			<text class="ms-text-mark">会员特权2</text>
+			<view class="ms-box-index-content">
+				<view class="ms-list">
+					<text class="colir"></text>
+					<text><text class="fz-w-700">服务承诺</text>：无任何强制消费</text>
+				</view>
+				<view class="ms-list">
+					<text class="colir"></text>
+					<text><text class="fz-w-700">一对一</text>专属客服6x12小时服务</text>
+				</view>
+
+				<view class="ms-list">
+					<text class="colir"></text>
+					<text>签署旅行社<text class="fz-w-700">服务协议、旅游合同</text></text>
+				</view>
+
+			</view>
+
+		</view>
+
+	</view>
+
+	<view class="ms-btn-bottom">
+		<view class="btn-big red d-fc-white">加入会员</view>
+	</view>
+
+</view>

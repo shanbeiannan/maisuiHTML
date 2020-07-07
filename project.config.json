@@ -273,6 +273,14 @@
 					"id": -1,
 					"name": "pages/index/index20200704",
 					"pathName": "pages/index/index20200704",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/huiyuan20200707",
+					"pathName": "pages/index/huiyuan20200707",
+					"query": "",
 					"scene": null
 				}
 			]

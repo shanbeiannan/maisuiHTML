@@ -34,7 +34,8 @@
     "pages/product/xianluliebiao20200615",
     "pages/order/fangjiacha20200612",
     "pages/product/xianluxiangqing20200617",
-    "pages/index/index20200704"
+    "pages/index/index20200704",
+    "pages/index/huiyuan20200707"
   ],
   "tabBar": {
     "list": [

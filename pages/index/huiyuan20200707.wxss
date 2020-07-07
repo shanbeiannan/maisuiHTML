@@ -1,0 +1,115 @@
+/* pages/index/huiyuan20200707.wxss */
+page{
+  background-color: #ffcd1e;
+}
+
+.ms-hy-content{
+  margin-top:-60rpx;
+}
+
+.ms-box-index-content-content {  
+  background-color: #fff2e5;
+   border-radius: 25rpx;
+  border:1px solid rgba(212, 27, 7, 0.63);
+  padding: 30rpx 0;
+  margin: 20rpx auto;  
+}
+
+.huiyuan{
+  padding:80rpx 30rpx 25rpx;
+  position: relative;
+  border:1px solid #81511c !important;
+}
+
+.ms-box-index-content-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  width:100%;
+}
+
+
+.content-content-top{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 25rpx;
+  height:100rpx;
+}
+
+.content-content-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  padding:0 10rpx 0 20rpx; 
+}
+
+.content-content-btn{
+  position: relative;
+  border: solid 1px #ffd100;
+  background: #ffd100;
+  box-shadow: 0 8rpx 2rpx #f39800;
+  border-radius: 50%;
+  height:85rpx;
+  width:90rpx;
+  line-height: 90rpx;
+  text-align: center;
+}
+
+.content-content-btn:active{
+  margin-top:8rpx;
+  box-shadow: 0 0rpx 2rpx #f39800; 
+}
+
+
+ .ms-image {
+  width:100%;
+  margin-top:-30rpx;
+
+}
+
+.ms-image image {
+  width: 100%; 
+} 
+
+
+.ms-image-mark{
+  position: absolute;
+  top:15rpx;
+  left:-25rpx;
+  height:60rpx;
+  z-index: 10;
+}
+
+.ms-text-mark{
+  position: absolute;
+  top:20rpx;
+  left:60rpx;
+  font-size:32rpx;
+  color:#fff;
+  z-index: 11;
+}
+
+.ms-box-index-content .ms-list text{
+  font-size:28rpx;
+  color:#6a3906;
+}
+
+.ms-list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top:10rpx;
+}
+
+.colir{
+  border-radius: 50%;
+  background-color:#6a3906;
+  width:15rpx;
+  height:15rpx;
+  margin-right: 10rpx;
+
+}
