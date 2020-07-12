@@ -282,6 +282,13 @@
 					"pathName": "pages/index/huiyuan20200707",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/dailiren",
+					"pathName": "pages/index/dailiren",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

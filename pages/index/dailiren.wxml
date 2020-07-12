@@ -1,0 +1,45 @@
+<!--pages/index/dailiren.wxml-->
+<view class="container">
+
+	<view class="ms-proxy-person">
+		<view class="ms-proxy-person-top">
+			<view class=" ms-proxy-person-top-title">
+				<view>
+					<image class="icon-img-60" src="/images/default/default-tx.png"></image>
+				</view>
+				<view class="fz-34">代理人:<text class="fz-w-700 dc-fc-blacker">周杰伦</text> </view>
+			</view>
+			<view>
+				<view class="btn fz-34 fz-w-700 dc-fc-blacker">点击更换</view>
+			</view>
+		</view>
+		<view class="ms-proxy-person-down">
+			<view class=" ms-proxy-person-top-title">
+				<view class="fz-34">渠道商:天津SADFFSADFSADFSD公司 </view>
+			</view>
+			<view class=" ms-proxy-person-top-title margin-t-20">
+				<view class="fz-34">所属区域:天津/天津</view>
+			</view>
+		</view>
+
+	</view>
+
+
+	<view class="ms-proxy-person">
+		<view class="ms-proxy-person-top">
+			<view class=" ms-proxy-person-top-title">
+				<view>
+					<image class="icon-img-60" src="/images/default/default-tx.png"></image>
+				</view>
+				<view class="fz-34">代理人:<text class="fz-w-700 dc-fc-blacker">周杰伦</text> </view>
+			</view>
+			<view>
+				<view class="btn fz-34 fz-w-700 dc-fc-blacker">点击更换</view>
+			</view>
+		</view>
+
+
+	</view>
+
+
+</view>
